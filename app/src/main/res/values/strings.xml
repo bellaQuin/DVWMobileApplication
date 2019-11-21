@@ -1,0 +1,384 @@
+<resources>
+    <string name="app_name">CoachingApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_nav_drawer">NavDrawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+
+
+    -------Custom_Dialog_Box_One-------
+
+    <string name="DialogBoxGoalHelp_text_1">
+
+       If you need inspiration then try this link which will take you to one example of the many beautiful and inspiring videos of human achievement.
+    </string>
+
+
+    <string name="link">
+         <a href="https://www.youtube.com/watch?v=AVn-Yjr7kDc&amp;t=7s">Click me!</a>\n\n
+    </string>
+
+    <string name="DialogBoxGoalHelp_text_2">
+        If you can’t access sites like <b>youtube</b> then take a break and listen some music that inspires you and makes you feel good or look at a picture that makes you feel calm and  in a good place’ whether it’s a mountain, a beach, your favourite car or a loved one (we are all different).\n\n
+        Do Something to <b>reset</b> your <b>mental state.</b>  Trust us.. It makes a big difference.
+    </string>
+
+
+    -------Custom_Dialog_Box_Two-------
+
+    <string name="Custom_Dialog_Box_Text_Two">
+        "Often when we describe a problem we describe the symptoms instead of the underlying problem that it is causing the symptom/issue.
+    </string>
+
+    <string name="Custom_Dialog_Box_Text_Three">
+        For example a symptom might be “my staff members performance is very poor but I cannot talk to them about it because they accuse me of bullying them”
+    </string>
+
+    <string name="Custom_Dialog_Box_Text_Four">
+        Whilst the underlying problem could be “I have a really bad relationship with my staff member, there is a mutual distrust and it means everything is a fight” or “from what I can see, if a staff member accuses a manager of bullying, my company will always back the staff member and punish the manager”
+        "You can click ‘Next’ now, but you may want to take this opportunity to double check you have noted down the specific underlying problem or issue, not just a symptom.
+    </string>
+
+    <string name="Custom_Dialog_Box_Text_Fiver">
+        "You can click ‘Next’ now, but you may want to take this opportunity to double check you have noted down the specific underlying problem or issue, not just a symptom.
+    </string>
+
+
+    -------Custom_Dialog_Box_Three-------
+    <string name="Custom_Dialog_Box_Three_Text_One">
+
+        It is ok if it is, we just need to double check this before we continue to make sure we help in the right way
+
+    </string>
+
+    <string name="Custom_Dialog_Box_Three_Text_Two">
+
+       10 Death\n\n
+
+       9 In danger of death\n\n
+
+       8 You are about to become homeless or experience a full mental/health breakdown\n\n
+
+       7 You may be about to lose your job or get a divorce if this issue is not resolve successfully\n\n
+
+    </string>
+
+
+    -------User_Dashboard-------
+    <string name="User_Dashboard_Text_One">
+        We provide Business Psychology Consultancy and Training services.
+    </string>
+
+
+    -------About_Us-------
+
+    <string name="About_Us_Text_One">
+        "&quot; Sometimes we just need someone to help us see what we already know - but are too busy or stressed to realise.&quot;"
+
+    </string>
+
+    <string name="About_Us_Text_Two">
+        This \'Quick Coaching\' App we will ask you some questions that will help you find perspective and solutions for tour problem, or help you plan to achieve your goal
+
+    </string>
+
+
+    -------Play_Back_Summary-------
+    <string name="Play_Back_Summary_1">
+        Why do you want to overcome or resolve this issue?
+    </string>
+
+    <string name="Play_Back_Summary_2">
+       What do you feel is at stake here?
+    </string>
+
+
+    <string name="Play_Back_Summary_3">
+       Issue or problem is appropriate?
+    </string>
+
+
+    <string name="Play_Back_Summary_4">
+        How could you influence or improve the situation? (If you chose to)\n
+        Explain?
+
+
+    </string>
+
+
+    <string name="Play_Back_Summary_5">
+       Improvements
+    </string>
+
+
+    <string name="Play_Back_Summary_6">
+     How will going through this situation make you stronger and wiser?
+    </string>
+
+    <string name="Play_Back_Summary_7">
+      What are the implications
+    </string>
+
+
+    <string name="Play_Back_Summary_8">
+     What positives can take from this situation?
+    </string>
+
+
+    -------Ask_Your_Self-------
+
+    <string name="Ask_your_self_pg_1">
+
+        1.) What…specifically…is the challenge here?
+
+    </string>
+
+
+    <string name="Ask_your_self_pg_2">
+
+        2.) What can I do or put in place, to male this challenge easier?
+
+    </string>
+
+    <string name="Ask_your_self_pg_3">
+
+        3.) What would be the first step in doing that?
+
+    </string>
+
+
+    <string name="Ask_your_self_pg_4">
+
+        4.) Is there anyone who can help me?, Is there anyone I know who would find this much easier? if there is - what would they do differently?
+
+    </string>
+
+
+    <string name="Ask_your_self_pg_5">
+
+        5.) Can I do that? (the action that someone else would take) - if not, what would need to change so I could do that
+
+    </string>
+
+    <string name="Ask_your_self_pg_6">
+
+        6.) Am I missing any information here?
+            If so what is it and where can I get it from?
+    </string>
+
+
+    -------Last_Question-------
+
+    <string name="Last_Question">
+        (Make sure this is a precise timing point such as "Monday at 9:00am". Answers such as "as soon as possible" will not help you much.
+        The more specific you can get the date and time the more likely you are to actually do this)
+
+    </string>
+
+    -------Display_Summary-------
+    <string name="Summary_1">
+
+        Your goal is to:
+
+
+    </string>
+
+    <string name="Summary_2_2">
+
+       Which you want to achieve because:
+
+
+    </string>
+
+
+    //how to overcome them and you plan to start your first action on:
+
+    <string name="Summary_2">
+
+       We hope this simple coaching exercise has helped.\n\n
+        If you are still unsure why not reach out the wider leadership community on this app. We have some great moderators and friendly experts ready to help.
+
+    </string>
+
+
+    -------RUN_TEXT-------
+
+    <string name="Run_Text_1">
+
+      One of the simplest examples of a road map is planning for something like a marathon run.
+	There are clear stages that lead up to this goal such as running 18miles, running a half marathon, running regularly, finding the time, Getting work and partner on board, doing the first run and maybe even buying shoes…
+
+
+    </string>
+
+    -------OVERCOMING_CHALLENGES-------
+
+
+    <string name="overcoming_challenges_paragraph_one">
+        In any plan there may be challenges. That is ok.
+    </string>
+
+    <string name="overcoming_challenges_paragraph_two">
+        The key here is to focus on how to overcome those challenges instead of \"these are reasons why I should not do this\".
+    </string>
+
+    <string name="overcoming_challenges_paragraph_three_part_one">
+        On the next screen you will see your road map plan again with the
+    </string>
+
+
+    <string name="overcoming_challenges_paragraph_three_part_two">
+        hazard icons next to the steps you indicated may be a challenge.
+    </string>
+
+
+    -------PROGRESS_CHECK-------
+
+
+    <string name="ProgressCheck_paragraph_one">
+        Ok so you have a clear goal, an understanding of why you want achieve it, a plan to achieve it and you have identified where the challenges may be.
+
+    </string>
+
+    <string name="ProgressCheck_paragraph_two">
+        Now let\'s sense check this and get you started.
+
+
+    </string>
+
+
+    -------WHY-------
+
+    <string name="Why_Text_one">
+       It can help us understand\n our <b>motivation</b> to go deeper
+
+    </string>
+
+
+    <string name="Why_Text_two">
+       For example: if you want a promotion and more money to afford a new house - keep asking yourself <u>WHY</u> do i want this?
+
+    </string>
+
+    -------WHY_GOALS_STATEMENTS_ARE_SO_IMPORTANT-------
+
+    <string name="Why_So_Important_One">
+      Goal statement are important because:
+      They identify the real goal or WHY
+      They often show other ways of achieving the ultimate or deeper goal.
+
+    </string>
+
+
+    <string name="Why_So_Important_2">
+      For example in the goal statement above we can see that perhaps “getting promoted” is not the best way to achieve the “more money”, which enables “a house”, which enables a “new life with my partner”.
+    </string>
+
+    <string name="Why_So_Important_3">
+      Perhaps what we should really be focussing on here is changing to a more lucrative career,  Moving to a different region or country, or focussing on our credit rating to enable a better mortgage offer.
+    </string>
+
+
+    -------BUILDING_A_ROADMAP_PLAN-------
+
+    <string name="Building_a_roadmap_plan">
+     Our next action is to build a set of steps that will help you achieve your goal. This is called a road map. Or more accurately a “reverse engineered road map”.
+
+    </string>
+
+
+    -------BUILDING_A_ROADMAP_PLAN_2-------
+
+    <string name="Rd_map_plan">
+
+       A good reverse engineered road map starts with your destination or goal. It then works backwards to identify each step that needs to take place in order to achieve the goal. It can also identify milestones and measurabes if you need it to. Next you will find two examples of road maps.
+
+
+    </string>
+
+
+    ------CONFIDANT-------
+
+    <string name="Confidant_1">
+
+      It looks like you\'re not feeling that confident. That is OK.
+
+    </string>
+
+
+    <string name="Confidant_2">
+
+      Think about why you have given this the rating you have and ask yourself these questions:
+
+    </string>
+
+    <string name="Confidant_question_1">
+
+        1.) What…specifically…is the challenge here? - Why can\'t this be rated as an 9,8 or 10?\n\n
+        2.) What can you do or put in place to make this challenge easier?\n\n
+        3.) What would be the first step in doing that?\n\n
+        4.) is there anyone who can help you?\n\n
+
+    </string>
+
+
+    <string name="Confidant_question_2">
+
+        5.) Is there anyone you can think of who would find this much easier?\n\n
+
+
+        6.)  What would the person you are thinking of do differently? Could you also do that?\n\n
+              If not, is there anything you need to change so that you could do that?\n\n
+        7.)  Are you missing any information?
+             What else do you need to know?\n\n
+
+            If so, what is the information and where can you go to get it?
+
+
+    </string>
+
+    ------RESPONDS-------
+
+    <string name="Respons_1">
+
+        Thinking of the\n issue or problem,\n has you’re your\n response so far been\n<b> appropriate?</b>"
+
+    </string>
+
+
+    ------ROADMAP_CEHCK_POINT-------
+
+
+    <string name="Rd_map_checkpoint">
+
+        Click <b>"NEXT"</b> again to continue to the next stage or close this text box and add more steps to your road map
+
+
+    </string>
+
+
+    ------ARE_U_SURE-------
+
+    <string name="are_you_sure_text_part_1">
+
+
+        <i> Are you absolutely sure that there is nothing that you could do to influence or improve the situation? Very rarely is there truly nothing we can do. – There is an old saying that ‘the only things in life that are certain are death and taxes’. This saying implies that these are the only things we can not truly change. But health gurus and accountants will agree that although you cannot stop death or taxes, - you can certainly influence them! Think again about your situation and focus on what you can do to influence or improve them. If you are still struggling with the idea that you can do anything to affect the situation, watch this short video… </i>
+
+
+    </string>
+
+
+    <string name="Behavioural_Signs">
+        Recognising when you are stress is the first step managing it and building your resilience. Here are some common signs of stress, select all the ones that apply to you:
+    </string>
+
+
+</resources>
