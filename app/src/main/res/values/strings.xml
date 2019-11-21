@@ -381,4 +381,23 @@
     </string>
 
 
+    -- RESILIENCE ----
+
+    <string name="res1_slide_20">
+        Visualising something that\n makes you happy - can\n actually make you happy.
+    </string>
+
+    <string name="res2_slide_20">
+        When you think of a place,\nperson or activity that makes\nyou happy, level of stress chemicals\n such as dopamine and \noxytocin go up.
+    </string>
+
+    <string name="res3_slide_20">
+        Find an image that makes\n you feel good now......
+    </string>
+
+    <string name="res1_slide_21">
+        Any of these images working\n for you?\nIf not use photos on your\n phone, or Google Image search
+    </string>
+
+
 </resources>

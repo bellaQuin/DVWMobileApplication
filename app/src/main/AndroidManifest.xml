@@ -14,7 +14,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ViewYourRoadMapStepsHazard"></activity>
+        <activity android:name=".ResilienceandCopingMechanisms.resilience_Screen21"></activity>
+        <activity android:name=".ResilienceandCopingMechanisms.resilience_Screen20" />
+        <activity android:name=".ViewYourRoadMapStepsHazard" />
         <activity android:name=".ViewYourRoadMapSteps" />
         <activity android:name=".ResilienceandCopingMechanisms.Behaviouralsigns" />
         <activity
