@@ -400,4 +400,34 @@
     </string>
 
 
+    ------Resilience_Slide_16-------
+
+    <string name="slide_16">
+
+        We recommend that you contact\n <u>at least</u> one of the following\n people:
+
+    </string>
+
+    ------Resilience_Slide_18-------
+
+    <string name="slide_18_red">
+
+        When you slow your breathing\n rate or pulse rate you can <font color="#E53935">change</font>\n <font color="#E53935">stress levels.</font>
+
+    </string>
+
+    <string name="slide_18_2">
+
+        Use a pluse monitor to measure\n heart rate.(Fibit etc.).Or, take\n your own pulse at your wrist, neck\n  or chest. <font color="#FFFFFF">Countto yourself.</font>
+
+    </string>
+
+    ------Resilience.Slide_12_Behavioural-------
+
+    <string name="slide_12_1">
+
+        <font color="#FF3D00">Recognising</font> when you experience too much stress is the\n first step managing it and building your resilience.\n Here are some common signs of stress.\n <font color="#DD2C00"><b>Select all things below that apply to</b></font>\n <font color="#DD2C00"><b>you:</b></font>
+
+    </string>
+
 </resources>
