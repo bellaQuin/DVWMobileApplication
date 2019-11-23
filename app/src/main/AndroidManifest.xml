@@ -14,7 +14,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ResilienceandCopingMechanisms.resilience_Screen32"></activity>
+        <activity android:name=".ResilienceandCopingMechanisms.resilience_Screen35"></activity>
+        <activity android:name=".ResilienceandCopingMechanisms.resilience_Screen34" />
+        <activity android:name=".ResilienceandCopingMechanisms.resilience_Screen33_2" />
+        <activity android:name=".ResilienceandCopingMechanisms.resilience_Screen33_1" />
+        <activity android:name=".ResilienceandCopingMechanisms.resilience_Screen33" />
+        <activity android:name=".ResilienceandCopingMechanisms.resilience_Screen32_2" />
+        <activity android:name=".ResilienceandCopingMechanisms.resilience_Screen32_1" />
+        <activity android:name=".ResilienceandCopingMechanisms.resilience_Screen32" />
         <activity android:name=".ResilienceandCopingMechanisms.resilience_Screen31" />
         <activity android:name=".ResilienceandCopingMechanisms.resilience_Screen30" />
         <activity android:name=".ResilienceandCopingMechanisms.resilience_Screen29" />

@@ -71,32 +71,43 @@
                         android:text="Saying no is not about conflict –\n it is about showing that you\n understand the requesters need,\n explaining the problem and\n agreeing a solution"
                         />
 
-                    <Button
+                    <TextView
                         android:layout_marginTop="20dp"
-                        android:layout_width="350dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:gravity="center"
                         android:textColor="#fff"
-                        android:id="@+id/btn_"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
                         android:text="Acknowledge &amp; Agree"
                         android:background="@color/colorAccent"
                         />
 
-                    <Button
+                    <TextView
                         android:layout_marginTop="10dp"
-                        android:layout_width="350dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
                         android:layout_gravity="center"
+                        android:gravity="center"
                         android:textColor="#fff"
                         android:text="Show that you recognise the\n need or support the goal"
                         android:background="@color/colorAccent"
                         />
 
-                    <Button
+                    <TextView
                         android:layout_marginTop="10dp"
-                        android:layout_width="350dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
                         android:layout_gravity="center"
+                        android:gravity="center"
                         android:textColor="#fff"
                         android:text="&quot;I can see why we need to get\n that done...&quot;\n &quot;I know you need that report for\n Tuesday&quot;"
                         android:background="@color/colorAccent"
