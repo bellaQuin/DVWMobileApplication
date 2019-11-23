@@ -49,11 +49,11 @@ public class Slide_13 extends AppCompatActivity {
     }
 
     private void addToFirebase() {
-        String resilience_1 = editText.getText().toString().trim();
+        String input_1 = editText.getText().toString().trim();
 
         if (user != null) {
 
-            Resilience_1 resilience = new Resilience_1(resilience_1);
+            Resilience_1 resilience = new Resilience_1(input_1);
             String id = user.getUid();
 //            myRef.child("users").child(id).push().setValue(issues);
             myRef.child("users").child(id).child("Resilience").child("resilience_1").setValue(resilience);
