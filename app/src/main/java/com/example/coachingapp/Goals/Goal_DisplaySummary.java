@@ -1,7 +1,10 @@
 package com.example.coachingapp.Goals;
 
 import android.content.Intent;
+import android.graphics.Paint;
+import android.graphics.pdf.PdfDocument;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -10,6 +13,8 @@ import android.widget.TextView;
 
 import com.example.coachingapp.AboutUs;
 import com.example.coachingapp.Login;
+import com.example.coachingapp.Models.Goals_Road_Map;
+import com.example.coachingapp.Models.Goals_Road_Map_Identify;
 import com.example.coachingapp.R;
 import com.example.coachingapp.UserDashboard;
 import com.example.coachingapp.ViewYourRoadMapSteps;
@@ -24,7 +29,11 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -40,6 +49,7 @@ public class Goal_DisplaySummary extends AppCompatActivity implements Navigation
     DatabaseReference myRef;
     FirebaseUser user;
     TextView txttime, txtday, txtMonth, display_goal, display_reason;
+    List<String> answerList = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -113,6 +123,7 @@ public class Goal_DisplaySummary extends AppCompatActivity implements Navigation
             }
         });
     }
+    // List<String> goalsList = new ArrayList<>();
 
 
     private void sentEmail(){
@@ -149,6 +160,8 @@ public class Goal_DisplaySummary extends AppCompatActivity implements Navigation
         Intent intent = new Intent(Goal_DisplaySummary.this, UserDashboard.class);
         startActivity(intent);
     }
+
+
 
 
 
@@ -206,8 +219,6 @@ public class Goal_DisplaySummary extends AppCompatActivity implements Navigation
         return true;
     }
 
-
-    //btn_view_roadmap hazard_icons
     public void btn_view_roadmap(View view) {
         Intent intent = new Intent(Goal_DisplaySummary.this, ViewYourRoadMapSteps.class);
         startActivity(intent);
