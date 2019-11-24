@@ -15,22 +15,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="033bc916-344a-4cfb-9833-3d98df9163a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Resilience_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Resilience_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Resilience_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen32_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen32_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen33.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen33_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen33_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen34.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/slide_34.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen32_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen32_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen33.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen33_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen33_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Resilience_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Resilience_8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen36.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen37.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen38.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen39.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen40.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen41.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen41_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen41_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen42.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen42_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen42_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen43.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen44.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen45.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen46.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen47.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen48.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen49.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/slide_40.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/slide_41.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/slide_41_2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/slide_41_3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/slide_42.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/slide_42_2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/slide_42_3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/slide_45.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/slide_46.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/slide_49.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen37.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen38.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen39.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen40.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen41_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen41_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen42.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen42_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen42_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen43.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen44.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen45.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen48.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen49.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -40,9 +72,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen32.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen32.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen27.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen32.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen32.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen35.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen35.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen35.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen35.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,39 +96,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen34.xml">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen49.xml">
+          <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="78" column="169" selection-start-line="78" selection-start-column="169" selection-end-line="78" selection-end-column="169" />
+            <state relative-caret-position="215">
+              <caret line="82" column="62" selection-start-line="82" selection-start-column="62" selection-end-line="82" selection-end-column="62" />
             </state>
           </provider>
-          <provider editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen34.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen36.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="17" selection-start-line="17" selection-end-line="24" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen36.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="111" column="35" lean-forward="true" selection-start-line="81" selection-start-column="20" selection-end-line="111" selection-end-column="35" />
+              <folding>
+                <element signature="e#2579#2597#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen49.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="13" column="63" lean-forward="true" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+              <caret line="13" column="24" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="24" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen27.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="96" column="55" selection-start-line="96" selection-start-column="55" selection-end-line="96" selection-end-column="55" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="490" column="160" selection-start-line="490" selection-start-column="160" selection-end-line="490" selection-end-column="160" />
+            <state relative-caret-position="284">
+              <caret line="605" column="137" selection-start-line="605" selection-start-column="137" selection-end-line="605" selection-end-column="137" />
             </state>
           </provider>
         </entry>
@@ -123,47 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_slide_17_options.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/Slide_18.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_slide_18.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/Slide_19.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_slide_19.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen20.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen20.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen21.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen21.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen22.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen22.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen23.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen23.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen24.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen24.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen26.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen26.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen26_cONT.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen26_c_ont.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen27.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen28.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Resilience_2.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/Slide_13.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Resilience_1.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen28.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen29.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Resilience_3.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen29.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen30.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen30.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen31.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen31.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen32.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen32.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen32_1.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen32_1.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen32_2.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen32_2.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Resilience_4.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen33.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen33.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen33_1.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen33_1.java" />
@@ -171,16 +174,61 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen33_2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Resilience_6.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen33_2.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen34.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen27.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen34.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen34.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen35.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen35.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen36.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen36.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen37.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Resilience_7.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen37.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen38.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen38.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen39.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen39.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen40.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen40.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen41.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen41_2.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen41.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen41_2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen41_3.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen41_3.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen42.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen42.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen42_2.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen42_2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen42_3.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen42_3.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen43.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen43.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Resilience_8.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen44.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen44.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen45.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen45.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen46.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen46.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen47.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen47.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen48.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen48.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen49.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen49.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="20" />
+    <option name="x" value="460" />
+    <option name="y" value="115" />
     <option name="width" value="1390" />
     <option name="height" value="790" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -188,8 +236,8 @@
     </navigator>
     <panes>
       <pane id="ProjectPane" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -226,12 +274,6 @@
               <item name="CoachingApp" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="CoachingApp" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
               <item name="CoachingApp" type="1abcf292:AndroidViewProjectNode" />
@@ -372,12 +414,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574485817075</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="slide 34">
+      <created>1574518928124</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574518928124</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" />
       <window_info id="Image Layers" order="1" />
@@ -394,7 +442,7 @@
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.32904884" />
-      <window_info anchor="bottom" id="Build" order="6" weight="0.296034" />
+      <window_info anchor="bottom" id="Build" order="6" visible="true" weight="0.13314448" />
       <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" weight="0.32866243" />
       <window_info anchor="bottom" id="Run" order="8" weight="0.32608697" />
       <window_info anchor="bottom" id="Gradle Metric" order="9" />
@@ -402,7 +450,7 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Gradle" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info active="true" anchor="right" id="Preview" order="3" visible="true" weight="0.28820375" />
+      <window_info active="true" anchor="right" id="Preview" order="3" visible="true" weight="0.30764076" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" />
     </layout>
@@ -437,7 +485,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="slide 32" />
-    <option name="LAST_COMMIT_MESSAGE" value="slide 32" />
+    <MESSAGE value="slide 34" />
+    <option name="LAST_COMMIT_MESSAGE" value="slide 34" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -452,308 +501,25 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen23.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="80" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen22.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="118" column="10" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="118" selection-end-column="10" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen22.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" selection-start-line="17" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen31.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="140" column="10" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="140" selection-end-column="10" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/Slide_8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen32_1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="149" column="10" selection-start-line="11" selection-start-column="4" selection-end-line="149" selection-end-column="10" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen32_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" selection-start-line="17" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen32_2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="100" column="160" selection-start-line="100" selection-start-column="160" selection-end-line="100" selection-end-column="160" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen31.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" selection-start-line="17" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen30.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="80" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/Slide_5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_slide_5.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="161" column="10" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="161" selection-end-column="10" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Issues_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Issues_4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Issues_6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Issues_5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Issues_7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Issues_8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Issues_9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Issues_10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Issues_11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Issues_12.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Issues_Problems/IP_QuestionEight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1862">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Issues_Problems/IP_Question_13.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1931">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Issues_Problems/IP_Question_16.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-943">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Issues_Problems/IP_Question_Two_Part_Two.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1805">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Issues_Problems/IP_Question_15.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1463">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ip__question_10.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171" />
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Resilience_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="36" />
-          <folding>
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Issues_13.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Issues_Problems/IP_Question_10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2489">
-          <caret line="155" column="27" selection-start-line="155" selection-start-column="27" selection-end-line="155" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen29.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="57" column="106" selection-start-line="57" selection-start-column="94" selection-end-line="57" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen32_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" selection-start-line="21" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Resilience_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Resilience_5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-          <folding>
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen33.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="71" column="64" selection-start-line="71" selection-start-column="57" selection-end-line="71" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen33.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="42" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen33_1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="152" column="10" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="152" selection-end-column="10" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen33_2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="71" column="45" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen33_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="24" selection-start-line="24" selection-end-line="36" selection-end-column="33" />
+        <state relative-caret-position="494">
+          <caret line="151" column="10" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="151" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Resilience_4.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen33_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="81" column="5" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="81" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Resilience_6.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="8" selection-end-column="5" />
+          <caret line="3" selection-start-line="3" selection-end-line="9" />
           <folding>
             <element signature="e#399#400#0" expanded="true" />
             <element signature="e#439#440#0" expanded="true" />
@@ -763,81 +529,403 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Resilience_6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-          <folding>
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen33_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen32.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="109" column="48" selection-start-line="109" selection-start-column="48" selection-end-line="109" selection-end-column="48" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen32.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen34.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="17" selection-start-line="17" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen29.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen38.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="88" column="35" selection-start-line="57" selection-start-column="20" selection-end-line="88" selection-end-column="35" />
+        <state relative-caret-position="228">
+          <caret line="83" column="64" lean-forward="true" selection-start-line="83" selection-start-column="64" selection-end-line="83" selection-end-column="64" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen28.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen38.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" column="80" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_goal_14.xml">
       <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_slide_14.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/Slide_14.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" selection-start-line="23" selection-end-line="25" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen39.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="92" column="52" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
+          <folding>
+            <element signature="e#3182#3200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen39.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="80" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="129" column="10" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="129" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/ResilienceMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" selection-start-line="18" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen40.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" selection-start-line="17" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen40.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="2299">
+          <caret line="121" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen41_2.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1236">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen41.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="122" column="4" selection-start-line="122" selection-start-column="4" selection-end-line="122" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/Slide_8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-722">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/Slide_9_Brain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="28" selection-start-line="28" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen41_3.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="134" column="10" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="134" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen42_2.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#2595#2617#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen42_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" selection-start-line="18" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-29/data/res/values/attrs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="3389" column="20" selection-start-line="3389" selection-start-column="20" selection-end-line="3389" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen42.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen43.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-431">
+          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+          <folding>
+            <element signature="e#3805#3823#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen42.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" selection-start-line="17" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen37.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Resilience_7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen44.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="e#2330#2348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen43.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" column="80" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/Models/Resilience_8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen44.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="73" column="84" selection-start-line="73" selection-start-column="65" selection-end-line="73" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen42_3.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="105" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="105" />
+          <folding>
+            <element signature="e#2851#2873#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen42_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" selection-start-line="17" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen45.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="114" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="114" />
+          <folding>
+            <element signature="e#3176#3194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen45.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" selection-start-line="17" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen46.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="82" column="61" selection-start-line="11" selection-start-column="4" selection-end-line="102" selection-end-column="10" />
+          <folding>
+            <element signature="e#2593#2611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen46.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" selection-start-line="17" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen47.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="96" column="10" selection-start-line="11" selection-start-column="4" selection-end-line="96" selection-end-column="10" />
+          <folding>
+            <element signature="e#2592#2610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen47.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" selection-start-line="17" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen48.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" column="80" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen49.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="490" column="160" selection-start-line="490" selection-start-column="160" selection-end-line="490" selection-end-column="160" />
+        <state relative-caret-position="284">
+          <caret line="605" column="137" selection-start-line="605" selection-start-column="137" selection-end-line="605" selection-end-column="137" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen34.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="13" column="63" lean-forward="true" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen27.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="96" column="55" selection-start-line="96" selection-start-column="55" selection-end-line="96" selection-end-column="55" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen48.xml">
       <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen34.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="78" column="169" selection-start-line="78" selection-start-column="169" selection-end-line="78" selection-end-column="169" />
+        <state relative-caret-position="381">
+          <caret line="96" column="10" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="96" selection-end-column="10" />
+          <folding>
+            <element signature="e#2592#2610#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen41_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" selection-start-line="17" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen41.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" selection-start-line="17" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen41_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" column="84" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen37.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="81" column="5" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="81" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/coachingapp/ResilienceandCopingMechanisms/resilience_Screen36.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" selection-start-line="17" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen36.xml">
       <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="111" column="35" lean-forward="true" selection-start-line="81" selection-start-column="20" selection-end-line="111" selection-end-column="35" />
+          <folding>
+            <element signature="e#2579#2597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resilience__screen49.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="82" column="62" selection-start-line="82" selection-start-column="62" selection-end-line="82" selection-end-column="62" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
