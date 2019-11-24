@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,9 +7,23 @@
     tools:context=".ResilienceandCopingMechanisms.resilience_Screen20"
     android:background="#b6e1df">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <include
         android:id="@+id/toolbar"
         layout="@layout/nav_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/textView"
@@ -96,41 +110,56 @@
         android:textColor="#2b59a2"
         android:layout_marginEnd="32dp"
         android:background="#ffffff"
+        android:layout_gravity="center"
+        android:onClick="btn_image"
         android:text="SHOW ME SOME \nPOSITIVE IMAGES"
-        android:fontFamily="@font/montserrat"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        android:fontFamily="@font/montserrat" />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
     <Button
         android:id="@+id/btn_back"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="32dp"
         android:background="#ffffff"
         android:fontFamily="@font/montserrat"
         android:text="BACK"
         android:textColor="#2b59a2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/shw_images" />
+        android:onClick="btn_back"/>
 
     <Button
         android:id="@+id/btn_next"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="32dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="130dp"
         android:background="#ffffff"
         android:fontFamily="@font/montserrat"
         android:text="NEXT"
         android:textColor="#c4513e"
-        app:layout_constraintLeft_toRightOf="@+id/btn_back"
-        app:layout_constraintBottom_toBottomOf="@+id/btn_back"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/btn_back"
+        android:onClick="btn_next"
+        />
+        </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
+
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:id="@+id/nav_view"
+        app:headerLayout="@layout/nav_drawer"
+        app:menu="@menu/toolbar_nav_drawer"
         />
 
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.drawerlayout.widget.DrawerLayout>
