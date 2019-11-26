@@ -76,6 +76,17 @@
                         android:textColor="#000"
                         android:textSize="13sp" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="center"
+                        android:text="@string/slide_12_2"
+                        android:textColor="#000"
+                        android:textSize="13sp" />
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -93,21 +104,73 @@
                             android:text="    Finding it hard to make decisions"
                             />
 
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="123456"
-                                />
                             <CheckBox
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="123465"
+                                android:text="Constantly worrying"
                                 android:id="@+id/check_1"
                                 />
-                        </RelativeLayout>
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Avoiding situations that are"
+                            android:id="@+id/check_2"
+                            />
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Troubling you"
+                            android:id="@+id/check_3"
+                            />
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Snapping at people"
+                            android:id="@+id/check_4"
+                            />
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Biting your nails"
+                            android:id="@+id/check_5"
+                            />
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Picking at your skin"
+                            android:id="@+id/check_6"
+                            />
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Unable to concentrate"
+                            android:id="@+id/check_7"
+                            />
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Eating too much or too little"
+                            android:id="@+id/check_8"
+                            />
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Smoking or drinking alcohol"
+                            android:id="@+id/check_9"
+                            />
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Being tearful or crying"
+                            android:id="@+id/check_10"
+                            />
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Restless, like you can't sit still"
+                            android:id="@+id/check_11"
+                            />
+
 
                     </LinearLayout>
 

@@ -426,10 +426,12 @@
 
     <string name="slide_12_1">
 
-        <font color="#FF3D00">Recognising</font> when you experience too much stress is the\n first step managing it and building your resilience.\n Here are some common signs of stress.\n <font color="#DD2C00"><b>Select all things below that apply to</b></font>\n <font color="#DD2C00"><b>you:</b></font>
+        <font color="#FF3D00">Recognising</font> when you experience too much stress is the\n first step managing it and building your resilience.\n Here are some common signs of stress.\n
 
     </string>
-
+    <string name="slide_12_2">
+    <font color="#DD2C00"><b>Select all things below that apply to</b></font>\n <font color="#DD2C00"><b>you:</b></font>
+    </string>
     ------Resilience.Slide_19-------
 
     <string name="slide_19_1">

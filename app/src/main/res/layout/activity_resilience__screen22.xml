@@ -70,7 +70,17 @@
                         android:text="Make sure you have your\n image in mind (or in front of\n you), then CLICK PLAY…"
                         />
 
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:onClick="btn_play"
+                        android:background="@drawable/slide_22"/>
+
+
                     <LinearLayout
+                        android:layout_marginTop="20dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">

@@ -51,22 +51,128 @@
 
                 </RelativeLayout>
 
-
-
                 <LinearLayout
                     android:layout_marginTop="20dp"
                     android:orientation="vertical"
+                    android:id="@+id/steps_layouts"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                    <LinearLayout
-                        android:layout_marginTop="20dp"
-                        android:orientation="vertical"
+                    <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="center"
+                        android:text="@string/slide_12_2"
+                        android:textColor="#000"
+                        android:textSize="13sp" />
 
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:textSize="18sp"
+                            android:background="#424242"
+                            android:text="    Hyperventilating"
+                            />
+
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Panic attack"
+                            android:id="@+id/check_1"
+                            />
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Muscle tension"
+                            android:id="@+id/check_2"
+                            />
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Blurred eyesight or sore eyes"
+                            android:id="@+id/check_3"
+                            />
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Loss of libido"
+                            android:id="@+id/check_4"
+                            />
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tired all the time"
+                            android:id="@+id/check_5"
+                            />
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Grinding your teeth"
+                            android:id="@+id/check_6"
+                            />
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Clenching your jaws"
+                            android:id="@+id/check_7"
+                            />
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Headches"
+                            android:id="@+id/check_8"
+                            />
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Chest pains"
+                            android:id="@+id/check_9"
+                            />
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="High blood pressure"
+                            android:id="@+id/check_10"
+                            />
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Indigeston or heartburn"
+                        android:id="@+id/check_11"
+                            />
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Constipation or diarrhea"
+                            android:id="@+id/check_12"
+                            />
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Feeling sick, dizzy or fainting"
+                            android:id="@+id/check_13"
+                            />
+                        <CheckBox
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Insomnia(not sleeping)"
+                            android:id="@+id/check_14"
+                            />
 
                     </LinearLayout>
+
 
                     <Button
 
@@ -74,7 +180,7 @@
                         android:layout_width="200dp"
                         android:layout_height="60dp"
                         android:layout_marginLeft="100dp"
-                        android:layout_marginTop="20dp"
+                        android:layout_marginTop="40dp"
                         android:background="#ffffff"
                         android:fontFamily="@font/montserrat"
                         android:onClick="btn_next"
@@ -97,5 +203,4 @@
         app:headerLayout="@layout/nav_drawer"
         app:menu="@menu/toolbar_nav_drawer"
         />
-
 </androidx.drawerlayout.widget.DrawerLayout>
