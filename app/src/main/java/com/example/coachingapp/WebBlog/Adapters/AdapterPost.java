@@ -171,7 +171,7 @@ public class AdapterPost extends RecyclerView.Adapter<AdapterPost.MyHolder> {
 
     }
 
-    //@RequiresApi(api = Build.VERSION_CODES.KITKAT)
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     private void showMoreOptions(ImageButton moreBtn, String uid, String myUid, final String pId, final String pImage){
         final PopupMenu popupMenu = new PopupMenu(context, moreBtn, Gravity.END);
 

@@ -10,6 +10,8 @@ package com.example.coachingapp;
         import android.view.animation.AnimationUtils;
         import android.widget.Button;
 
+        import com.example.coachingapp.Goals.Goal_1;
+        import com.example.coachingapp.Goals.Goal_2;
         import com.example.coachingapp.Goals.Goal_DisplaySummary;
         import com.example.coachingapp.ResilienceandCopingMechanisms.Behaviouralsigns;
 
