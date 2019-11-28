@@ -65,18 +65,19 @@
                         android:fontFamily="@font/montserrat"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:textSize="18dp"
+                        android:textSize="20sp"
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
                         android:gravity="center"
+                        android:textStyle="bold"
                         android:text="People who are resilient\n generally think a certain\n way..."
-                        android:textColor="#fff"/>
+                        android:textColor="#4FC3F7"/>
 
                     <TextView
                         android:fontFamily="@font/montserrat"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:textSize="18dp"
+                        android:textSize="20sp"
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
                         android:gravity="center"
@@ -90,7 +91,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="20dp"
                         android:layout_marginLeft="20dp"
-                        android:textSize="18dp"
+                        android:textSize="20sp"
                         android:gravity="center"
                         android:textColor="#000"
                         android:text="Problem solvers involved\n with solving the problem. It is\n better to be part of something\n and influence it, than not be a\n part of it and have no ability to\n influence it."

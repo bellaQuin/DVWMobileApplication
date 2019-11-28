@@ -42,7 +42,7 @@
                         android:layout_height="match_parent"
                         android:text="said 'no' the right\n way"
                         android:textAllCaps="true"
-                        android:textColor="#2b59a2"
+                        android:textColor="#455A64"
                         android:gravity="center"
                         android:layout_marginTop="20dp"
                         android:textStyle="bold"
@@ -65,8 +65,7 @@
                         android:gravity="center"
                         android:layout_marginTop="20dp"
                         android:textSize="20sp"
-                        android:textColor="#2b59a2"
-                        android:textStyle="bold"
+                        android:textColor="#37474F"
                         android:text="@string/slide_31"
                         />
 
@@ -76,8 +75,7 @@
                         android:gravity="center"
                         android:layout_marginTop="20dp"
                         android:textSize="20sp"
-                        android:textColor="#2b59a2"
-                        android:textStyle="bold"
+                        android:textColor="#455A64"
                         android:text="We can feel that saying 'no'\n means we are failing or will lead\n to conflict. If you care about your\n colleagues and your reputation –\n saying no can feel almost\n impossible."
                         />
 
@@ -87,9 +85,8 @@
                         android:gravity="center"
                         android:layout_marginTop="20dp"
                         android:textSize="20sp"
-                        android:textColor="#2b59a2"
-                        android:textStyle="bold"
-                        android:text="@string/slide_31"
+                        android:textColor="#455A64"
+                        android:text="@string/slide_31_2"
                         />
 
                     <LinearLayout

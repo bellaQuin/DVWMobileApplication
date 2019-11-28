@@ -26,6 +26,7 @@
         android:layout_height="match_parent">
 
     <TextView
+        android:layout_gravity="center"
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -42,6 +43,7 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
     <TextView
+        android:layout_gravity="center"
         android:id="@+id/textView2"
         android:gravity="center"
         android:textColor="#2b59a2"
@@ -58,6 +60,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
+        android:layout_gravity="center"
         android:id="@+id/textView3"
         android:textColor="#2b59a2"
         android:layout_width="wrap_content"
@@ -74,6 +77,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <ImageView
+        android:layout_gravity="center"
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -86,6 +90,7 @@
         app:srcCompat="@drawable/resilience_kid" />
 
     <TextView
+        android:layout_gravity="center"
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

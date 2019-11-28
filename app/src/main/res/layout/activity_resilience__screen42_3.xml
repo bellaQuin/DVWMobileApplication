@@ -66,7 +66,7 @@
                         android:fontFamily="@font/montserrat"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:textSize="18dp"
+                        android:textSize="20sp"
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
                         android:gravity="center"

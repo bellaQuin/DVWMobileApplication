@@ -40,7 +40,7 @@
                             android:layout_height="wrap_content"
                             android:text="My purpose"
                             android:textAllCaps="true"
-                            android:textColor="#fff"
+                            android:textColor="#2b59a2"
                             android:gravity="center"
                             android:layout_marginLeft="80dp"
                             android:layout_marginTop="20dp"
@@ -62,7 +62,7 @@
                         android:fontFamily="@font/montserrat"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:textSize="18sp"
+                        android:textSize="23sp"
                         android:gravity="center"
                         android:textColor="#fff"
                         android:text="“Begin with the end in Mind”\n - Stephen Covey"
@@ -74,7 +74,7 @@
                         android:layout_height="match_parent"
                         android:textSize="18sp"
                         android:gravity="center"
-                        android:textColor="#000"
+                        android:textColor="#2b59a2"
                         android:layout_marginTop="20dp"
                         android:text="One of the best ways build\n resilience is to identify your\n purpose and develop goals that\n connect to it."
                         />
@@ -85,7 +85,7 @@
                         android:layout_height="match_parent"
                         android:textSize="18sp"
                         android:gravity="center"
-                        android:textColor="#000"
+                        android:textColor="#2b59a2"
                         android:layout_marginTop="20dp"
                         android:text="@string/slide_35"
                         />
@@ -97,7 +97,7 @@
                         android:layout_marginTop="20dp"
                         android:textSize="18sp"
                         android:gravity="center"
-                        android:textColor="#000"
+                        android:textColor="#2b59a2"
                         android:text="-I work hard so I can provide for\n my family – this gives a sense of\n pride and a feeling that I am\n doing the right thing."
                         />
                     <LinearLayout
@@ -115,7 +115,7 @@
                             android:fontFamily="@font/montserrat"
                             android:onClick="btn_back"
                             android:text="Back"
-                            android:textColor="#84c2c8"
+                            android:textColor="#2b59a2"
                             android:textSize="20dp" />
 
                         <Button

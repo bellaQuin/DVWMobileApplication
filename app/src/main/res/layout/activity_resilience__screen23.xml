@@ -65,6 +65,7 @@
 
                 <LinearLayout
                     android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
                     android:orientation="vertical"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
@@ -73,8 +74,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
-                        android:textSize="18sp"
-                        android:textColor="#9575CD"
+                        android:textSize="20sp"
+                        android:textColor="#1976D2"
                         android:text=" Music can influence us and\n affect our chemical response\n and how we are feeling:"/>
 
                     <TextView
@@ -82,8 +83,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
-                        android:textSize="18sp"
-                        android:textColor="#9575CD"
+                        android:textSize="20sp"
+                        android:textColor="#1976D2"
                         android:text=" 1) With the music itself e.g.\n music with a fast tempo and\n uplifting future-focussed lyrics\n can help people feel energised\n and positive. Music with a\n slower tempo and reflective\n uplifting lyrics helps people feel\n calm."
                         />
                     <TextView
@@ -91,8 +92,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
-                        android:textSize="18sp"
-                        android:textColor="#9575CD"
+                        android:textSize="20sp"
+                        android:textColor="#1976D2"
                         android:text=" 2) By connecting memories and\n feelings to a specific piece of\n music. "
                         />
                     <Button

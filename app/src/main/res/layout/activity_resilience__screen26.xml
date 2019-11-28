@@ -76,7 +76,7 @@
                         android:layout_height="match_parent"
                         android:textSize="18sp"
                         android:gravity="center"
-                        android:textColor="#000"
+                        android:textColor="#1A237E"
                         android:text="Exercise is one of the best ways\n to manage stress. It can be\n really difficult to start, especially when\n you are feeling tired and under\n pressure. "
                         />
 
@@ -86,7 +86,7 @@
                         android:layout_height="match_parent"
                         android:textSize="18sp"
                         android:gravity="center"
-                        android:textColor="#000"
+                        android:textColor="#1A237E"
                         android:layout_marginTop="20dp"
                         android:text="@string/slide_26_1"
                         />
@@ -97,7 +97,7 @@
                         android:layout_height="match_parent"
                         android:textSize="18sp"
                         android:gravity="center"
-                        android:textColor="#000"
+                        android:textColor="#1A237E"
                         android:layout_marginTop="20dp"
                         android:text="If it's safe for your health - run\n up stairs a few times or go for\n fast walk to start the dopamine\n release."
                         />
