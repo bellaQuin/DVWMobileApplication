@@ -39,7 +39,7 @@ public class resilience_Screen51 extends AppCompatActivity {
     FirebaseUser user;
 
     String usrID;
-    TextView textView_1,textView_2,textView_3,textView_4, textView_5, textView_6,textView_7,textView_8,textView_9, textView_10, textView_11, textView_7_part_1;
+    TextView textView_1,textView_1_2,textView_1_3,textView_2,textView_3,textView_4,textView_4_2,textView_4_3, textView_5, textView_6;
 
 
     @Override
@@ -55,18 +55,15 @@ public class resilience_Screen51 extends AppCompatActivity {
         database = FirebaseDatabase.getInstance();
 
         textView_1 = (TextView) findViewById(R.id.playback_text_1);
+        textView_1_2 = (TextView) findViewById(R.id.playback_text_1_2);
+        textView_1_3 = (TextView) findViewById(R.id.playback_text_1_3);
         textView_2 = (TextView) findViewById(R.id.playback_text_2);
         textView_3 = (TextView) findViewById(R.id.playback_text_3);
         textView_4 = (TextView) findViewById(R.id.playback_text_4);
+        textView_4_2 = (TextView) findViewById(R.id.playback_text_4_2);
+        textView_4_3 = (TextView) findViewById(R.id.playback_text_4_3);
         textView_5 = (TextView) findViewById(R.id.playback_text_5);
         textView_6 = (TextView) findViewById(R.id.playback_text_6);
-        textView_7 = (TextView) findViewById(R.id.playback_text_7);
-        textView_7_part_1 = (TextView) findViewById(R.id.playback_text_7_part_1);
-        textView_8 = (TextView) findViewById(R.id.playback_text_8);
-
-        textView_9 = (TextView) findViewById(R.id.playback_text_9);
-        textView_10 = (TextView) findViewById(R.id.playback_text_10);
-        textView_11 = (TextView) findViewById(R.id.playback_text_11);
 
         firebaseAuth = FirebaseAuth.getInstance();
         Query query = myRef.child("users").child(user.getUid());
@@ -75,44 +72,38 @@ public class resilience_Screen51 extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
 
-                String ans1 = dataSnapshot.child("Issues").child("answers_1").child("question_1").getValue().toString();
-                String ans_2 = dataSnapshot.child("Issues").child("answer_2").child("question_2").getValue().toString();
+                String ans1 = dataSnapshot.child("Resilience").child("resilience_9").getValue().toString();
 
-                String ans_3 = dataSnapshot.child("Issues").child("answer_4").child("answer_4").getValue().toString();
+                String ans1_2 = dataSnapshot.child("Resilience").child("resilience_10").getValue().toString();
+
+                String ans1_3 = dataSnapshot.child("Resilience").child("resilience_11").getValue().toString();
+
+                String ans_2 = dataSnapshot.child("Resilience").child("resilience_2").getValue().toString();
+
+                String ans_3 = dataSnapshot.child("Resilience").child("resilience_3").getValue().toString();
 
 
-                String ans_4 = dataSnapshot.child("Issues").child("answer_5").child("question_5").getValue().toString();
+                String ans_4 = dataSnapshot.child("Resilience").child("resilience_4").getValue().toString();
+                String ans_4_2 = dataSnapshot.child("Resilience").child("resilience_5").getValue().toString();
+                String ans_4_3 = dataSnapshot.child("Resilience").child("resilience_6").getValue().toString();
 
-                String ans_5 = dataSnapshot.child("Issues").child("answer_6").child("question_6").getValue().toString();
+                String ans_5 = dataSnapshot.child("Resilience").child("resilience_7").getValue().toString();
 
-                String ans_6 = dataSnapshot.child("Issues").child("answer_12").child("question_12").getValue().toString();
-
-                String ans_7 = dataSnapshot.child("Issues").child("answer_13_answer_14").child("question_13").getValue().toString();
-
-                String ans_7_part_1  = dataSnapshot.child("Issues").child("answer_13_answer_14").child("question_14").getValue().toString();
-
-                String ans_8 = dataSnapshot.child("Issues").child("answer_9").child("question_9").getValue().toString();
-                String ans_9 = dataSnapshot.child("Issues").child("answer_10").child("question_10").getValue().toString();
-
-                String ans_10 = dataSnapshot.child("Issues").child("answer_8").child("question_8").getValue().toString();
-
-                String ans_11 = dataSnapshot.child("Issues").child("answer_10").child("question_10").getValue().toString();
+                String ans_6 = dataSnapshot.child("Resilience").child("resilience_8").getValue().toString();
 
 
 
 
                 textView_1.setText(ans1);
+                textView_1_2.setText(ans1_2);
+                textView_1_3.setText(ans1_3);
                 textView_2.setText(ans_2);
                 textView_3.setText(ans_3);
                 textView_4.setText(ans_4);
+                textView_4_2.setText(ans_4_2);
+                textView_4_3.setText(ans_4_3);
                 textView_5.setText(ans_5);
                 textView_6.setText(ans_6);
-                textView_7.setText(ans_7);
-                textView_7_part_1.setText(ans_7_part_1);
-                textView_8.setText(ans_8);
-                textView_9.setText(ans_9);
-                textView_10.setText(ans_10);
-                textView_11.setText(ans_11);
             }
 
             @Override
