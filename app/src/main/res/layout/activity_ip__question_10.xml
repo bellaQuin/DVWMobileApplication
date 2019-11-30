@@ -8,165 +8,250 @@
     android:fitsSystemWindows="true"
     android:id="@+id/layout_drawer"
     android:background="#b6e1df">
-    <RelativeLayout
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
-        <include
-            layout="@layout/nav_toolbar"
-            android:id="@+id/toolbar"/>
-
-        <RelativeLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout4"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@id/toolbar">
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/nav_toolbar" />
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="413dp"
+                android:layout_height="593dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
 
                 <ScrollView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="0dp">
 
-                    <RelativeLayout
+                    <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
 
-            <TextView
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="25sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:id="@+id/text"
-                android:text="Effective responses so far?"
-                android:fontFamily="@font/montserrat"/>
 
-            <TextView
-                android:id="@id/text_2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/text"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="9dp"
-                android:layout_marginRight="20dp"
-                android:fontFamily="@font/montserrat"
-                android:gravity="center_vertical"
-                android:text="Effective means your response worked and helped to resolve the issue.\n\n There is a big difference between a response that emotionally feels right and a response that actually helps!"
-                android:textColor="#ffffff"
-                android:textSize="15sp" />
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout5"
+                            android:layout_width="407dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="6dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
 
-            <LinearLayout
-                android:id="@+id/vote"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/text_2"
-                android:layout_marginTop="10dp"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_marginLeft="85dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/yes" />
-
-                    <Button
-                        android:id="@+id/button_yes"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="#ffffff"
-                        android:fontFamily="@font/montserrat"
-                        android:onClick="btn_yes"
-                        android:text="Yes"
-                        android:textColor="#84c2c8"
-                        android:textSize="18dp" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="50dp"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/no" />
-
-                    <Button
-                        android:id="@+id/button_no"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="#ffffff"
-                        android:fontFamily="@font/montserrat"
-                        android:onClick="btn_no"
-                        android:text="No"
-                        android:textColor="#84c2c8"
-                        android:textSize="18dp" />
-
-                </LinearLayout>
+                            <TextView
+                                android:id="@+id/text"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginEnd="20dp"
+                                android:fontFamily="@font/montserrat"
+                                android:gravity="center"
+                                android:text="Effective responses so far?"
+                                android:textSize="25sp"
+                                android:textStyle="bold"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
 
 
-            </LinearLayout>
-
-            <TextView
-                android:layout_below="@id/vote"
-                android:id="@+id/txt_view"
-                android:gravity="center"
-                android:text="1"
-                android:textSize="10sp"
-                android:layout_margin="8dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:visibility="invisible"/>
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_below="@id/txt_view"
-                android:background="@drawable/button_shape"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:hint="Please explain: (you will need to input at least a brief explanation before you can continue to the next coaching question)"
-                android:gravity="top"
-                android:id="@+id/effective_response_text_box_1"
-                android:fontFamily="@font/montserrat"
-                android:textSize="18sp"
-                />
 
 
-            <Button
-                android:layout_width="200dp"
-                android:layout_height="60dp"
-                android:layout_below="@id/effective_response_text_box_1"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/button_shape"
-                android:layout_centerHorizontal="true"
-                android:text="NEXT"
-                android:textSize="20dp"
-                android:id="@+id/btn_effective_respomses_so_far"
-                android:onClick="btn_nex_effective_respomses_so_far"
-                android:textColor="#84c2c8"
-                android:fontFamily="@font/montserrat"/>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout5">
+
+                            <TextView
+                                android:id="@id/text_2"
+                                android:layout_width="378dp"
+                                android:layout_height="110dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginEnd="20dp"
+                                android:fontFamily="@font/montserrat"
+                                android:gravity="center_vertical"
+                                android:text="Effective means your response worked and helped to resolve the issue.\n\n There is a big difference between a response that emotionally feels right and a response that actually helps!"
+                                android:textColor="#ffffff"
+                                android:textSize="15sp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
 
 
-                    </RelativeLayout>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
+
+                            <LinearLayout
+                                android:id="@+id/vote"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginEnd="20dp"
+                                android:orientation="horizontal"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="85dp"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:src="@drawable/yes" />
+
+                                    <Button
+                                        android:id="@+id/button_yes"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="#ffffff"
+                                        android:fontFamily="@font/montserrat"
+                                        android:onClick="btn_yes"
+                                        android:text="Yes"
+                                        android:textColor="#84c2c8"
+                                        android:textSize="18dp" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="50dp"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:src="@drawable/no" />
+
+                                    <Button
+                                        android:id="@+id/button_no"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="#ffffff"
+                                        android:fontFamily="@font/montserrat"
+                                        android:onClick="btn_no"
+                                        android:text="No"
+                                        android:textColor="#84c2c8"
+                                        android:textSize="18dp" />
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout3">
+
+                            <TextView
+                                android:id="@+id/txt_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="8dp"
+                                android:layout_marginStart="20dp"
+                                android:gravity="center"
+                                android:text="1"
+                                android:textSize="10sp"
+                                android:visibility="invisible"
+                                app:layout_constraintBottom_toTopOf="@+id/effective_response_text_box_1"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+
+                            <EditText
+                                android:id="@+id/effective_response_text_box_1"
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:layout_below="@id/txt_view"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="13dp"
+                                android:layout_marginEnd="20dp"
+                                android:background="@drawable/button_shape"
+                                android:fontFamily="@font/montserrat"
+                                android:gravity="top"
+                                android:hint="Please explain: (you will need to input at least a brief explanation before you can continue to the next coaching question)"
+                                android:textSize="18sp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/txt_view" />
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout6">
+
+                            <Button
+                                android:id="@+id/btn_effective_respomses_so_far"
+                                android:layout_width="200dp"
+
+                                android:layout_height="60dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginBottom="20dp"
+                                android:background="@drawable/button_shape"
+                                android:fontFamily="@font/montserrat"
+                                android:onClick="btn_nex_effective_respomses_so_far"
+                                android:text="NEXT"
+                                android:textColor="#84c2c8"
+                                android:textSize="20dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
                 </ScrollView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
-            </RelativeLayout>
 
-        </RelativeLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
-    </RelativeLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <com.google.android.material.navigation.NavigationView
         android:layout_width="wrap_content"

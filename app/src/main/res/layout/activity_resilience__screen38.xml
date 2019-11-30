@@ -40,7 +40,7 @@
                         android:fontFamily="@font/montserrat"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="purpose and\n londterm goals"
+                        android:text="My action plan"
                         android:textAllCaps="true"
                         android:textColor="#fff"
                         android:gravity="center"
@@ -51,27 +51,114 @@
 
                 </RelativeLayout>
 
-
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="center"
+                    android:text="What can you do today to help you\n cope? Pick at least one action\n (or create your own activity) and\n then add a time to do it in your\n calendar"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
 
                 <LinearLayout
-                    android:layout_marginTop="20dp"
-                    android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:textSize="18sp"
+                        android:background="#424242"
+                        android:text="    Breathing and pulse rate"
+                        />
+
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Postive images"
+                        android:id="@+id/check_1"
+                        />
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Music"
+                        android:id="@+id/check_2"
+                        />
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Videos"
+                        android:id="@+id/check_3"
+                        />
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Exercise"
+                        android:id="@+id/check_4"
+                        />
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stance(physicality)"
+                        android:id="@+id/check_5"
+                        />
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Gratefulness &amp; positive thinking"
+                        android:id="@+id/check_6"
+                        />
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Using nature"
+                        android:id="@+id/check_7"
+                        />
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Saying no"
+                        android:id="@+id/check_8"
+                        />
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Meditation and mindfulness"
+                        android:id="@+id/check_9"
+                        />
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Purpose and meaning"
+                        android:id="@+id/check_10"
+                        />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:orientation="horizontal">
 
                         <Button
-                            android:id="@+id/back"
+                            android:id="@+id/calender"
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="30dp"
+                            android:layout_marginLeft="25dp"
                             android:layout_marginTop="20dp"
                             android:background="#ffffff"
+                            android:layout_gravity="center"
                             android:fontFamily="@font/montserrat"
                             android:onClick="btn_add_calender"
                             android:text="Add to my\n calendar"
@@ -85,6 +172,7 @@
                             android:layout_marginLeft="30dp"
                             android:layout_marginTop="20dp"
                             android:background="#ffffff"
+                            android:layout_gravity="center"
                             android:fontFamily="@font/montserrat"
                             android:onClick="btn_next"
                             android:text="Next"
@@ -94,6 +182,7 @@
 
                 </LinearLayout>
 
+            </LinearLayout>
             </LinearLayout>
 
         </ScrollView>

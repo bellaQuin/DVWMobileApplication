@@ -11,9 +11,14 @@ package com.example.coachingapp;
         import android.widget.Button;
 
         import com.example.coachingapp.Goals.Goal_1;
+        import com.example.coachingapp.Goals.Goal_11;
+        import com.example.coachingapp.Goals.Goal_12;
         import com.example.coachingapp.Goals.Goal_2;
+        import com.example.coachingapp.Goals.Goal_3;
         import com.example.coachingapp.Goals.Goal_DisplaySummary;
-        import com.example.coachingapp.ResilienceandCopingMechanisms.Behaviouralsigns;
+        import com.example.coachingapp.Goals.Goal_Question_4;
+        import com.example.coachingapp.Goals.Goal_Question_5;
+
 
 public class SplashScreen extends AppCompatActivity {
 

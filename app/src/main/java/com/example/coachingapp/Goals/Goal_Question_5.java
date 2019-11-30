@@ -6,11 +6,13 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.DragEvent;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TableLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -53,6 +55,7 @@ public class Goal_Question_5 extends AppCompatActivity implements NavigationView
     EditText  ed_ed;
     TextView editText;
     LinearLayout mLayout;
+    ScrollView goalDisplayParentView, goalDisplayChildView;
 
     ImageView i1, i2, i3, i4;
     List<EditText> myList = new ArrayList<EditText>();
@@ -72,7 +75,7 @@ public class Goal_Question_5 extends AppCompatActivity implements NavigationView
         nav();
 
        // etText = new ArrayList<>();
-        mLayout = findViewById(R.id.steps_layouts);
+        mLayout = findViewById(R.id.steps_layout_display_steps);
         editText = findViewById(R.id.display_goal_step_txt_box);
 
 
@@ -96,6 +99,8 @@ public class Goal_Question_5 extends AppCompatActivity implements NavigationView
         i2.setOnLongClickListener(longClickListener);
         i3.setOnLongClickListener(longClickListener);
         i4.setOnLongClickListener(longClickListener);
+        goalDisplayParentView = findViewById(R.id.goalDisplayParentView);
+        goalDisplayChildView = findViewById(R.id.goalDisplayChildView);
 
 
 
@@ -108,6 +113,26 @@ public class Goal_Question_5 extends AppCompatActivity implements NavigationView
         user = firebaseAuth.getCurrentUser();
         myRef = FirebaseDatabase.getInstance().getReference();
         database = FirebaseDatabase.getInstance();
+
+        goalDisplayParentView.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+
+                findViewById(R.id.goalDisplayParentView).getParent().requestDisallowInterceptTouchEvent(false);
+                return false;
+            }
+        });
+
+
+        goalDisplayChildView.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+
+                v.getParent().requestDisallowInterceptTouchEvent(true);
+
+                return false;
+            }
+        });
 
 
 //        displayText();

@@ -84,7 +84,7 @@ public class Goal_DisplaySummary extends AppCompatActivity implements Navigation
         txtMonth = findViewById(R.id.display_input_date_month);
         display_goal = findViewById(R.id.display_goal);
         display_reason = findViewById(R.id.display_reason);
-        editText = findViewById(R.id.ed);
+
 
         firebaseAuth = FirebaseAuth.getInstance();
         user = firebaseAuth.getCurrentUser();

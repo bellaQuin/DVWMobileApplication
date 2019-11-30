@@ -64,12 +64,12 @@
                         android:fontFamily="@font/montserrat"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:textSize="18dp"
+                        android:textSize="20sp"
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
                         android:gravity="center"
                         android:text="People who are resilient\n generally think a certain way..."
-                        android:textColor="#fff"/>
+                        android:textColor="#dd0074"/>
 
 
                     <ImageView
@@ -83,7 +83,7 @@
                         android:fontFamily="@font/montserrat"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:textSize="18dp"
+                        android:textSize="20sp"
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
                         android:gravity="center"
@@ -98,7 +98,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="20dp"
                         android:layout_marginLeft="20dp"
-                        android:textSize="18dp"
+                        android:textSize="20sp"
                         android:gravity="center"
                         android:textColor="#000"
                         android:text="Viewing something as a test of\n your skill, that you are choosing to\n take part in and learn from,\n creates a different response than\n if you view something as a\n threat"

@@ -70,7 +70,7 @@
                         android:layout_height="match_parent"
                         android:textSize="18sp"
                         android:gravity="center"
-                        android:textColor="#000"
+                        android:textColor="#1A237E"
                         android:text="@string/slide_26_2"
                         />
 
@@ -80,7 +80,7 @@
                         android:layout_height="match_parent"
                         android:textSize="18sp"
                         android:gravity="center"
-                        android:textColor="#000"
+                        android:textColor="#1A237E"
                         android:layout_marginTop="20dp"
                         android:text="Feels a little better doesn’t it?"
                         />

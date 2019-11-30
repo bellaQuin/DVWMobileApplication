@@ -264,10 +264,7 @@
 
 
     <string name="Why_Text_two">
-       For example: if you want a promotion\n
-       and more money to afford a new\n
-       house - keep asking yourself <u>WHY</u> do i\n
-       want this?
+       For example: if you want a promotion and more money to afford a new house - keep asking yourself <u>WHY</u> do i want this?
 
     </string>
 
@@ -429,10 +426,12 @@
 
     <string name="slide_12_1">
 
-        <font color="#FF3D00">Recognising</font> when you experience too much stress is the\n first step managing it and building your resilience.\n Here are some common signs of stress.\n <font color="#DD2C00"><b>Select all things below that apply to</b></font>\n <font color="#DD2C00"><b>you:</b></font>
+        <font color="#FF3D00">Recognising</font> when you experience too much stress is the\n first step managing it and building your resilience.\n Here are some common signs of stress.\n
 
     </string>
-
+    <string name="slide_12_2">
+    <font color="#DD2C00"><b>Select all things below that apply to</b></font>\n <font color="#DD2C00"><b>you:</b></font>
+    </string>
     ------Resilience.Slide_19-------
 
     <string name="slide_19_1">
@@ -450,12 +449,12 @@
     ------Resilience.Slide_26-------
 
     <string name="slide_26_1">
-        <font color="#7E57C2"><b>1 min exercise is better than\n no exercise.</b></font> To release\n dopamine, you need to expend\n effort; get a little out of breath.\n you need to visit a gym or\n run a marathon.
+        <font color="#1A237E"><b>1 min exercise is better than\n no exercise.</b></font> To release\n dopamine, you need to expend\n effort; get a little out of breath.\n you need to visit a gym or\n run a marathon.
     </string>
 
     <string name="slide_26_2">
 
-        <font color="#7E57C2"><b>It\'s not about time, it\'s about\n effort.</b></font> A few press-ups or a\n short run can release\n dopamine (a reward\n chemical). See how you feel\n after doing just that initial 60\n seconds of fast activity, then\n stop, breathe deeply and\n consider if you want to do\n another 60 seconds…
+        <font color="#1A237E"><b>It\'s not about time, it\'s about\n effort.</b></font> A few press-ups or a\n short run can release\n dopamine (a reward\n chemical). See how you feel\n after doing just that initial 60\n seconds of fast activity, then\n stop, breathe deeply and\n consider if you want to do\n another 60 seconds…
 
     </string>
 
@@ -463,13 +462,13 @@
 
     <string name="slide_28">
 
-        <font color="#7E57C2">Take a few minutes to list as many things as you can to be grateful for, once you have finished press Next:</font>
+        <font color="#FFAB91">Take a few minutes to list as many things as you can to be grateful for, once you have finished press Next:</font>
 
     </string>
 
     <string name="slide_28_2">
 
-        <font color="#7E57C2">Take a few minutes to list as many things that cheer you up or make you happy</font>
+        <font color="#FFAB91">Take a few minutes to list as many things that cheer you up or make you happy</font>
 
     </string>
 
@@ -477,7 +476,7 @@
 
     <string name="slide_30">
 
-        Go to a park, forest or some\n countryside. <font color="#7E57C2">Just a few minutes in a natural environment</font> can\n make a difference to our\n emotional state (how we feel) and how we are perceiving\n things.
+        Go to a park, forest or some\n countryside. <font color="#1B5E20">Just a few minutes in a natural environment</font> can\n make a difference to our\n emotional state (how we feel) and how we are perceiving\n things.
 
     </string>
 
@@ -485,13 +484,13 @@
 
     <string name="slide_31">
 
-        A common cause of stress and\n causes of burnout is trying to\n please everyone and <font color="#7E57C2">not feeling</font>\n <font color="#7E57C2">able to say ‘No’.</font>
+        A common cause of stress and\n causes of burnout is trying to\n please everyone and <font color="#37474F">not feeling</font>\n <font color="#7E57C2">able to say ‘No’.</font>
 
     </string>
 
     <string name="slide_31_2">
 
-        Learning how to <font color="#7E57C2">say ‘No’ in a</font>\n <font color="#7E57C2">collaborative, professional</font>\n <font color="#7E57C2">way</font> that does not invite conflict,\n can make a huge difference to\n stress levels…
+        Learning how to <font color="#37474F">say ‘No’ in a</font>\n <font color="#37474F">collaborative, professional</font>\n <font color="#37474F">way</font> that does not invite conflict,\n can make a huge difference to\n stress levels…
 
     </string>
 
@@ -507,7 +506,7 @@
 
     <string name="slide_36">
 
-        Think about what you are\n trying to endure or\n achieve, <b>WHY</b> are you doing\n it?
+        Think about what you are\n trying to endure or\n achieve, <font color="#2b59a2"><b>WHY</b></font> are you doing\n it?
 
     </string>
 
@@ -546,7 +545,7 @@
 
     <string name="slide_42_2_1">
 
-        Resilient people get involved-even if they don\'t like that what\n is happening.\n\n Being involved is one of the\n ways they can exert some\n control over what is happening\n to them.\n\n Burying your head in the sand\n or \'hiding\' from something bad\n rarelyhelps anyone.\n\n Don\'t like where the ship is\n heading? Then you had better\n grab the wheel!
+        Resilient people get involved-\neven if don\'t like that what\n is happening.\n\n Being involved is one of the\n ways they can exert some\n control over what is happening\n to them.\n\n Burying your head in the sand\n or \'hiding\' from something bad\n rarelyhelps anyone.\n\n Don\'t like where the ship is\n heading? Then you had better\n grab the wheel!
 
     </string>
 
@@ -606,9 +605,29 @@
     <string name="slide_48">
 
         E.g. people suffering great loss\n can find some comfort in starting\n a charity to tackle the issue that\n created the negative situation. It\n can give us purpose and a sense\n of purpose can help ease the pain\n and give us strength to carry on\n\n
-        <font color="#7E57C2"><b>Find your \'WHY\'. Google guru\n Simon Sinek to learn more about\n finding your passion in life</b></font>\n\n
-        We have already explored the\n connection between purpose and\n resilience earlier in the ‘Respond –\n purpose\’  section of this app
+        <font color="#FFFFFF"><b>Find your \'WHY\'. Google guru\n Simon Sinek to learn more about\n finding your passion in life</b></font>\n\n
+        We have already explored the\n connection between purpose and\n resilience earlier in the ‘Respond –\n purpose’  section of this app
 
+
+    </string>
+
+    ------Resilience.Slide_50-------
+
+    <string name="slide_50_1">
+
+        <b>Recognise</b>\n Recognise when you are stressed and\n need to do something about it.(this\n includes understanding what is\n happening in your mind and body\n when you are under stress)
+
+    </string>
+
+    <string name="slide_50_2">
+
+        <b>Response</b>\n Recognise when you are stressed and\n need to do something about it.(this\n includes understanding what is\n happening in your mind and body\n when you are under stress)
+
+    </string>
+
+    <string name="slide_50_3">
+
+        <b>Resolve</b>\n Recognise when you are stressed and\n need to do something about it.(this\n includes understanding what is\n happening in your mind and body\n when you are under stress)
 
     </string>
 

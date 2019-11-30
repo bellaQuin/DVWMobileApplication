@@ -58,8 +58,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
-                        android:textSize="18sp"
-                        android:textColor="#9575CD"
+                        android:textSize="20sp"
+                        android:textColor="#1976D2"
                         android:gravity="center"
                         android:text="There is no‘perfect’piece of\n music that will work for everyone.\n List your favourite music on your\n phone/PC."
                         />
@@ -68,8 +68,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
-                        android:textSize="18sp"
-                        android:textColor="#9575CD"
+                        android:textSize="20sp"
+                        android:textColor="#1976D2"
                         android:text=" Suggestions:"
                         />
                     <TextView
@@ -77,8 +77,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
-                        android:textSize="18sp"
-                        android:textColor="#9575CD"
+                        android:textSize="20sp"
+                        android:textColor="#1976D2"
                         android:text=" 1. Classical: ‘Nimrod’(Elgar) or‘Air on G’(Bach)"
                         />
 
@@ -87,8 +87,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
-                        android:textSize="18sp"
-                        android:textColor="#9575CD"
+                        android:textSize="20sp"
+                        android:textColor="#1976D2"
                         android:text=" 2. Film : ‘Happy’(Despicable Me 2 – Pharrell Williams) or ‘I Will Get Back Up Again’ (Trolls – Anna Kendrick)"
                         />
                     <TextView
@@ -96,8 +96,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
-                        android:textSize="18sp"
-                        android:textColor="#9575CD"
+                        android:textSize="20sp"
+                        android:textColor="#1976D2"
                         android:text=" 3. Modern/Dance:  ‘Happier’(Marshmellow ft Bastille), ‘Where I’ll Be Waiting’ (Rich Edwards ft. Cozi Zuehlsdorff)"
                         />
                     <TextView
@@ -105,8 +105,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
-                        android:textSize="18sp"
-                        android:textColor="#9575CD"
+                        android:textSize="20sp"
+                        android:textColor="#1976D2"
                         android:text=" 4. Rock: ‘We are the Champions’ (Queen)"
                         />
                     <Button

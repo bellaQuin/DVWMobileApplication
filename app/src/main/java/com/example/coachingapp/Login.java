@@ -13,6 +13,8 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.example.coachingapp.Goals.Goal_DisplaySummary;
+import com.example.coachingapp.Goals.Goal_Question_4;
+import com.example.coachingapp.Goals.Goal_Question_5;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -101,7 +103,7 @@ public class Login extends AppCompatActivity {
                         //UserDashboard
                         if (mAuth.getCurrentUser().isEmailVerified()){
 
-                            startActivity(new Intent(Login.this, Goal_DisplaySummary.class));
+                            startActivity(new Intent(Login.this, Goal_Question_5.class));
 
                             Toast.makeText(Login.this, "Login Successful", Toast.LENGTH_SHORT ).show();
 

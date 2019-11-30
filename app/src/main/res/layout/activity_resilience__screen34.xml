@@ -45,7 +45,7 @@
                             android:layout_height="wrap_content"
                             android:text="Meditation and Mindfulness"
                             android:textAllCaps="true"
-                            android:textColor="#fff"
+                            android:textColor="#FF3D00"
                             android:gravity="center"
                             android:layout_marginLeft="80dp"
                             android:layout_marginTop="20dp"
@@ -75,7 +75,7 @@
                         android:layout_height="match_parent"
                         android:textSize="18sp"
                         android:gravity="center"
-                        android:textColor="#000"
+                        android:textColor="#FF5722"
                         android:text="Mindfulness and meditation\n have been shown to\n immediately reduce stress and\n build long term resilience. There\n are numerous videos on\n YouTube. Develop this as habit\n and you it won’t just help you\n feel better in the short term, it\n can provide a number of mental\n and physical benefits for the rest\n of your life."
                         />
 
@@ -85,7 +85,7 @@
                         android:layout_height="match_parent"
                         android:textSize="18sp"
                         android:gravity="center"
-                        android:textColor="#000"
+                        android:textColor="#FF5722"
                         android:layout_marginTop="20dp"
                         android:text="A simple breathing exercise is\n one of the most simple and\n powerful ways to slow our heart\n rate and reduce the stress\n reaction."
                         />
