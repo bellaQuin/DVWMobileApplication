@@ -5,12 +5,15 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TableLayout;
 import android.widget.TextView;
 
@@ -52,6 +55,7 @@ public class Goal_Question_4 extends AppCompatActivity implements NavigationView
     FirebaseUser user;
     Button mButton;
     TextView editText;
+    ScrollView goalParentSV_1, goalChildSV_1;
 
     LinearLayout mLayout;
     List<EditText> myList = new ArrayList<EditText>();
@@ -64,6 +68,9 @@ public class Goal_Question_4 extends AppCompatActivity implements NavigationView
        // etText = new ArrayList<>();
 
         editText = findViewById(R.id.edit_text_box_1_display);
+        goalParentSV_1 = findViewById(R.id.goalParentSV_1);
+        goalChildSV_1 = findViewById(R.id.goalChildSV_1);
+
 
 
         firebaseAuth = FirebaseAuth.getInstance();
@@ -98,7 +105,29 @@ public class Goal_Question_4 extends AppCompatActivity implements NavigationView
 
             }
         });
+
+
+        goalParentSV_1.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+
+                findViewById(R.id.goalParentSV_1).getParent().requestDisallowInterceptTouchEvent(false);
+                return false;
+            }
+        });
+
+
+        goalChildSV_1.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+
+                v.getParent().requestDisallowInterceptTouchEvent(true);
+
+                return false;
+            }
+        });
     }
+
 
     private void nav() {
         drawerLayout = findViewById(R.id.layout_drawer);

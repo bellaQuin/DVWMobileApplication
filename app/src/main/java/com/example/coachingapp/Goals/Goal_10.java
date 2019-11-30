@@ -36,7 +36,7 @@ public class Goal_10 extends AppCompatActivity  implements NavigationView.OnNavi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_goal_10);
         nav();
-        setTimer();
+
     }
 
 

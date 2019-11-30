@@ -9,78 +9,139 @@
     android:id="@+id/layout_drawer"
     android:background="#b6e1df">
 
-    <RelativeLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
-        <include
-            layout="@layout/nav_toolbar"
-            android:id="@+id/toolbar"/>
-
-        <RelativeLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout4"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@id/toolbar">
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
-            <TextView
-                android:layout_marginTop="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="25sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:id="@+id/text"
-                android:text="WHAT ARE THE \n IMPLICATIONS?"
-                android:fontFamily="@font/montserrat"/>
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/nav_toolbar" />
 
-            <TextView
-                android:fontFamily="@font/montserrat"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="#fff"
-                android:text="You will need to write something in both text boxes in order to progress to the next coaching question"
-                android:layout_below="@id/text"
-                android:textSize="24dp"
-                android:gravity="center"
-                android:layout_marginRight="20dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginBottom="20dp"
-                android:layout_marginTop="10dp"
-                android:id="@+id/question_1"
-                />
-
-            <EditText
-                android:id="@+id/implication_text_box"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:layout_below="@+id/question_1"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="21dp"
-                android:background="@drawable/button_shape"
-                android:gravity="top"
-                android:fontFamily="@font/montserrat"
-                android:hint="If I don’t influence or improve the situation then…" />
-
-            <Button
-                android:layout_width="200dp"
-                android:layout_height="60dp"
-                android:layout_below="@id/implication_text_box"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/button_shape"
-                android:layout_centerHorizontal="true"
-                android:text="NEXT"
-                android:textSize="20dp"
-                android:id="@+id/Implications_btn"
-                android:onClick="btn_next_Implications"
-                android:textColor="#84c2c8"
-                android:visibility="gone"
-                android:fontFamily="@font/montserrat"/>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="413dp"
+                android:layout_height="593dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar">
 
 
-        </RelativeLayout>
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="0dp">
 
-    </RelativeLayout>
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout5"
+                            android:layout_width="407dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="6dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <TextView
+                                android:id="@+id/text"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginEnd="20dp"
+                                android:fontFamily="@font/montserrat"
+                                android:gravity="center"
+                                android:text="WHAT ARE THE \n IMPLICATIONS?"
+                                android:textSize="25sp"
+                                android:textStyle="bold"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/question_1"
+                                android:layout_width="385dp"
+                                android:layout_height="122dp"
+                                android:layout_below="@id/text"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginEnd="20dp"
+                                android:fontFamily="@font/montserrat"
+                                android:gravity="center"
+                                android:text="You will need to write something in both text boxes in order to progress to the next coaching question"
+                                android:textColor="#fff"
+                                android:textSize="24dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/text" />
+
+                            <EditText
+                                android:id="@+id/implication_text_box"
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                android:layout_below="@+id/question_1"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginEnd="20dp"
+                                android:background="@drawable/button_shape"
+                                android:fontFamily="@font/montserrat"
+                                android:gravity="top"
+                                android:hint="If I don’t influence or improve the situation then…"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/question_1" />
+
+                            <Button
+                                android:id="@+id/Implications_btn"
+                                android:layout_width="200dp"
+                                android:layout_height="60dp"
+                                android:layout_below="@id/implication_text_box"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginEnd="20dp"
+                                android:background="@drawable/button_shape"
+                                android:fontFamily="@font/montserrat"
+                                android:visibility="gone"
+                                android:onClick="btn_next_Implications"
+                                android:text="NEXT"
+                                android:textColor="#84c2c8"
+                                android:textSize="20dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/implication_text_box" />
+
+
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </ScrollView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
     <com.google.android.material.navigation.NavigationView

@@ -1,15 +1,25 @@
 package com.example.coachingapp.Goals;
 
 import android.content.Intent;
+import android.graphics.Paint;
+import android.graphics.pdf.PdfDocument;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
+import android.provider.DocumentsContract;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.coachingapp.AboutUs;
 import com.example.coachingapp.Login;
+import com.example.coachingapp.Models.Goals_Road_Map;
+import com.example.coachingapp.Models.Goals_Road_Map_Identify;
 import com.example.coachingapp.R;
 import com.example.coachingapp.UserDashboard;
 import com.example.coachingapp.ViewYourRoadMapSteps;
@@ -23,8 +33,24 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
+import com.itextpdf.text.BaseColor;
+import com.itextpdf.text.Document;
+import com.itextpdf.text.DocumentException;
+import com.itextpdf.text.Font;
+import com.itextpdf.text.PageSize;
+import com.itextpdf.text.Paragraph;
+import com.itextpdf.text.pdf.PdfPTable;
+import com.itextpdf.text.pdf.PdfWriter;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.OutputStream;
+import java.util.ArrayList;
+import java.util.List;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -34,12 +60,17 @@ public class Goal_DisplaySummary extends AppCompatActivity implements Navigation
     DrawerLayout drawerLayout;
     ActionBarDrawerToggle toggle;
     NavigationView navigationView;
+   final int REQUEST_CODE_ASK_PERMISSIONS = 111;
+   File pdfFile;
+   com.itextpdf.text.pdf.PdfDocument pdfDocument;
 
     FirebaseAuth firebaseAuth;
     FirebaseDatabase database;
     DatabaseReference myRef;
+    EditText editText;
     FirebaseUser user;
     TextView txttime, txtday, txtMonth, display_goal, display_reason;
+    List<String> answerList = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +84,7 @@ public class Goal_DisplaySummary extends AppCompatActivity implements Navigation
         txtMonth = findViewById(R.id.display_input_date_month);
         display_goal = findViewById(R.id.display_goal);
         display_reason = findViewById(R.id.display_reason);
+
 
         firebaseAuth = FirebaseAuth.getInstance();
         user = firebaseAuth.getCurrentUser();
@@ -113,6 +145,7 @@ public class Goal_DisplaySummary extends AppCompatActivity implements Navigation
             }
         });
     }
+    // List<String> goalsList = new ArrayList<>();
 
 
     private void sentEmail(){
@@ -136,12 +169,55 @@ public class Goal_DisplaySummary extends AppCompatActivity implements Navigation
             }
         });
     }
-    public void btn_email(View view) {
-        Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
-                "mailto","abc@gmail.com", null));
-        emailIntent.putExtra(Intent.EXTRA_SUBJECT, "EXTRA_SUBJECT");
-        startActivity(Intent.createChooser(emailIntent, "Send email..."));
-       // emailIntent.putExtra(Intent.EXTRA_TEXT, sentEmail());
+
+
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
+    public void btn_email(View view)  {
+
+        try {
+            createPdf();
+
+        }catch (FileNotFoundException e){
+            e.printStackTrace();
+
+        }catch (DocumentException e){
+            e.printStackTrace();
+        }
+//        PdfDocument pdfDocument = new PdfDocument();
+//        PdfDocument.PageInfo myPageInfo = new PdfDocument.PageInfo.Builder(300,600, 1).create();
+//        PdfDocument.Page myPage =  pdfDocument.startPage(myPageInfo);
+//
+//        Paint paint = new Paint();
+//        int x = 10, y = 25;
+//
+//        String displayGoalString = editText.getText().toString();
+//        //display_goal.getText().toString();
+//        // String displayreasonString = display_reason.getText().toString();
+//
+//        myPage.getCanvas().drawText(displayGoalString,x, y, paint);
+////        myPage.getCanvas().drawText(displayreasonString, x, y, paint);
+//        pdfDocument.finishPage(myPage);
+//        String directory_path = Environment.getExternalStorageDirectory().getPath() +"/mypdf/";
+//        File myfile = new File(directory_path);
+//        if (!myfile.exists()){
+//            myfile.mkdirs();
+//        }
+//
+//        String targetPdf = directory_path + "test-2.pdf";
+//        File filePath = new File(targetPdf);
+//
+//        try{
+//            pdfDocument.writeTo(new FileOutputStream(filePath));
+//            Toast.makeText(this, "Done", Toast.LENGTH_LONG).show();
+//        }catch (Exception e){
+//            e.printStackTrace();
+//            Log.e("pdf", "error");
+//            Toast.makeText(this, "Something wrong: " + e.toString(),  Toast.LENGTH_LONG).show();
+//
+//        }
+//
+//        pdfDocument.close();
+
 
     }
 
@@ -149,6 +225,8 @@ public class Goal_DisplaySummary extends AppCompatActivity implements Navigation
         Intent intent = new Intent(Goal_DisplaySummary.this, UserDashboard.class);
         startActivity(intent);
     }
+
+
 
 
 
@@ -182,6 +260,47 @@ public class Goal_DisplaySummary extends AppCompatActivity implements Navigation
     }
 
 
+
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
+    private void createPdf() throws FileNotFoundException, DocumentException {
+        File docsFile = new File(Environment.getExternalStorageDirectory().getPath() + "/Documents");
+        if (!docsFile.exists()){
+            docsFile.mkdirs();
+            Log.i( "New PDF", "Create a new directory for PDF");
+
+        }
+
+        String pdfName = "GiftItem.pdf";
+        pdfFile = new File(docsFile.getAbsolutePath(), pdfName);
+        OutputStream outputStream = new FileOutputStream(pdfFile);
+        Document document = new Document(PageSize.A4);
+
+        PdfWriter.getInstance(document, outputStream);
+        String myString = editText.getText().toString();
+        Paragraph p = new Paragraph(myString);
+        document.open();
+
+
+
+        document.add(p);
+        document.close();
+
+//        PdfDocument.PageInfo pageInfo = new PdfDocument.PageInfo.Builder(300, 600, 1).create();
+//        pdfDocument.setPageSize(300, 600).... getCanvas().drawText(displayGoalString,x, y, paint);
+
+       // PdfDocument.Page myPage =  pdfDocument.startPage(myPageInfo);
+
+
+//        Font f = new Font(Font.FontFamily.TIMES_ROMAN, 30,0f, Font.UNDERLINE, BaseColor.BLACK);
+
+
+
+
+
+
+    }
+
+
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
 
@@ -206,8 +325,6 @@ public class Goal_DisplaySummary extends AppCompatActivity implements Navigation
         return true;
     }
 
-
-    //btn_view_roadmap hazard_icons
     public void btn_view_roadmap(View view) {
         Intent intent = new Intent(Goal_DisplaySummary.this, ViewYourRoadMapSteps.class);
         startActivity(intent);

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/layout_drawer"
+    android:background="#b6e1df"
+    tools:context=".ResilienceandCopingMechanisms.Slide_8">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            layout="@layout/nav_toolbar"
+            android:id="@+id/toolbar"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+
+
+                    <TextView
+                        android:fontFamily="@font/montserrat"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Fight or fight"
+                        android:textAllCaps="true"
+                        android:textColor="#fff"
+                        android:gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:id="@+id/why"
+                        android:textSize="25sp"/>
+
+                </RelativeLayout>
+
+
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:fontFamily="@font/montserrat"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:text="During our fight or fight our\n brains produce a complex mix of\n chemicals(hormones and\n neurotansmitters).\n These chemicals can affect how\n we see things and reactto them."
+                        />
+
+                    <LinearLayout
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:id="@+id/btn_Hyper_vigilance"
+                            android:background="#fff"
+                            android:text="Hyper vigilance - likely to\n see something as a threat"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:layout_marginLeft="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="#fff"
+                            android:id="@+id/Blood"
+                            android:text="Blood &amp; oxygen\n rerouted"
+                            />
+
+                        <Button
+                            android:layout_marginLeft="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="#fff"
+                            android:id="@+id/Threat_detected"
+                            android:text="Threat detected\n(creats stress)"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:layout_marginLeft="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="#fff"
+                            android:id="@+id/Brain_says"
+                            android:text="Brain says\n 'fight or fight'"
+                            />
+
+                        <Button
+                            android:layout_marginLeft="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="#fff"
+                            android:id="@+id/Chemicals"
+                            android:text="Chemicals\n released"
+                            />
+
+                    </LinearLayout>
+
+                    <Button
+
+                        android:id="@+id/next"
+                        android:layout_width="200dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="20dp"
+                        android:background="#ffffff"
+                        android:fontFamily="@font/montserrat"
+                        android:onClick="btn_next"
+                        android:text="Next"
+                        android:textColor="#84c2c8"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:id="@+id/nav_view"
+        app:headerLayout="@layout/nav_drawer"
+        app:menu="@menu/toolbar_nav_drawer"
+        />
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

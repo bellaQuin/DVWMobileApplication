@@ -33,7 +33,7 @@ public class Goal_11 extends AppCompatActivity implements NavigationView.OnNavig
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_goal_11);
         nav();
-        setTimer();
+
 
 
     }

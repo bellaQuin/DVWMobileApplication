@@ -34,7 +34,7 @@ public class Goal_12 extends AppCompatActivity implements NavigationView.OnNavig
         setContentView(R.layout.activity_goal_12);
 
         nav();
-        setTimer();
+
     }
 
     private void nav(){
@@ -91,21 +91,21 @@ public class Goal_12 extends AppCompatActivity implements NavigationView.OnNavig
     }
 
 
-    public void setTimer(){
-        final Button button = (Button)findViewById(R.id.goal_12);
-        final Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_in);
-
-
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                button.setVisibility(View.VISIBLE);
-                button.startAnimation(animation);
-
-
-            }
-        },4000);
-    }
+//    public void setTimer(){
+//        final Button button = (Button)findViewById(R.id.goal_12);
+//        final Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_in);
+//
+//
+//        new Handler().postDelayed(new Runnable() {
+//            @Override
+//            public void run() {
+//                button.setVisibility(View.VISIBLE);
+//                button.startAnimation(animation);
+//
+//
+//            }
+//        },4000);
+//    }
 
 
 

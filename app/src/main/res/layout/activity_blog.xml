@@ -21,7 +21,6 @@
                 android:id="@+id/word"
                 android:layout_width="0dp"
                 android:layout_height="552dp"
-
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="32dp"
@@ -74,8 +73,6 @@
                     android:layout_marginTop="12dp"
                     android:background="#b6e1df"
                     android:minHeight="200dp"
-
-
                     app:layout_constraintEnd_toEndOf="@+id/pTitleEt"
                     app:layout_constraintStart_toStartOf="@+id/pTitleEt"
                     app:layout_constraintTop_toBottomOf="@+id/pTitleEt" />

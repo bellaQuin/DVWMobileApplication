@@ -90,7 +90,8 @@ public class Goal_3 extends AppCompatActivity implements NavigationView.OnNaviga
 
 
 
-    public void btn_next_goal_3_part_1(View view) {
+
+    public void btn_next_goal_2(View view) {
         Intent intent = new Intent(Goal_3.this, Goal_4.class);
         startActivity(intent);
     }
