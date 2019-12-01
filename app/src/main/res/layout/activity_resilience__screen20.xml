@@ -76,6 +76,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
+<!--    app:srcCompat="@drawable/resilience_kid"-->
     <ImageView
         android:layout_gravity="center"
         android:id="@+id/imageView"
@@ -87,7 +88,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:srcCompat="@drawable/resilience_kid" />
+         />
 
     <TextView
         android:layout_gravity="center"

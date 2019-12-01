@@ -147,7 +147,7 @@
                                         android:fontFamily="@font/montserrat"
                                         android:textColor="#326b6f"
                                         android:textSize="23dp"
-                                        android:id="@+id/display_goal_step_txt_box"
+                                        android:id="@+id/tvDisplayGoal"
                                         android:background="@android:color/white"/>
 
                                     <TextView
@@ -213,7 +213,7 @@
                                 android:background="@drawable/button_shape"
                                 android:fontFamily="@font/montserrat"
 
-                                android:onClick="btn_next_next"
+                                android:onClick="btn_next"
                                 android:text="NEXT"
                                 android:textColor="#326b6f"
                                 android:textSize="28dp"

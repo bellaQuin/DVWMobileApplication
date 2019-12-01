@@ -16,8 +16,6 @@ package com.example.coachingapp;
         import com.example.coachingapp.Goals.Goal_2;
         import com.example.coachingapp.Goals.Goal_3;
         import com.example.coachingapp.Goals.Goal_DisplaySummary;
-        import com.example.coachingapp.Goals.Goal_Question_4;
-        import com.example.coachingapp.Goals.Goal_Question_5;
 
 
 public class SplashScreen extends AppCompatActivity {
