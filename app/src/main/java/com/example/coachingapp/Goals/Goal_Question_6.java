@@ -67,7 +67,7 @@ public class Goal_Question_6 extends AppCompatActivity implements NavigationView
 
 
         mLayout = findViewById(R.id.steps_layout_layout);
-        editText = findViewById(R.id.title_1);
+        editText = findViewById(R.id.tvDisplayGoal);
 
 
 
