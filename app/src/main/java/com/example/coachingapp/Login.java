@@ -103,7 +103,7 @@ public class Login extends AppCompatActivity {
                         //UserDashboard
                         if (mAuth.getCurrentUser().isEmailVerified()){
 
-                            startActivity(new Intent(Login.this, Goal_Question_5.class));
+                            startActivity(new Intent(Login.this, UserDashboard.class));
 
                             Toast.makeText(Login.this, "Login Successful", Toast.LENGTH_SHORT ).show();
 

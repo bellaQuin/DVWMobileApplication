@@ -13,6 +13,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
+import com.example.coachingapp.ResilienceandCopingMechanisms.ResilienceMain;
 import com.example.coachingapp.WebBlog.DashboardBlog;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
@@ -120,6 +121,12 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
 
     public void btn_btn_btn(View view) {
         Intent intent = new Intent(UserDashboard.this, QuickCoachingOptions.class);
+        startActivity(intent);
+    }
+
+    public void btnResilience(View view) {
+
+        Intent intent = new Intent(UserDashboard.this, ResilienceMain.class);
         startActivity(intent);
     }
 }
