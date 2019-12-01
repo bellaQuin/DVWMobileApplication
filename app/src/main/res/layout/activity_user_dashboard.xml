@@ -141,7 +141,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:layout_centerVertical="true"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="8dp"
                     android:fontFamily="@font/montserrat"
                     android:gravity="center"
                     android:text="@string/User_Dashboard_Text_One"
@@ -153,10 +153,11 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
+
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/btn_begin_Quick_Coaching"
-                android:layout_width="0dp"
-                android:layout_height="159dp"
+                android:layout_width="161dp"
+                android:layout_height="118dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="5dp"
                 android:background="#edf6f7"
@@ -169,8 +170,8 @@
 
                 <ImageView
                     android:id="@+id/imageLightBulb"
-                    android:layout_width="87dp"
-                    android:layout_height="79dp"
+                    android:layout_width="67dp"
+                    android:layout_height="63dp"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="32dp"
@@ -185,8 +186,8 @@
                     app:layout_constraintVertical_bias="0.028" />
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="122dp"
+                    android:layout_height="44dp"
                     android:layout_below="@id/imageLightBulb"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentEnd="true"
@@ -199,7 +200,7 @@
                     android:text="Quick \n Coaching"
                     android:textAlignment="center"
                     android:textAllCaps="true"
-                    android:textSize="20dp"
+                    android:textSize="18sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -209,12 +210,11 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-
             <androidx.constraintlayout.widget.ConstraintLayout
 
                 android:id="@+id/constraintLayout"
-                android:layout_width="0dp"
-                android:layout_height="159dp"
+                android:layout_width="158dp"
+                android:layout_height="118dp"
                 android:layout_marginStart="5dp"
                 android:layout_marginEnd="20dp"
                 android:background="#edf6f7"
@@ -227,8 +227,8 @@
 
                 <ImageView
                     android:id="@+id/imageFeedback"
-                    android:layout_width="87dp"
-                    android:layout_height="79dp"
+                    android:layout_width="69dp"
+                    android:layout_height="59dp"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="32dp"
@@ -243,8 +243,8 @@
                     app:layout_constraintVertical_bias="0.038" />
 
                 <TextView
-                    android:layout_width="168dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="146dp"
+                    android:layout_height="44dp"
                     android:layout_below="@id/imageFeedback"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentEnd="true"
@@ -257,7 +257,7 @@
                     android:text="Community \nhelp Center"
                     android:textAlignment="center"
                     android:textAllCaps="true"
-                    android:textSize="20dp"
+                    android:textSize="18sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -270,16 +270,18 @@
 
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="321dp"
-                android:layout_height="125dp"
+                android:layout_width="0dp"
+                android:layout_height="121dp"
                 android:layout_marginStart="20dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="20dp"
-                android:background="#edf6f7"
+                android:layout_marginBottom="10dp"
                 android:clickable="true"
                 android:onClick="btnResilience"
+                android:background="#edf6f7"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.7"
+                app:layout_constraintHorizontal_bias="0.523"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
 
@@ -287,42 +289,45 @@
                 <ImageView
 
                     android:id="@+id/imageView2"
-                    android:layout_width="104dp"
-                    android:layout_height="85dp"
+                    android:layout_width="100dp"
+                    android:layout_height="86dp"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="32dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="50dp"
-                    android:background="@drawable/iconstress"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/ic_meditation"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/textView5"
+                    app:layout_constraintHorizontal_bias="0.171"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.157" />
+                    app:layout_constraintVertical_bias="0.641" />
 
                 <TextView
                     android:id="@+id/textView5"
-                    android:layout_width="168dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="189dp"
+                    android:layout_height="75dp"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentBottom="true"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginEnd="32dp"
-                    android:layout_marginBottom="36dp"
+                    android:layout_marginBottom="10dp"
                     android:fontFamily="@font/montserrat"
-                    android:text="Reiliemce and \ncoping mechanisms"
+                    android:text="Resilience and \ncoping mechanisms"
                     android:textAlignment="center"
                     android:textAllCaps="true"
                     android:textSize="18dp"
                     android:textStyle="bold"
+
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-
-                    app:layout_constraintHorizontal_bias="0.978"
-                    app:layout_constraintStart_toEndOf="@+id/imageView2"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.972" />
+                    app:layout_constraintHorizontal_bias="0.714"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
