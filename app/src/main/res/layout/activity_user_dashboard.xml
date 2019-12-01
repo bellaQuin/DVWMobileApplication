@@ -276,6 +276,8 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="20dp"
                 android:background="#edf6f7"
+                android:clickable="true"
+                android:onClick="btnResilience"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.7"
                 app:layout_constraintStart_toStartOf="parent"

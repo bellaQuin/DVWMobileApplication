@@ -227,6 +227,11 @@ public class Goal_DisplaySummary extends AppCompatActivity implements Navigation
     }
 
 
+    private void sentMail(){
+
+    }
+
+
 
 
 
