@@ -55,15 +55,15 @@
 
                             <TextView
                                 android:id="@+id/textView6"
-                                android:layout_width="264dp"
-                                android:layout_height="169dp"
+                                android:layout_width="237dp"
+                                android:layout_height="139dp"
                                 android:layout_marginStart="24dp"
-                                android:layout_marginTop="40dp"
+                                android:layout_marginTop="44dp"
                                 android:layout_marginEnd="8dp"
                                 android:fontFamily="@font/montserrat"
                                 android:text="Thinking about your plan, rate how likely is it to happen"
                                 android:textColor="@android:color/white"
-                                android:textSize="29dp"
+                                android:textSize="24sp"
                                 app:layout_constraintEnd_toStartOf="@+id/imageView2"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent" />
@@ -92,15 +92,16 @@
 
                             <TextView
                                 android:id="@+id/unlikely"
-                                android:layout_width="wrap_content"
+                                android:layout_width="130dp"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="20dp"
-                                android:layout_marginTop="88dp"
+                                android:layout_marginTop="92dp"
                                 android:layout_marginEnd="262dp"
                                 android:fontFamily="@font/montserrat"
                                 android:text="Very unlikely "
                                 android:textSize="20dp"
                                 app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="1.0"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -204,10 +205,10 @@
 
                             <TextView
                                 android:id="@+id/likely"
-                                android:layout_width="wrap_content"
+                                android:layout_width="104dp"
                                 android:layout_height="wrap_content"
                                 android:layout_alignParentRight="true"
-                                android:layout_marginEnd="16dp"
+                                android:layout_marginEnd="32dp"
                                 android:fontFamily="@font/montserrat"
                                 android:text="Very likely "
                                 android:textSize="20dp"

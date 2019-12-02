@@ -45,15 +45,14 @@
             >
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="25dp"
-                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:fontFamily="@font/montserrat"
                 android:gravity="left"
+                android:text=" Are you sure you have covered all the steps you need in your road map?”"
+                android:textColor="@android:color/white"
 
-                android:text=" Are you sure you have covered all the steps you need in your road map?”"/>
-
+                android:textSize="24sp" />
 
 
         </RelativeLayout>
@@ -73,11 +72,10 @@
             android:id="@+id/thinking_2">
 
 
-
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="90dp"
-                android:background="@drawable/question"/>
+                android:layout_height="96dp"
+                android:background="@drawable/question" />
 
         </RelativeLayout>
 
@@ -91,17 +89,15 @@
             android:id="@+id/thinking_3">
 
 
-
             <TextView
+                android:id="@+id/txt_rd_checkpoint_pg_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Rd_map_checkpoint"
-                android:textSize="26dp"
                 android:layout_marginLeft="40dp"
-                android:textAlignment="center"
                 android:layout_marginRight="40dp"
-                android:id="@+id/txt_rd_checkpoint_pg_2"
-                />
+                android:text="@string/Rd_map_checkpoint"
+                android:textAlignment="center"
+                android:textSize="24sp" />
 
 
 

@@ -5,16 +5,16 @@
     android:background="#b6e1df">
 
     <TextView
+        android:id="@+id/txt_dialog_box_one_1"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/montserrat_bold"
         android:text="Are you sure this is the actual issue?"
         android:textColor="@android:color/white"
-        android:fontFamily="@font/montserrat_bold"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="10dp"
-        android:textSize="20dp"
-        android:id="@+id/txt_dialog_box_one_1"/>
+        android:textSize="20dp" />
 
     <TextView
         android:layout_width="wrap_content"
