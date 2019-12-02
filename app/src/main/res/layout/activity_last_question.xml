@@ -18,36 +18,39 @@
             layout="@layout/nav_toolbar"
             android:id="@+id/toolbar"/>
 
+
         <TextView
             android:id="@+id/txt_1"
-            android:layout_width="411dp"
-            android:layout_height="54dp"
+            android:layout_width="327dp"
+            android:layout_height="62dp"
             android:layout_marginStart="32dp"
+            android:layout_marginTop="40dp"
             android:layout_marginEnd="32dp"
             android:fontFamily="@font/montserrat"
             android:text="When will you take your first step to make this goal a reality?"
             android:textColor="@android:color/white"
-            android:textSize="20dp"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
-
         <TextView
             android:id="@+id/txt_3"
-            android:layout_width="411dp"
-            android:layout_height="179dp"
+            android:layout_width="350dp"
+            android:layout_height="177dp"
             android:layout_below="@id/txt_1"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="32dp"
             android:fontFamily="@font/montserrat"
+            android:gravity="center"
             android:text="@string/Last_Question"
             android:textColor="#326b6f"
-            android:textSize="20dp"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.523"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txt_1" />
 
@@ -57,7 +60,7 @@
 
             android:layout_height="80dp"
             android:layout_centerInParent="true"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="32dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="32dp"
             app:layout_constraintEnd_toEndOf="parent"

@@ -61,16 +61,17 @@
                 android:clickable="true"/>
 
             <TextView
+                android:id="@+id/dialog_box_help_paragraph_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/DialogBoxGoalHelp_text_2"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:fontFamily="@font/montserrat"
-                android:textColor="#ffff"
-                android:textSize="20dp"
                 android:layout_below="@id/dialog_box_help_paragraph_2"
-                android:id="@+id/dialog_box_help_paragraph_3"/>
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-1dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/DialogBoxGoalHelp_text_2"
+                android:textColor="#ffff"
+                android:textSize="20dp" />
 
             <ImageView
                 android:layout_width="100dp"

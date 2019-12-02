@@ -35,9 +35,14 @@
 
 
                 <ScrollView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="0dp">
+                    android:layout_width="413dp"
+                    android:layout_height="582dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
@@ -72,17 +77,20 @@
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/constraintLayout9"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_width="350dp"
+                            android:layout_height="390dp"
+                            android:layout_marginStart="24dp"
+                            android:layout_marginEnd="24dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.133"
+                            app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/constraintLayout5">
 
                             <TextView
                                 android:id="@+id/ask_your_self_pg_1"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="20dp"
-                                android:layout_marginEnd="20dp"
+                                android:layout_width="335dp"
+                                android:layout_height="41dp"
+                                android:layout_marginTop="10dp"
                                 android:fontFamily="@font/montserrat"
                                 android:text="@string/Ask_your_self_pg_1"
                                 android:textColor="@android:color/holo_red_dark"
@@ -94,83 +102,87 @@
 
                             <TextView
                                 android:id="@+id/ask_your_self_pg_2"
-                                android:layout_width="356dp"
-                                android:layout_height="47dp"
+                                android:layout_width="329dp"
+                                android:layout_height="46dp"
                                 android:layout_below="@id/ask_your_self_pg_1"
                                 android:layout_marginStart="20dp"
-                                android:layout_marginTop="15dp"
+                                android:layout_marginTop="10dp"
                                 android:layout_marginEnd="20dp"
                                 android:fontFamily="@font/montserrat"
                                 android:text="@string/Ask_your_self_pg_2"
                                 android:textColor="@android:color/holo_red_dark"
                                 android:textSize="16dp"
                                 app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.722"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toBottomOf="@+id/ask_your_self_pg_1" />
 
                             <TextView
                                 android:id="@+id/ask_your_self_pg_3"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
+                                android:layout_width="335dp"
+                                android:layout_height="47dp"
                                 android:layout_below="@id/ask_your_self_pg_2"
                                 android:layout_marginStart="20dp"
-                                android:layout_marginTop="15dp"
+                                android:layout_marginTop="10dp"
                                 android:layout_marginEnd="20dp"
                                 android:fontFamily="@font/montserrat"
                                 android:text="@string/Ask_your_self_pg_3"
                                 android:textColor="@android:color/holo_red_dark"
                                 android:textSize="16dp"
                                 app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.56"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toBottomOf="@+id/ask_your_self_pg_2" />
 
+
                             <TextView
                                 android:id="@+id/ask_your_self_pg_4"
-                                android:layout_width="363dp"
-                                android:layout_height="81dp"
+                                android:layout_width="332dp"
+                                android:layout_height="80dp"
                                 android:layout_below="@id/ask_your_self_pg_3"
                                 android:layout_marginStart="20dp"
-                                android:layout_marginTop="15dp"
+                                android:layout_marginTop="10dp"
                                 android:layout_marginEnd="20dp"
                                 android:fontFamily="@font/montserrat"
                                 android:text="@string/Ask_your_self_pg_4"
                                 android:textColor="@android:color/holo_red_dark"
                                 android:textSize="16dp"
                                 app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintHorizontal_bias="0.34"
+                                app:layout_constraintHorizontal_bias="0.636"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toBottomOf="@+id/ask_your_self_pg_3" />
 
-
                             <TextView
                                 android:id="@+id/ask_your_self_pg_5"
-                                android:layout_width="364dp"
-                                android:layout_height="68dp"
+                                android:layout_width="355dp"
+                                android:layout_height="72dp"
                                 android:layout_below="@id/ask_your_self_pg_4"
                                 android:layout_marginStart="20dp"
-                                android:layout_marginTop="15dp"
+                                android:layout_marginTop="10dp"
                                 android:layout_marginEnd="20dp"
                                 android:fontFamily="@font/montserrat"
                                 android:text="@string/Ask_your_self_pg_5"
                                 android:textColor="@android:color/holo_red_dark"
                                 android:textSize="16dp"
                                 app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.311"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toBottomOf="@+id/ask_your_self_pg_4" />
 
                             <TextView
                                 android:id="@+id/ask_your_self_pg_6"
-                                android:layout_width="365dp"
-                                android:layout_height="52dp"
+                                android:layout_width="331dp"
+                                android:layout_height="46dp"
                                 android:layout_below="@id/ask_your_self_pg_5"
                                 android:layout_marginStart="20dp"
-                                android:layout_marginTop="15dp"
+                                android:layout_marginTop="10dp"
                                 android:layout_marginEnd="20dp"
                                 android:fontFamily="@font/montserrat"
                                 android:text="@string/Ask_your_self_pg_6"
                                 android:textColor="@android:color/holo_red_dark"
                                 android:textSize="16dp"
                                 app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.761"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toBottomOf="@+id/ask_your_self_pg_5" />
 
@@ -179,46 +191,49 @@
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="414dp"
-                            android:layout_height="wrap_content"
+                            android:layout_height="140dp"
                             app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/constraintLayout9">
 
                             <Button
                                 android:id="@+id/btn_help_overwhelming"
-                                android:layout_width="200dp"
-                                android:layout_height="60dp"
+                                android:layout_width="197dp"
+                                android:layout_height="48dp"
                                 android:layout_centerHorizontal="true"
                                 android:layout_marginStart="20dp"
-                                android:layout_marginTop="9dp"
                                 android:layout_marginEnd="20dp"
                                 android:background="@drawable/button_shape"
                                 android:fontFamily="@font/montserrat"
                                 android:onClick="btn_help_overwhelming"
                                 android:text="HELP THIS IS A BIT OVERWHELMING!"
                                 android:textColor="#326b6f"
-                                android:textSize="17dp"
+                                android:textSize="14sp"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent" />
 
                             <Button
-                                android:layout_width="200dp"
-                                android:layout_height="wrap_content"
+                                android:layout_width="199dp"
+                                android:layout_height="39dp"
                                 android:layout_below="@id/btn_help_overwhelming"
                                 android:layout_centerHorizontal="true"
                                 android:layout_marginStart="20dp"
-                                android:layout_marginTop="10dp"
+                                android:layout_marginTop="5dp"
                                 android:layout_marginEnd="20dp"
+                                android:layout_marginBottom="8dp"
                                 android:background="@drawable/button_shape"
                                 android:fontFamily="@font/montserrat"
                                 android:onClick="btn_next"
                                 android:text="NEXT"
                                 android:textColor="#326b6f"
                                 android:textSize="20dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/btn_help_overwhelming" />
+                                app:layout_constraintTop_toBottomOf="@+id/btn_help_overwhelming"
+                                app:layout_constraintVertical_bias="0.0" />
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
