@@ -40,9 +40,9 @@ public class Slide_13 extends AppCompatActivity {
     }
 
 
-    public void btn_resilience_question_one(View view) {
+    public void btn_next(View view) {
         if (editText.getText().toString().equals("")) {
-            Toast.makeText(getApplicationContext(),"Please enter something...", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "Please enter something...", Toast.LENGTH_SHORT).show();
         } else {
             addToFirebase();
         }
@@ -51,16 +51,18 @@ public class Slide_13 extends AppCompatActivity {
     private void addToFirebase() {
         String input_1 = editText.getText().toString().trim();
 
+
         if (user != null) {
 
-            Resilience_1 resilience = new Resilience_1(input_1);
+            Resilience_1 resilience_1 = new Resilience_1(input_1);
             String id = user.getUid();
-//            myRef.child("users").child(id).push().setValue(issues);
-            myRef.child("users").child(id).child("Resilience").child("resilience_1").setValue(resilience);
+
+            myRef.child("users").child(id).child("Resilience").child("resilience_1").setValue(resilience_1);
 
             Toast.makeText(this, "Information Saved", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(Slide_13.this, Slide_14.class);
             startActivity(intent);
+
 
         }
     }

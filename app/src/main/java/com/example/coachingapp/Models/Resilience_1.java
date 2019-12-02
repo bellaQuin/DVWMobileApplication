@@ -1,6 +1,7 @@
 package com.example.coachingapp.Models;
 
 public class Resilience_1 {
+
     public String ResilienceInput_1;
 
     public Resilience_1(){

@@ -66,37 +66,37 @@ public class Slide_12_Behavioural extends AppCompatActivity {
             String id = user.getUid();
 
             if(check_1.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_9").setValue("Constantly worrying");
+                myRef.child("users").child(id).child("Resilience").child("resilience_9").child("resilience_9_1").setValue("Constantly worrying");
             }
             if(check_2.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_9").setValue("Avoiding situations that are");
+                myRef.child("users").child(id).child("Resilience").child("resilience_9").child("resilience_9_2").setValue("Avoiding situations that are");
             }
             if(check_3.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_9").setValue("Troubling you");
+                myRef.child("users").child(id).child("Resilience").child("resilience_9").child("resilience_9_3").setValue("Troubling you");
             }
             if(check_4.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_9").setValue("Snapping at people");
+                myRef.child("users").child(id).child("Resilience").child("resilience_9").child("resilience_9_4").setValue("Snapping at people");
             }
             if(check_5.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_9").setValue("Biting your nails");
+                myRef.child("users").child(id).child("Resilience").child("resilience_9").child("resilience_9_5").setValue("Biting your nails");
             }
             if(check_6.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_9").setValue("Picking at your skin");
+                myRef.child("users").child(id).child("Resilience").child("resilience_9").child("resilience_9_6").setValue("Picking at your skin");
             }
             if(check_7.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_9").setValue("Unable to concentrate");
+                myRef.child("users").child(id).child("Resilience").child("resilience_9").child("resilience_9_7").setValue("Unable to concentrate");
             }
             if(check_8.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_9").setValue("Eating too much or too little");
+                myRef.child("users").child(id).child("Resilience").child("resilience_9").child("resilience_9_8").setValue("Eating too much or too little");
             }
             if(check_9.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_9").setValue("Smoking or drinking alcohol");
+                myRef.child("users").child(id).child("Resilience").child("resilience_9").child("resilience_9_9").setValue("Smoking or drinking alcohol");
             }
             if(check_10.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_9").setValue("Being tearful or crying");
+                myRef.child("users").child(id).child("Resilience").child("resilience_9").child("resilience_9_10").setValue("Being tearful or crying");
             }
             if(check_11.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_9").setValue("Restless, like you can't sit still");
+                myRef.child("users").child(id).child("Resilience").child("resilience_9").child("resilience_9_11").setValue("Restless, like you can't sit still");
             }
 
             Toast.makeText(this, "Information Saved", Toast.LENGTH_SHORT).show();

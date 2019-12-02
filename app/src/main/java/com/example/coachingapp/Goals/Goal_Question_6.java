@@ -50,13 +50,7 @@ public class Goal_Question_6 extends AppCompatActivity implements NavigationView
     FirebaseUser user;
     EditText ed;
 
-
-
     int len;
-
-
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,12 +58,8 @@ public class Goal_Question_6 extends AppCompatActivity implements NavigationView
         setContentView(R.layout.activity_goal__question_6);
         nav();
 
-
-
         mLayout = findViewById(R.id.steps_layout_layout);
-        editText = findViewById(R.id.title_1);
-
-
+        editText = findViewById(R.id.edit_text_box_2);
 
         firebaseAuth = FirebaseAuth.getInstance();
         user = firebaseAuth.getCurrentUser();
@@ -77,15 +67,10 @@ public class Goal_Question_6 extends AppCompatActivity implements NavigationView
         database = FirebaseDatabase.getInstance();
 
 
-
-
        // Query query =myRef.child("users").child(user.getUid()).child("Goals").child("Steps").child("answers");
 
          Query query1 = myRef.child("users").child(user.getUid());
         Query query2 =  myRef.child("users").child(user.getUid()).child("Goals").child("Hazard_Steps").child("hazard");
-
-
-
 
 
 //query..
@@ -177,16 +162,7 @@ public class Goal_Question_6 extends AppCompatActivity implements NavigationView
 //                    ed.setCompoundDrawablesWithIntrinsicBounds(R.drawable.mark, 0,0,0);
 //
 //
-//
-//
-//
-//
-//
-//
 //                }
-
-
-
 
             }
 
@@ -273,10 +249,6 @@ public class Goal_Question_6 extends AppCompatActivity implements NavigationView
         Intent intent = new Intent(Goal_Question_6.this, Goal_Question_7.class);
         startActivity(intent);
     }
-
-
-
-
 
 }
 
