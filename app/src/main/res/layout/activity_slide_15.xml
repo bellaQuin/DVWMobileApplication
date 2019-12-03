@@ -71,18 +71,19 @@
                         android:textColor="#000"
                         android:text="It's vital to the respond to a\n situation by taking short term\n action, to keep yourself safe\n and think clearly."
                         />
+
                     <TextView
-                        android:fontFamily="@font/montserrat"
+                        android:id="@+id/color_text_2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:textSize="20dp"
-                        android:id="@+id/color_text_2"
-                        android:layout_marginTop="10dp"
                         android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
                         android:layout_marginRight="20dp"
+                        android:fontFamily="@font/montserrat"
                         android:gravity="center"
                         android:text="Under stress our brain releases\n a chemical called cortisol."
-                        android:textColor="#000"/>
+                        android:textColor="#000"
+                        android:textSize="20dp" />
 
                     <TextView
                         android:fontFamily="@font/montserrat"
@@ -122,19 +123,33 @@
                         android:text="But taking take short term\n action we can think clearly- to\n think about solving the\n problem that is causing us\n stress. "
                         />
 
-                    <Button
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
 
-                        android:id="@+id/next"
-                        android:layout_width="200dp"
-                        android:layout_height="60dp"
-                        android:layout_marginLeft="100dp"
-                        android:layout_marginTop="20dp"
-                        android:background="#ffffff"
-                        android:fontFamily="@font/montserrat"
-                        android:onClick="btn_next"
-                        android:text="Next"
-                        android:textColor="#84c2c8"
-                        android:textSize="20dp" />
+
+                        <Button
+
+                            android:id="@+id/next"
+                            android:layout_width="200dp"
+                            android:layout_height="60dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="#ffffff"
+                            android:fontFamily="@font/montserrat"
+                            android:onClick="btn_next"
+                            android:text="Next"
+                            android:textColor="#84c2c8"
+                            android:textSize="20dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
 
                 </LinearLayout>
 

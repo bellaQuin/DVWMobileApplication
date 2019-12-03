@@ -225,6 +225,7 @@ public class HomeFragment extends Fragment {
         inflater.inflate(R.menu.blog_menu, menu);
 
         MenuItem item = menu.findItem(R.id.action_search);
+
         SearchView searchView = (SearchView) MenuItemCompat.getActionView(item);
 
 

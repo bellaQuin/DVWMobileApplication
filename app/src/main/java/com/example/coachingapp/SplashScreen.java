@@ -16,9 +16,22 @@ package com.example.coachingapp;
         import com.example.coachingapp.Goals.Goal_2;
         import com.example.coachingapp.Goals.Goal_3;
         import com.example.coachingapp.Goals.Goal_DisplaySummary;
+        import com.example.coachingapp.ResilienceandCopingMechanisms.ResilienceMain;
+        import com.example.coachingapp.ResilienceandCopingMechanisms.Slide_12_Behavioural;
+        import com.example.coachingapp.ResilienceandCopingMechanisms.Slide_13;
+        import com.example.coachingapp.ResilienceandCopingMechanisms.Slide_15;
+        import com.example.coachingapp.ResilienceandCopingMechanisms.Slide_16;
+        import com.example.coachingapp.ResilienceandCopingMechanisms.Slide_16_choices;
+        import com.example.coachingapp.ResilienceandCopingMechanisms.Slide_5;
+        import com.example.coachingapp.ResilienceandCopingMechanisms.Slide_8;
+        import com.example.coachingapp.ResilienceandCopingMechanisms.Slide_9_DNA;
+        import com.example.coachingapp.ResilienceandCopingMechanisms.resilience_Screen21;
+        import com.example.coachingapp.ResilienceandCopingMechanisms.resilience_Screen24;
+        import com.example.coachingapp.ResilienceandCopingMechanisms.resilience_Screen25;
+        import com.example.coachingapp.ResilienceandCopingMechanisms.resilience_Screen51;
 
 
-public class SplashScreen extends AppCompatActivity {
+public class SplashScreen extends AppCompatActivity  {
 
     Button splashScreenButton;
 
@@ -39,8 +52,8 @@ public class SplashScreen extends AppCompatActivity {
     }
 
     public void btn_splash_screen_begin(View view) {
-        Intent intent = new Intent(SplashScreen.this, Login.class);
+        Intent intent = new Intent(SplashScreen.this,  Login.class);
         startActivity(intent);
 
     }
-}
+            }

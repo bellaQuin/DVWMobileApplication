@@ -10,6 +10,7 @@ import android.widget.ImageButton;
 import android.widget.SearchView;
 
 import com.example.coachingapp.R;
+import com.example.coachingapp.ResilienceandCopingMechanisms.resilience_Screen25;
 import com.example.coachingapp.WebBlog.Fragments.HomeFragment;
 
 import com.example.coachingapp.WebBlog.Fragments.UserFragment;
@@ -32,6 +33,8 @@ public class DashboardBlog extends AppCompatActivity {
     DatabaseReference myRef;
     FirebaseUser user;
     ImageButton searchBtn;
+    Intent intent;
+
 
 //    ActionBar actionBar;
 ////    android.app.ActionBar bar;
@@ -52,6 +55,11 @@ public class DashboardBlog extends AppCompatActivity {
 
 
         actionBar = getSupportActionBar();
+
+         intent = getIntent();
+        intent.getStringExtra("move");
+
+
 
 
 
@@ -118,9 +126,33 @@ public class DashboardBlog extends AppCompatActivity {
 
             };
 
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//
+//        MenuItem item1 = menu.findItem(R.id.arrow_back);
+//        if (intent.equals("move")){
+//
+//            item1.setVisible(true);
+//            item1.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+//                @Override
+//                public boolean onMenuItemClick(MenuItem item) {
+//                    Intent back = new Intent(DashboardBlog.this, resilience_Screen25.class);
+//                    startActivity(back);
+//                    return true;
+//                }
+//            });
+//
+//
+//
+//
+//
+//        }
+//
+//        return super.onCreateOptionsMenu(menu);
+//    }
 
 
-//    private void searchBlogs(String searchQuery){
+    //    private void searchBlogs(String searchQuery){
 //
 //
 //    }

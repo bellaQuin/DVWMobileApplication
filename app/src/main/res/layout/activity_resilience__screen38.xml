@@ -75,74 +75,74 @@
                     android:layout_marginTop="20dp"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="#fff"
-                        android:textSize="18sp"
-                        android:background="#424242"
-                        android:text="    Breathing and pulse rate"
-                        />
+
 
                     <CheckBox
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Postive images"
-                        android:id="@+id/check_1"
+                        android:id="@+id/check_actionPlan_1"
                         />
                     <CheckBox
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Music"
-                        android:id="@+id/check_2"
+                        android:id="@+id/check_actionPlan_2"
                         />
                     <CheckBox
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Videos"
-                        android:id="@+id/check_3"
+                        android:id="@+id/check_actionPlan_3"
                         />
                     <CheckBox
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Exercise"
-                        android:id="@+id/check_4"
+                        android:id="@+id/check_actionPlan_4"
                         />
                     <CheckBox
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Stance(physicality)"
-                        android:id="@+id/check_5"
+                        android:id="@+id/check_actionPlan_5"
                         />
                     <CheckBox
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Gratefulness &amp; positive thinking"
-                        android:id="@+id/check_6"
+                        android:id="@+id/check_actionPlan_6"
                         />
                     <CheckBox
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Using nature"
-                        android:id="@+id/check_7"
+                        android:id="@+id/check_actionPlan_7"
                         />
                     <CheckBox
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Saying no"
-                        android:id="@+id/check_8"
+                        android:id="@+id/check_actionPlan_8"
                         />
                     <CheckBox
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Meditation and mindfulness"
-                        android:id="@+id/check_9"
+                        android:id="@+id/check_actionPlan_9"
                         />
                     <CheckBox
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Purpose and meaning"
-                        android:id="@+id/check_10"
+                        android:id="@+id/check_actionPlan_10"
+                        />
+
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Breathing and pulse rate"
+                        android:id="@+id/check_actionPlan_11"
                         />
 
                     <LinearLayout
@@ -151,33 +151,52 @@
                         android:layout_gravity="center"
                         android:orientation="horizontal">
 
-                        <Button
-                            android:id="@+id/calender"
-                            android:layout_width="150dp"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="25dp"
-                            android:layout_marginTop="20dp"
-                            android:background="#ffffff"
-                            android:layout_gravity="center"
-                            android:fontFamily="@font/montserrat"
-                            android:onClick="btn_add_calender"
-                            android:text="Add to my\n calendar"
-                            android:textColor="#84c2c8"
-                            android:textSize="20dp" />
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
 
-                        <Button
-                            android:id="@+id/next"
-                            android:layout_width="150dp"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="30dp"
-                            android:layout_marginTop="20dp"
-                            android:background="#ffffff"
-                            android:layout_gravity="center"
-                            android:fontFamily="@font/montserrat"
-                            android:onClick="btn_next"
-                            android:text="Next"
-                            android:textColor="#84c2c8"
-                            android:textSize="20dp" />
+
+                            <Button
+                                android:id="@+id/calender"
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginBottom="20dp"
+                                android:background="#ffffff"
+                                android:fontFamily="@font/montserrat"
+                                android:onClick="btn_add_calender"
+                                android:text="Add to my\n calendar"
+                                android:textColor="#84c2c8"
+                                android:textSize="20dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/next"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <Button
+                                android:id="@+id/next"
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginBottom="20dp"
+                                android:background="#ffffff"
+                                android:fontFamily="@font/montserrat"
+                                android:onClick="btn_next"
+                                android:text="Next"
+                                android:textColor="#84c2c8"
+                                android:textSize="20dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toEndOf="@+id/calender"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
                     </LinearLayout>
 
                 </LinearLayout>

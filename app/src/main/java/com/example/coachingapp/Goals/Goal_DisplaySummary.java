@@ -216,8 +216,6 @@ public class Goal_DisplaySummary extends AppCompatActivity implements Navigation
 //
 //        }
 //
-//        pdfDocument.close();
-
 
     //}
 
@@ -266,44 +264,6 @@ public class Goal_DisplaySummary extends AppCompatActivity implements Navigation
 
 
 
-    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
-    private void createPdf() throws FileNotFoundException, DocumentException {
-        File docsFile = new File(Environment.getExternalStorageDirectory().getPath() + "/Documents");
-        if (!docsFile.exists()){
-            docsFile.mkdirs();
-            Log.i( "New PDF", "Create a new directory for PDF");
-
-        }
-
-        String pdfName = "GiftItem.pdf";
-        pdfFile = new File(docsFile.getAbsolutePath(), pdfName);
-        OutputStream outputStream = new FileOutputStream(pdfFile);
-        Document document = new Document(PageSize.A4);
-
-        PdfWriter.getInstance(document, outputStream);
-        String myString = editText.getText().toString();
-        Paragraph p = new Paragraph(myString);
-        document.open();
-
-
-
-        document.add(p);
-        document.close();
-
-//        PdfDocument.PageInfo pageInfo = new PdfDocument.PageInfo.Builder(300, 600, 1).create();
-//        pdfDocument.setPageSize(300, 600).... getCanvas().drawText(displayGoalString,x, y, paint);
-
-       // PdfDocument.Page myPage =  pdfDocument.startPage(myPageInfo);
-
-
-//        Font f = new Font(Font.FontFamily.TIMES_ROMAN, 30,0f, Font.UNDERLINE, BaseColor.BLACK);
-
-
-
-
-
-
-    }
 
 
     @Override

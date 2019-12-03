@@ -92,244 +92,489 @@
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent">
 
-                                <View
-                                    android:id="@+id/view"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="4dp"
-                                    android:layout_marginTop="10dp"
-                                    android:background="@android:color/white"
-                                    app:layout_constraintBottom_toBottomOf="parent"
-                                    app:layout_constraintEnd_toEndOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/view2" />
-
-                                <View
-                                    android:id="@+id/view2"
-                                    android:layout_width="4dp"
-                                    android:layout_height="635dp"
-                                    android:background="@android:color/white"
-                                    app:layout_constraintEnd_toEndOf="parent"
-                                    app:layout_constraintTop_toTopOf="parent" />
-
-
-                                <View
-                                    android:id="@+id/view3"
-                                    android:layout_width="4dp"
-                                    android:layout_height="635dp"
-
-                                    android:background="@android:color/white"
-                                    app:layout_constraintBottom_toTopOf="@+id/view"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toTopOf="parent"
-                                    app:layout_constraintVertical_bias="0.62" />
-
-                                <View
-                                    android:id="@+id/bar_left"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="3dp"
-                                    android:layout_alignParentBottom="true"
-                                    android:layout_marginStart="4dp"
-                                    android:layout_marginEnd="4dp"
-                                    android:background="@android:color/white"
-                                    app:layout_constraintEnd_toStartOf="@+id/view2"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toTopOf="parent" />
-
-
-                                <TextView
-                                    android:id="@+id/txt_2"
-                                    android:layout_width="136dp"
-                                    android:layout_height="22dp"
-                                    android:layout_alignParentTop="true"
-                                    android:layout_alignParentEnd="true"
-                                    android:layout_marginTop="4dp"
-                                    android:fontFamily="@font/montserrat"
-                                    android:text="Congratulations!"
-                                    android:textSize="16sp"
-                                    android:textStyle="bold"
-                                    app:layout_constraintEnd_toEndOf="parent"
-                                    app:layout_constraintHorizontal_bias="0.498"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toTopOf="parent" />
-
-
-                                <TextView
-                                    android:id="@+id/txt_3"
-                                    android:layout_width="119dp"
-                                    android:layout_height="22dp"
-                                    android:layout_below="@+id/txt_2"
-                                    android:layout_centerHorizontal="true"
-                                    android:layout_marginStart="99dp"
-                                    android:layout_marginTop="10dp"
-                                    android:layout_marginEnd="104dp"
-                                    android:fontFamily="@font/montserrat_bold"
-                                    android:text="@string/Summary_1"
-                                    android:textAlignment="center"
-                                    android:textSize="16dp"
-                                    android:textStyle="bold"
-                                    app:layout_constraintEnd_toStartOf="@+id/view3"
-                                    app:layout_constraintStart_toEndOf="@+id/view2"
-                                    app:layout_constraintTop_toBottomOf="@+id/txt_2" />
-
-                                <TextView
-                                    android:id="@+id/display_goal"
-                                    android:layout_width="wrap_content"
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="342dp"
                                     android:layout_height="wrap_content"
-                                    android:layout_below="@+id/txt_3"
-                                    android:layout_centerHorizontal="true"
-                                    android:layout_marginTop="10dp"
-                                    android:fontFamily="@font/montserrat"
-                                    android:hint="@string/Summary_1"
-                                    android:textAlignment="center"
-                                    android:textSize="16dp"
-                                    app:layout_constraintEnd_toEndOf="parent"
-                                    app:layout_constraintHorizontal_bias="0.457"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/txt_3" />
-
-                                <TextView
-                                    android:id="@+id/txt_4"
-                                    android:layout_width="276dp"
-                                    android:layout_height="46dp"
-                                    android:layout_below="@+id/display_goal"
-                                    android:layout_centerHorizontal="true"
-                                    android:layout_marginStart="10dp"
-                                    android:layout_marginTop="8dp"
-                                    android:layout_marginEnd="10dp"
-                                    android:fontFamily="@font/montserrat_bold"
-                                    android:text="@string/Summary_2_2"
-                                    android:textAlignment="center"
-                                    android:textSize="16dp"
-                                    app:layout_constraintEnd_toEndOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/display_goal" />
-
-                                <TextView
-                                    android:id="@+id/display_reason"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_below="@+id/txt_4"
-                                    android:layout_centerHorizontal="true"
-                                    android:layout_marginTop="16dp"
-                                    android:fontFamily="@font/montserrat"
-                                    android:hint="display_reason"
-                                    android:textAlignment="center"
-                                    android:textSize="16dp"
-                                    app:layout_constraintEnd_toEndOf="parent"
-                                    app:layout_constraintHorizontal_bias="0.502"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/txt_4" />
-
-                                <Button
-                                    android:id="@+id/btn_view_roadmap"
-                                    android:layout_width="163dp"
-                                    android:layout_height="61dp"
-                                    android:layout_below="@+id/display_reason"
-                                    android:layout_centerHorizontal="true"
-                                    android:layout_marginTop="22dp"
-                                    android:background="@drawable/button_shape"
-                                    android:onClick="btn_view_roadmap"
-                                    android:text="View your RoadMap Steps"
-                                    app:layout_constraintEnd_toEndOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/display_reason" />
-
-                                <Button
-                                    android:id="@+id/button"
-                                    android:layout_width="170dp"
-                                    android:layout_height="60dp"
-                                    android:layout_below="@+id/btn_view_roadmap"
-                                    android:layout_alignParentEnd="true"
                                     android:layout_marginStart="20dp"
-                                    android:layout_marginTop="8dp"
+                                    android:layout_marginTop="20dp"
                                     android:layout_marginEnd="20dp"
-                                    android:background="@drawable/button_shape"
-                                    android:onClick="btnviewroadmaphazardicon"
-                                    android:text="View  potentially difficult"
-                                    app:layout_constraintEnd_toStartOf="@+id/view2"
-                                    app:layout_constraintStart_toEndOf="@+id/view3"
-                                    app:layout_constraintTop_toBottomOf="@+id/btn_view_roadmap" />
-
-                                <TextView
-                                    android:id="@+id/display_date_tv"
-                                    android:layout_width="330dp"
-                                    android:layout_height="43dp"
-                                    android:layout_below="@+id/btn_view_roadmap"
-                                    android:layout_centerHorizontal="true"
-                                    android:layout_marginStart="32dp"
-                                    android:layout_marginTop="28dp"
-                                    android:layout_marginEnd="32dp"
-                                    android:fontFamily="@font/montserrat_bold"
-                                    android:text="You will take your first step in making this goal a reality on:"
-                                    android:textAlignment="center"
-                                    android:textSize="16sp"
+                                    android:background="@drawable/cardview_board"
                                     app:layout_constraintEnd_toEndOf="parent"
-                                    app:layout_constraintHorizontal_bias="0.936"
-                                    app:layout_constraintStart_toEndOf="@+id/view2"
-                                    app:layout_constraintTop_toBottomOf="@+id/button" />
-
-                                <TextView
-                                    android:id="@+id/display_input_date_time"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="match_parent"
-                                    android:layout_marginStart="185dp"
-                                    android:layout_marginTop="2dp"
-                                    android:layout_marginEnd="162dp"
-                                    android:fontFamily="@font/montserrat"
-                                    android:hint="date"
-                                    android:textSize="16sp"
-                                    app:layout_constraintEnd_toStartOf="@+id/view3"
-                                    app:layout_constraintStart_toEndOf="@+id/view2"
-                                    app:layout_constraintTop_toBottomOf="@+id/display_date_tv" />
-
-
-                                <TextView
-                                    android:id="@+id/display_input_date_day"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="match_parent"
-                                    android:layout_marginStart="185dp"
-                                    android:layout_marginTop="4dp"
-                                    android:layout_marginEnd="162dp"
-                                    android:fontFamily="@font/montserrat"
-                                    android:hint="date"
-                                    android:textSize="16sp"
-                                    app:layout_constraintEnd_toStartOf="@+id/view3"
-                                    app:layout_constraintStart_toEndOf="@+id/view2"
-                                    app:layout_constraintTop_toBottomOf="@+id/display_input_date_time" />
-
-                                <TextView
-                                    android:id="@+id/display_input_date_month"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="match_parent"
-                                    android:layout_below="@id/txt_3"
-                                    android:layout_marginStart="185dp"
-                                    android:layout_marginTop="3dp"
-                                    android:layout_marginEnd="144dp"
-
-                                    android:fontFamily="@font/montserrat"
-                                    android:hint="month"
-                                    android:textSize="16sp"
-                                    app:layout_constraintEnd_toStartOf="@+id/view3"
-                                    app:layout_constraintStart_toEndOf="@+id/view2"
-                                    app:layout_constraintTop_toBottomOf="@+id/display_input_date_day" />
-
-
-                                <TextView
-                                    android:id="@+id/txt_5"
-                                    android:layout_width="322dp"
-                                    android:layout_height="138dp"
-                                    android:layout_below="@id/txt_4"
-                                    android:layout_centerHorizontal="true"
-                                    android:layout_marginStart="2dp"
-                                    android:layout_marginTop="12dp"
-                                    android:fontFamily="@font/montserrat_bold"
-                                    android:text="@string/Summary_2"
-                                    android:textAlignment="center"
-                                    android:textSize="16dp"
-                                    app:layout_constraintEnd_toEndOf="parent"
-                                    app:layout_constraintHorizontal_bias="0.392"
                                     app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/display_input_date_month" />
+                                    app:layout_constraintTop_toTopOf="parent">
+
+                                    <TextView
+                                        android:id="@+id/txt_2"
+                                        android:layout_width="136dp"
+                                        android:layout_height="22dp"
+                                        android:layout_alignParentTop="true"
+                                        android:layout_alignParentEnd="true"
+                                        android:layout_marginTop="14dp"
+                                        android:fontFamily="@font/montserrat"
+                                        android:text="Congratulations!"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintHorizontal_bias="0.498"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <TextView
+                                        android:id="@+id/txt_3"
+                                        android:layout_width="119dp"
+                                        android:layout_height="22dp"
+                                        android:layout_below="@+id/txt_2"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginEnd="20dp"
+                                        android:fontFamily="@font/montserrat_bold"
+                                        android:text="@string/Summary_1"
+                                        android:textAlignment="center"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/txt_2" />
+
+                                    <TextView
+                                        android:id="@+id/display_goal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/txt_3"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginTop="10dp"
+                                        android:fontFamily="@font/montserrat"
+                                        android:hint="@string/Summary_1"
+                                        android:textAlignment="center"
+                                        android:textSize="16dp"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintHorizontal_bias="0.457"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/txt_3" />
+
+                                    <TextView
+                                        android:id="@+id/txt_4"
+                                        android:layout_width="276dp"
+                                        android:layout_height="46dp"
+                                        android:layout_below="@+id/display_goal"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginStart="10dp"
+                                        android:layout_marginTop="8dp"
+                                        android:layout_marginEnd="10dp"
+                                        android:fontFamily="@font/montserrat_bold"
+                                        android:text="@string/Summary_2_2"
+                                        android:textAlignment="center"
+                                        android:textSize="16dp"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/display_goal" />
+
+                                    <TextView
+                                        android:id="@+id/display_reason"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/txt_4"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginTop="16dp"
+                                        android:fontFamily="@font/montserrat"
+                                        android:hint="display_reason"
+                                        android:textAlignment="center"
+                                        android:textSize="16dp"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintHorizontal_bias="0.502"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/txt_4" />
+
+                                    <Button
+                                        android:id="@+id/btn_view_roadmap"
+                                        android:layout_width="163dp"
+                                        android:layout_height="61dp"
+                                        android:layout_below="@+id/display_reason"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginTop="22dp"
+                                        android:background="@drawable/button_shape"
+                                        android:onClick="btn_view_roadmap"
+                                        android:text="View your RoadMap Steps"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/display_reason" />
+
+                                    <Button
+                                        android:id="@+id/button"
+                                        android:layout_width="170dp"
+                                        android:layout_height="60dp"
+                                        android:layout_below="@+id/btn_view_roadmap"
+                                        android:layout_alignParentEnd="true"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="8dp"
+                                        android:layout_marginEnd="20dp"
+                                        android:background="@drawable/button_shape"
+                                        android:onClick="btnviewroadmaphazardicon"
+                                        android:text="View  potentially difficult"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/btn_view_roadmap" />
+
+                                    <TextView
+                                        android:id="@+id/display_date_tv"
+                                        android:layout_width="302dp"
+                                        android:layout_height="43dp"
+                                        android:layout_below="@+id/btn_view_roadmap"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginStart="30dp"
+                                        android:layout_marginTop="28dp"
+                                        android:layout_marginEnd="30dp"
+                                        android:fontFamily="@font/montserrat_bold"
+                                        android:text="You will take your first step in making this goal a reality on:"
+                                        android:textAlignment="center"
+
+                                        android:textSize="16sp"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+                                    <TextView
+                                        android:id="@+id/display_input_date_time"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="2dp"
+                                        android:layout_marginEnd="20dp"
+                                        android:fontFamily="@font/montserrat"
+                                        android:hint="date"
+                                        android:textSize="16sp"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/display_date_tv" />
+
+
+                                    <TextView
+                                        android:id="@+id/display_input_date_day"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="4dp"
+                                        android:layout_marginEnd="20dp"
+                                        android:fontFamily="@font/montserrat"
+                                        android:hint="date"
+                                        android:textSize="16sp"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/display_input_date_time" />
+
+                                    <TextView
+                                        android:id="@+id/display_input_date_month"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_below="@id/txt_3"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="3dp"
+                                        android:layout_marginEnd="20dp"
+                                        android:fontFamily="@font/montserrat"
+                                        android:hint="month"
+
+                                        android:textSize="16sp"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/display_input_date_day" />
+
+
+                                    <TextView
+                                        android:id="@+id/txt_5"
+                                        android:layout_width="258dp"
+                                        android:layout_height="201dp"
+                                        android:layout_below="@id/txt_4"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="12dp"
+                                        android:layout_marginEnd="20dp"
+                                        android:fontFamily="@font/montserrat_bold"
+                                        android:text="@string/Summary_2"
+                                        android:textAlignment="center"
+                                        android:textSize="16dp"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/display_input_date_month" />
+
+
+
+
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--                                <androidx.cardview.widget.CardView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="300dp"-->
+<!--                                    android:layout_marginStart="20dp"-->
+<!--                                    android:layout_marginEnd="20dp"-->
+<!--                                    android:layout_margin="40dp"-->
+<!--                                    android:layout_gravity="center"-->
+<!--                                    app:cardBackgroundColor="@android:color/transparent"-->
+<!--                                    app:cardElevation="0dp"-->
+<!--                                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                                    app:layout_constraintTop_toTopOf="parent">-->
+<!--                                    -->
+<!--                                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                        android:layout_width="match_parent"-->
+<!--                                        android:layout_height="match_parent"-->
+<!--                                        android:background="@drawable/cardview_board">-->
+<!--                                        -->
+<!--                                        -->
+<!--                                        -->
+<!--                                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+
+<!--                                </androidx.cardview.widget.CardView>-->
+
+<!--                                <RelativeLayout-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_marginStart="20dp"-->
+<!--                                    android:layout_marginEnd="20dp"-->
+<!--                                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                                    app:layout_constraintTop_toTopOf="parent">-->
+
+
+<!--                                    <View-->
+<!--                                        android:id="@+id/view"-->
+<!--                                        android:layout_width="match_parent"-->
+<!--                                        android:layout_height="4dp"-->
+
+<!--                                        android:layout_alignParentTop="true"-->
+<!--                                        android:background="@android:color/white" />-->
+
+<!--                                    <View-->
+<!--                                        android:id="@+id/view2"-->
+<!--                                        android:layout_width="4dp"-->
+<!--                                        android:layout_height="669dp"-->
+<!--                                        android:background="@android:color/white"-->
+<!--                                        android:layout_alignParentLeft="true"-->
+<!--                                         />-->
+
+<!--                                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                        android:layout_width="match_parent"-->
+<!--                                        android:layout_height="match_parent">-->
+
+<!--                                        <TextView-->
+<!--                                            android:id="@+id/txt_2"-->
+<!--                                            android:layout_width="136dp"-->
+<!--                                            android:layout_height="22dp"-->
+<!--                                            android:layout_alignParentTop="true"-->
+<!--                                            android:layout_alignParentEnd="true"-->
+<!--                                            android:layout_marginTop="4dp"-->
+<!--                                            android:fontFamily="@font/montserrat"-->
+<!--                                            android:text="Congratulations!"-->
+<!--                                            android:textSize="16sp"-->
+<!--                                            android:textStyle="bold"-->
+<!--                                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                            app:layout_constraintHorizontal_bias="0.498"-->
+<!--                                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                                            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--                                        <TextView-->
+<!--                                            android:id="@+id/txt_3"-->
+<!--                                            android:layout_width="119dp"-->
+<!--                                            android:layout_height="22dp"-->
+<!--                                            android:layout_below="@+id/txt_2"-->
+<!--                                            android:layout_centerHorizontal="true"-->
+<!--                                            android:layout_marginStart="20dp"-->
+<!--                                            android:layout_marginTop="10dp"-->
+<!--                                            android:layout_marginEnd="20dp"-->
+<!--                                            android:fontFamily="@font/montserrat_bold"-->
+<!--                                            android:text="@string/Summary_1"-->
+<!--                                            android:textAlignment="center"-->
+<!--                                            android:textSize="16dp"-->
+<!--                                            android:textStyle="bold"-->
+<!--                                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                                            app:layout_constraintTop_toBottomOf="@+id/txt_2" />-->
+
+<!--                                        <TextView-->
+<!--                                            android:id="@+id/display_goal"-->
+<!--                                            android:layout_width="wrap_content"-->
+<!--                                            android:layout_height="wrap_content"-->
+<!--                                            android:layout_below="@+id/txt_3"-->
+<!--                                            android:layout_centerHorizontal="true"-->
+<!--                                            android:layout_marginTop="10dp"-->
+<!--                                            android:fontFamily="@font/montserrat"-->
+<!--                                            android:hint="@string/Summary_1"-->
+<!--                                            android:textAlignment="center"-->
+<!--                                            android:textSize="16dp"-->
+<!--                                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                            app:layout_constraintHorizontal_bias="0.457"-->
+<!--                                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                                            app:layout_constraintTop_toBottomOf="@+id/txt_3" />-->
+<!--                                        <TextView-->
+<!--                                            android:id="@+id/txt_4"-->
+<!--                                            android:layout_width="276dp"-->
+<!--                                            android:layout_height="46dp"-->
+<!--                                            android:layout_below="@+id/display_goal"-->
+<!--                                            android:layout_centerHorizontal="true"-->
+<!--                                            android:layout_marginStart="10dp"-->
+<!--                                            android:layout_marginTop="8dp"-->
+<!--                                            android:layout_marginEnd="10dp"-->
+<!--                                            android:fontFamily="@font/montserrat_bold"-->
+<!--                                            android:text="@string/Summary_2_2"-->
+<!--                                            android:textAlignment="center"-->
+<!--                                            android:textSize="16dp"-->
+<!--                                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                                            app:layout_constraintTop_toBottomOf="@+id/display_goal" />-->
+
+<!--                                        <TextView-->
+<!--                                            android:id="@+id/display_reason"-->
+<!--                                            android:layout_width="wrap_content"-->
+<!--                                            android:layout_height="wrap_content"-->
+<!--                                            android:layout_below="@+id/txt_4"-->
+<!--                                            android:layout_centerHorizontal="true"-->
+<!--                                            android:layout_marginTop="16dp"-->
+<!--                                            android:fontFamily="@font/montserrat"-->
+<!--                                            android:hint="display_reason"-->
+<!--                                            android:textAlignment="center"-->
+<!--                                            android:textSize="16dp"-->
+<!--                                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                            app:layout_constraintHorizontal_bias="0.502"-->
+<!--                                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                                            app:layout_constraintTop_toBottomOf="@+id/txt_4" />-->
+
+<!--                                        <Button-->
+<!--                                            android:id="@+id/btn_view_roadmap"-->
+<!--                                            android:layout_width="163dp"-->
+<!--                                            android:layout_height="61dp"-->
+<!--                                            android:layout_below="@+id/display_reason"-->
+<!--                                            android:layout_centerHorizontal="true"-->
+<!--                                            android:layout_marginTop="22dp"-->
+<!--                                            android:background="@drawable/button_shape"-->
+<!--                                            android:onClick="btn_view_roadmap"-->
+<!--                                            android:text="View your RoadMap Steps"-->
+<!--                                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                                            app:layout_constraintTop_toBottomOf="@+id/display_reason" />-->
+
+<!--                                        <Button-->
+<!--                                            android:id="@+id/button"-->
+<!--                                            android:layout_width="170dp"-->
+<!--                                            android:layout_height="60dp"-->
+<!--                                            android:layout_below="@+id/btn_view_roadmap"-->
+<!--                                            android:layout_alignParentEnd="true"-->
+<!--                                            android:layout_marginStart="20dp"-->
+<!--                                            android:layout_marginTop="8dp"-->
+<!--                                            android:layout_marginEnd="20dp"-->
+<!--                                            android:background="@drawable/button_shape"-->
+<!--                                            android:onClick="btnviewroadmaphazardicon"-->
+<!--                                            android:text="View  potentially difficult"-->
+<!--                                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                                            app:layout_constraintTop_toBottomOf="@+id/btn_view_roadmap" />-->
+
+<!--                                        <TextView-->
+<!--                                            android:id="@+id/display_date_tv"-->
+<!--                                            android:layout_width="302dp"-->
+<!--                                            android:layout_height="43dp"-->
+<!--                                            android:layout_below="@+id/btn_view_roadmap"-->
+<!--                                            android:layout_centerHorizontal="true"-->
+<!--                                            android:layout_marginStart="30dp"-->
+<!--                                            android:layout_marginTop="28dp"-->
+<!--                                            android:layout_marginEnd="30dp"-->
+<!--                                            android:fontFamily="@font/montserrat_bold"-->
+<!--                                            android:text="You will take your first step in making this goal a reality on:"-->
+<!--                                            android:textAlignment="center"-->
+
+<!--                                            android:textSize="16sp"-->
+<!--                                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                                            app:layout_constraintTop_toBottomOf="@+id/button" />-->
+
+<!--                                        <TextView-->
+<!--                                            android:id="@+id/display_input_date_time"-->
+<!--                                            android:layout_width="wrap_content"-->
+<!--                                            android:layout_height="match_parent"-->
+<!--                                            android:layout_marginStart="20dp"-->
+<!--                                            android:layout_marginTop="2dp"-->
+<!--                                            android:layout_marginEnd="20dp"-->
+<!--                                            android:fontFamily="@font/montserrat"-->
+<!--                                            android:hint="date"-->
+<!--                                            android:textSize="16sp"-->
+<!--                                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                                            app:layout_constraintTop_toBottomOf="@+id/display_date_tv" />-->
+
+
+<!--                                        <TextView-->
+<!--                                            android:id="@+id/display_input_date_day"-->
+<!--                                            android:layout_width="wrap_content"-->
+<!--                                            android:layout_height="match_parent"-->
+<!--                                            android:layout_marginStart="20dp"-->
+<!--                                            android:layout_marginTop="4dp"-->
+<!--                                            android:layout_marginEnd="20dp"-->
+<!--                                            android:fontFamily="@font/montserrat"-->
+<!--                                            android:hint="date"-->
+<!--                                            android:textSize="16sp"-->
+<!--                                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                                            app:layout_constraintTop_toBottomOf="@+id/display_input_date_time" />-->
+
+<!--                                        <TextView-->
+<!--                                            android:id="@+id/display_input_date_month"-->
+<!--                                            android:layout_width="wrap_content"-->
+<!--                                            android:layout_height="match_parent"-->
+<!--                                            android:layout_below="@id/txt_3"-->
+<!--                                            android:layout_marginStart="20dp"-->
+<!--                                            android:layout_marginTop="3dp"-->
+<!--                                            android:layout_marginEnd="20dp"-->
+<!--                                            android:fontFamily="@font/montserrat"-->
+<!--                                            android:hint="month"-->
+
+<!--                                            android:textSize="16sp"-->
+<!--                                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                                            app:layout_constraintTop_toBottomOf="@+id/display_input_date_day" />-->
+
+
+<!--                                        <TextView-->
+<!--                                            android:id="@+id/txt_5"-->
+<!--                                            android:layout_width="285dp"-->
+<!--                                            android:layout_height="174dp"-->
+<!--                                            android:layout_below="@id/txt_4"-->
+<!--                                            android:layout_centerHorizontal="true"-->
+<!--                                            android:layout_marginStart="20dp"-->
+<!--                                            android:layout_marginTop="12dp"-->
+<!--                                            android:layout_marginEnd="20dp"-->
+<!--                                            android:fontFamily="@font/montserrat_bold"-->
+<!--                                            android:text="@string/Summary_2"-->
+<!--                                            android:textAlignment="center"-->
+<!--                                            android:textSize="16dp"-->
+<!--                                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                                            app:layout_constraintTop_toBottomOf="@+id/display_input_date_month" />-->
+
+
+
+
+
+<!--                                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--                                    <View-->
+<!--                                        android:id="@+id/view3"-->
+<!--                                        android:layout_width="4dp"-->
+<!--                                        android:layout_height="669dp"-->
+<!--                                        android:background="@android:color/white"-->
+<!--                                        android:layout_alignParentRight="true"-->
+<!--                                        />-->
+
+<!--                                    <View-->
+<!--                                        android:id="@+id/view4"-->
+<!--                                        android:layout_width="match_parent"-->
+<!--                                        android:layout_height="4dp"-->
+<!--                                        android:layout_alignParentBottom="true"-->
+<!--                                        android:background="@android:color/white" />-->
+
+
+
+<!--                                </RelativeLayout>-->
 
 
 
@@ -339,12 +584,12 @@
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <androidx.constraintlayout.widget.ConstraintLayout
-                            android:layout_width="match_parent"
+                            android:layout_width="0dp"
                             android:layout_height="300dp"
+                            android:layout_marginTop="20dp"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
-                            >
+                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
 
                             <Button
 
@@ -412,320 +657,6 @@
 
 
 
-
-
-    <!--    <RelativeLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent">-->
-
-<!--        <include-->
-<!--                layout="@layout/nav_toolbar"-->
-<!--                android:id="@+id/toolbar"/>-->
-
-<!--        <RelativeLayout-->
-<!--            android:layout_marginTop="20dp"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_below="@+id/toolbar"-->
-<!--            android:layout_marginLeft="20dp"-->
-<!--            android:layout_marginRight="20dp"-->
-<!--            android:id="@+id/layout_1">-->
-
-
-<!--            <TextView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:text="Your summary report and reflection..."-->
-<!--                android:textStyle="bold"-->
-<!--                android:fontFamily="@font/montserrat"-->
-<!--                android:textSize="25dp"-->
-<!--                android:textColor="@android:color/white"-->
-<!--                android:id="@+id/txt_1"/>-->
-
-
-<!--        </RelativeLayout>-->
-
-<!--        <RelativeLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_below="@+id/layout_1"-->
-<!--            android:layout_marginLeft="20dp"-->
-<!--            android:layout_marginRight="20dp"-->
-<!--            android:layout_marginTop="10dp"-->
-<!--            android:layout_marginBottom="10dp">-->
-
-<!--            <ScrollView-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content">-->
-
-<!--                <RelativeLayout-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content">-->
-
-<!--            <View-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="4dp"-->
-<!--                android:background="@android:color/white"-->
-<!--                android:layout_alignParentTop="true"/>-->
-
-<!--                    <View-->
-<!--                        android:layout_width="4dp"-->
-<!--                        android:layout_height="529dp"-->
-<!--                        android:layout_alignParentRight="true"-->
-<!--                        android:background="@android:color/white" />-->
-
-
-<!--                    <TextView-->
-<!--                        android:id="@+id/txt_2"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_alignParentTop="true"-->
-<!--                        android:layout_alignParentEnd="true"-->
-<!--                        android:layout_marginTop="3dp"-->
-<!--                        android:layout_marginEnd="132dp"-->
-<!--                        android:fontFamily="@font/montserrat"-->
-<!--                        android:text="Congratulations!"-->
-<!--                        android:textSize="16sp"-->
-<!--                        android:textStyle="bold" />-->
-
-<!--                    <TextView-->
-<!--                        android:id="@+id/txt_3"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_below="@+id/txt_2"-->
-<!--                        android:layout_centerHorizontal="true"-->
-<!--                        android:layout_marginLeft="16dp"-->
-<!--                        android:layout_marginTop="10dp"-->
-<!--                        android:layout_marginRight="16dp"-->
-<!--                        android:fontFamily="@font/montserrat_bold"-->
-<!--                        android:text="@string/Summary_1"-->
-<!--                        android:textSize="16dp" />-->
-
-<!--                    <TextView-->
-<!--                        android:id="@+id/display_goal"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_below="@+id/txt_3"-->
-<!--                        android:layout_centerHorizontal="true"-->
-<!--                        android:layout_marginLeft="16dp"-->
-<!--                        android:layout_marginTop="10dp"-->
-<!--                        android:layout_marginRight="16dp"-->
-<!--                        android:fontFamily="@font/montserrat_bold"-->
-<!--                        android:hint="@string/Summary_1"-->
-<!--                        android:textSize="16dp" />-->
-
-<!--                    <TextView-->
-<!--                        android:id="@+id/txt_4"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_below="@+id/display_goal"-->
-<!--                        android:layout_centerHorizontal="true"-->
-<!--                        android:layout_marginLeft="16dp"-->
-<!--                        android:layout_marginTop="3dp"-->
-<!--                        android:layout_marginRight="16dp"-->
-<!--                        android:fontFamily="@font/montserrat_bold"-->
-<!--                        android:text="@string/Summary_2_2"-->
-<!--                        android:textSize="16dp" />-->
-
-<!--                    <TextView-->
-<!--                        android:id="@+id/display_reason"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_below="@+id/txt_4"-->
-<!--                        android:layout_centerHorizontal="true"-->
-<!--                        android:layout_marginLeft="16dp"-->
-<!--                        android:layout_marginTop="0dp"-->
-<!--                        android:layout_marginRight="16dp"-->
-<!--                        android:fontFamily="@font/montserrat_bold"-->
-<!--                        android:hint="display_reason"-->
-<!--                        android:textSize="16dp" />-->
-
-<!--                    <Button-->
-<!--                        android:id="@+id/btn_view_roadmap"-->
-<!--                        android:layout_width="200dp"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:background="@drawable/button_shape"-->
-<!--                        android:layout_below="@+id/display_reason"-->
-<!--                        android:layout_marginTop="10dp"-->
-<!--                        android:onClick="btn_view_roadmap"-->
-<!--                        android:text="View your RoadMap Steps"-->
-<!--                        android:layout_centerHorizontal="true"/>-->
-
-<!--                    <Button-->
-<!--                        android:layout_width="300dp"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_below="@+id/btn_view_roadmap"-->
-<!--                        android:layout_alignParentEnd="true"-->
-<!--                        android:layout_marginTop="5dp"-->
-<!--                        android:layout_marginEnd="47dp"-->
-<!--                        android:background="@drawable/button_shape"-->
-<!--                        android:onClick="btnviewroadmaphazardicon"-->
-<!--                        android:text="View what you have identified as potentially difficult" />-->
-
-<!--                    &lt;!&ndash;                                <TextView&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_height="40dp"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:id="@+id/display_input_date_day"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:textSize="18sp"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:fontFamily="@font/montserrat_bold"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_below="@id/txt_3"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_marginLeft="70dp"&ndash;&gt;-->
-<!--&lt;!&ndash;                />&ndash;&gt;-->
-
-<!--&lt;!&ndash;            <TextView&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_height="40dp"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:id="@+id/display_input_date_month"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:textSize="18sp"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:fontFamily="@font/montserrat_bold"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_below="@id/txt_3"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_marginLeft="120dp"&ndash;&gt;-->
-<!--&lt;!&ndash;                />&ndash;&gt;-->
-
-<!--                    <TextView-->
-<!--                        android:id="@+id/display_date_tv"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_below="@+id/btn_view_roadmap"-->
-<!--                        android:layout_centerHorizontal="true"-->
-<!--                        android:layout_marginLeft="16dp"-->
-<!--                        android:layout_marginTop="61dp"-->
-<!--                        android:layout_marginRight="16dp"-->
-<!--                        android:fontFamily="@font/montserrat_bold"-->
-<!--                        android:text="You will take your first step in making this goal a reality on:"-->
-<!--                        android:textAlignment="center"-->
-<!--                        android:textSize="16sp" />-->
-
-
-<!--                    <TextView-->
-<!--                        android:id="@+id/txt_5"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_below="@id/txt_4"-->
-<!--                        android:layout_centerHorizontal="true"-->
-<!--                        android:layout_marginLeft="16dp"-->
-<!--                        android:layout_marginTop="261dp"-->
-<!--                        android:layout_marginRight="16dp"-->
-<!--                        android:fontFamily="@font/montserrat_bold"-->
-<!--                        android:text="@string/Summary_2"-->
-<!--                        android:textAlignment="center"-->
-<!--                        android:textSize="16dp" />-->
-
-<!--                   <LinearLayout-->
-<!--                        android:id="@+id/lay"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_below="@id/display_date_tv"-->
-<!--                        android:layout_marginTop="10dp"-->
-<!--                        android:orientation="vertical">-->
-
-<!--                        <TextView-->
-<!--                            android:id="@+id/display_input_date_time"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:layout_marginLeft="160dp"-->
-<!--                            android:fontFamily="@font/montserrat"-->
-<!--                            android:hint="date"-->
-<!--                            android:textSize="16sp" />-->
-
-<!--                        <TextView-->
-<!--                            android:id="@+id/display_input_date_day"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:layout_marginLeft="160dp"-->
-<!--                            android:fontFamily="@font/montserrat"-->
-<!--                            android:hint="date"-->
-<!--                            android:textSize="16sp" />-->
-
-<!--                        <TextView-->
-<!--                            android:id="@+id/display_input_date_month"-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:layout_below="@id/txt_3"-->
-<!--                            android:layout_marginLeft="160dp"-->
-<!--                            android:fontFamily="@font/montserrat"-->
-<!--                            android:hint="month"-->
-<!--                            android:textSize="16sp"-->
-
-<!--                            />-->
-
-
-<!--                    </LinearLayout>-->
-
-
-<!--                    <View-->
-<!--                        android:id="@+id/bar_left"-->
-<!--                        android:layout_width="4dp"-->
-<!--                        android:layout_height="529dp"-->
-<!--                        android:layout_alignParentLeft="true"-->
-<!--                        android:layout_alignParentTop="true"-->
-<!--                        android:layout_marginLeft="-1dp"-->
-<!--                        android:layout_marginTop="0dp"-->
-<!--                        android:background="@android:color/white" />-->
-
-
-<!--                    <View-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="4dp"-->
-<!--                        android:layout_below="@id/bar_left"-->
-<!--                        android:layout_alignParentEnd="true"-->
-<!--                        android:layout_marginTop="-1dp"-->
-<!--                        android:layout_marginEnd="2dp"-->
-<!--                        android:background="@android:color/white" />-->
-
-<!--                    <Button-->
-
-<!--                        android:id="@+id/btn_email"-->
-<!--                        android:layout_width="230dp"-->
-<!--                        android:layout_height="50dp"-->
-<!--                        android:layout_below="@id/bar_left"-->
-<!--                        android:layout_alignParentEnd="true"-->
-<!--                        android:layout_marginTop="16dp"-->
-<!--                        android:layout_marginEnd="80dp"-->
-<!--                        android:background="@drawable/button_shape"-->
-<!--                        android:fontFamily="@font/montserrat"-->
-<!--                        android:onClick="btn_email"-->
-<!--                        android:text="Click here to email a copy of your plan to yourself"-->
-<!--                        android:textAllCaps="false"-->
-<!--                        android:textColor="#326b6f"-->
-<!--                        android:textSize="15dp" />-->
-
-<!--                    <Button-->
-<!--                           android:layout_width="230dp"-->
-<!--                           android:layout_height="50dp"-->
-<!--                           android:background="#696969"-->
-<!--                           android:text="HOME"-->
-<!--                           android:layout_below="@+id/btn_email"-->
-<!--                           android:layout_marginTop="10dp"-->
-<!--                           android:layout_centerHorizontal="true"-->
-<!--                           android:textColor="#ffff"-->
-<!--                           android:fontFamily="@font/montserrat"-->
-<!--                           android:textSize="20dp"-->
-<!--                           android:textStyle="bold"-->
-<!--                           android:id="@+id/btn_home"-->
-<!--                           android:onClick="btn_home"-->
-<!--                           />-->
-
-
-
-
-
-
-
-<!--                </RelativeLayout>-->
-
-
-
-<!--            </ScrollView>-->
-
-
-
-<!--        </RelativeLayout>-->
-
-
-
-
-<!--    </RelativeLayout>-->
 
     <com.google.android.material.navigation.NavigationView
         android:layout_width="wrap_content"
