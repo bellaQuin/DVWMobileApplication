@@ -21,6 +21,7 @@ import com.example.coachingapp.Login;
 import com.example.coachingapp.Models.Goals_Road_Map;
 import com.example.coachingapp.Models.Goals_Road_Map_Identify;
 import com.example.coachingapp.R;
+import com.example.coachingapp.SendEmail.SendEmail;
 import com.example.coachingapp.UserDashboard;
 import com.example.coachingapp.ViewYourRoadMapSteps;
 import com.example.coachingapp.ViewYourRoadMapStepsHazard;
@@ -99,13 +100,9 @@ public class Goal_DisplaySummary extends AppCompatActivity implements Navigation
                 String day = dataSnapshot.child("Time_Day_Month").child("mDay").getValue().toString();
                 String time = dataSnapshot.child("Time_Day_Month").child("mTime").getValue().toString();
                 String month = dataSnapshot.child("Time_Day_Month").child("mMonth").getValue().toString();
-
-
                 txtday.setText(day);
                 txtMonth.setText(month);
                 txttime.setText(time);
-
-
             }
 
             @Override
@@ -120,7 +117,6 @@ public class Goal_DisplaySummary extends AppCompatActivity implements Navigation
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 String whatGoal = dataSnapshot.child("Goals").child("input_1").child("user_input_1").getValue().toString();
                 display_goal.setText(whatGoal);
-
             }
 
             @Override
@@ -157,10 +153,6 @@ public class Goal_DisplaySummary extends AppCompatActivity implements Navigation
                 String day = dataSnapshot.child("Goals").child("answers").getValue().toString();
 
 
-
-
-
-
             }
 
             @Override
@@ -171,13 +163,61 @@ public class Goal_DisplaySummary extends AppCompatActivity implements Navigation
     }
 
 
-    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
+
+  //  @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     public void btn_email(View view)  {
 
 
+        Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
+                "mailto","Write You Email Here", null));
+        emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Da Vinci's Workshop");
+        emailIntent.putExtra(Intent.EXTRA_TEXT,"Hi There! \n\n Please see summary below: \n\n" + "Your Goal is " + display_goal.getText().toString()  + "\n Which You want to achieve because: " + display_reason.getText().toString()+"\nYou will take first action in making this goal a reality on: " + txtday.getText().toString()+ " " + txtMonth.getText().toString()+ " "+ txttime.getText().toString()+ "\n\n We hope this simple coaching exercise has helped." +"\n\n Thanks," + "\nYour Da Vinci's Workshop Team");
+        startActivity(Intent.createChooser(emailIntent, "Send email..."));
+
+      //  try {
+       //     createPdf();
+
+       // }catch (FileNotFoundException e){
+      //      e.printStackTrace();
+
+   //     }catch (DocumentException e){
+   //         e.printStackTrace();
+        }
+//        PdfDocument pdfDocument = new PdfDocument();
+//        PdfDocument.PageInfo myPageInfo = new PdfDocument.PageInfo.Builder(300,600, 1).create();
+//        PdfDocument.Page myPage =  pdfDocument.startPage(myPageInfo);
+//
+//        Paint paint = new Paint();
+//        int x = 10, y = 25;
+//
+//        String displayGoalString = editText.getText().toString();
+//        //display_goal.getText().toString();
+//        // String displayreasonString = display_reason.getText().toString();
+//
+//        myPage.getCanvas().drawText(displayGoalString,x, y, paint);
+////        myPage.getCanvas().drawText(displayreasonString, x, y, paint);
+//        pdfDocument.finishPage(myPage);
+//        String directory_path = Environment.getExternalStorageDirectory().getPath() +"/mypdf/";
+//        File myfile = new File(directory_path);
+//        if (!myfile.exists()){
+//            myfile.mkdirs();
+//        }
+//
+//        String targetPdf = directory_path + "test-2.pdf";
+//        File filePath = new File(targetPdf);
+//
+//        try{
+//            pdfDocument.writeTo(new FileOutputStream(filePath));
+//            Toast.makeText(this, "Done", Toast.LENGTH_LONG).show();
+//        }catch (Exception e){
+//            e.printStackTrace();
+//            Log.e("pdf", "error");
+//            Toast.makeText(this, "Something wrong: " + e.toString(),  Toast.LENGTH_LONG).show();
+//
+//        }
 //
 
-    }
+    //}
 
     public void btn_home(View view) {
         Intent intent = new Intent(Goal_DisplaySummary.this, UserDashboard.class);

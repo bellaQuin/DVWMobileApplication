@@ -7,7 +7,7 @@ android {
         applicationId "com.example.coachingapp"
         // minSdkVersion 18 previously 27
 
-          minSdkVersion 19
+          minSdkVersion 27
 
 
         targetSdkVersion 29
