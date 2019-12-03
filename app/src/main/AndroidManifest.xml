@@ -15,6 +15,7 @@
         android:supportsRtl="true"
 
         android:theme="@style/AppTheme">
+
         <activity android:name=".ViewStressSigns"
             android:screenOrientation="portrait"></activity>
         <activity android:name=".ResilienceandCopingMechanisms.resilience_Screen25"
@@ -143,6 +144,8 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".ResilienceandCopingMechanisms.Slide_3"
             android:screenOrientation="portrait"/>
+
+
         <activity android:name=".ResilienceandCopingMechanisms.ResilienceMain" />
         <activity android:name=".ResilienceandCopingMechanisms.resilience_Screen21"
             android:screenOrientation="portrait"/>

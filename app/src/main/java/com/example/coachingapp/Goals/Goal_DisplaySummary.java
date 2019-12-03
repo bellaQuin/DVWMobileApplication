@@ -91,59 +91,59 @@ public class Goal_DisplaySummary extends AppCompatActivity implements Navigation
         myRef = FirebaseDatabase.getInstance().getReference();
         database = FirebaseDatabase.getInstance();
 
-//        Query query = myRef.child("users").child(user.getUid());
-//        query.addValueEventListener(new ValueEventListener() {
-//            @Override
-//            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-//
-//                String day = dataSnapshot.child("Time_Day_Month").child("mDay").getValue().toString();
-//                String time = dataSnapshot.child("Time_Day_Month").child("mTime").getValue().toString();
-//                String month = dataSnapshot.child("Time_Day_Month").child("mMonth").getValue().toString();
-//
-//
-//                txtday.setText(day);
-//                txtMonth.setText(month);
-//                txttime.setText(time);
-//
-//
-//            }
-//
-//            @Override
-//            public void onCancelled(@NonNull DatabaseError databaseError) {
-//
-//            }
-//        });
-//
-//        Query goalQuery = myRef.child("users").child(user.getUid());
-//        goalQuery.addValueEventListener(new ValueEventListener() {
-//            @Override
-//            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-//                String whatGoal = dataSnapshot.child("Goals").child("input_1").child("user_input_1").getValue().toString();
-//                display_goal.setText(whatGoal);
-//
-//            }
-//
-//            @Override
-//            public void onCancelled(@NonNull DatabaseError databaseError) {
-//
-//            }
-//        });
-//
-//
-//        Query whyQuery = myRef.child("users").child(user.getUid());
-//        whyQuery.addValueEventListener(new ValueEventListener() {
-//            @Override
-//            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-//                String whyGoal = dataSnapshot.child("Goals").child("input_2").child("user_input_2").getValue().toString();
-//                display_reason.setText(whyGoal);
-//
-//            }
-//
-//            @Override
-//            public void onCancelled(@NonNull DatabaseError databaseError) {
-//
-//            }
-//        });
+        Query query = myRef.child("users").child(user.getUid());
+        query.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+
+                String day = dataSnapshot.child("Time_Day_Month").child("mDay").getValue().toString();
+                String time = dataSnapshot.child("Time_Day_Month").child("mTime").getValue().toString();
+                String month = dataSnapshot.child("Time_Day_Month").child("mMonth").getValue().toString();
+
+
+                txtday.setText(day);
+                txtMonth.setText(month);
+                txttime.setText(time);
+
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+
+        Query goalQuery = myRef.child("users").child(user.getUid());
+        goalQuery.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                String whatGoal = dataSnapshot.child("Goals").child("input_1").child("user_input_1").getValue().toString();
+                display_goal.setText(whatGoal);
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+
+
+        Query whyQuery = myRef.child("users").child(user.getUid());
+        whyQuery.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                String whyGoal = dataSnapshot.child("Goals").child("input_2").child("user_input_2").getValue().toString();
+                display_reason.setText(whyGoal);
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
     }
     // List<String> goalsList = new ArrayList<>();
 

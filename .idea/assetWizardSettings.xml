@@ -139,6 +139,7 @@
                   <entry key="vectorAssetStep">
                     <value>
                       <PersistentState>
+<<<<<<< HEAD
                         <option name="children">
                           <map>
                             <entry key="clipartAsset">
@@ -159,6 +160,13 @@
                             <entry key="color" value="ffffff" />
                             <entry key="outputName" value="ic_arrow_black" />
                             <entry key="sourceFile" value="$USER_HOME$" />
+=======
+                        <option name="values">
+                          <map>
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="outputName" value="ic_meditation" />
+                            <entry key="sourceFile" value="C:\Users\Bel Quinery\Desktop\meditation.svg" />
+>>>>>>> remotes/origin/master
                           </map>
                         </option>
                       </PersistentState>
