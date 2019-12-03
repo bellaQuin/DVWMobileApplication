@@ -83,6 +83,7 @@
                         android:fontFamily="@font/montserrat"
                         />
 
+
                     <EditText
                         android:layout_width="match_parent"
                         android:layout_height="150dp"
@@ -97,18 +98,32 @@
                         android:fontFamily="@font/montserrat"
                         />
 
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
                         <Button
                             android:id="@+id/next"
                             android:layout_width="150dp"
                             android:layout_height="60dp"
-                            android:layout_marginLeft="30dp"
+                            android:layout_marginStart="20dp"
                             android:layout_marginTop="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginBottom="20dp"
                             android:background="#ffffff"
                             android:fontFamily="@font/montserrat"
                             android:onClick="btn_next"
                             android:text="Next"
                             android:textColor="#84c2c8"
-                            android:textSize="20dp" />
+                            android:textSize="20dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
 
                 </LinearLayout>
 

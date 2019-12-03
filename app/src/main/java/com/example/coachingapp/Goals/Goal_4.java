@@ -19,10 +19,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 public class Goal_4 extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
-    ImageButton imageIconRight;
-    DrawerLayout drawerLayout;
-    ActionBarDrawerToggle toggle;
-    NavigationView navigationView;
+        ImageButton imageIconRight;
+        DrawerLayout drawerLayout;
+        ActionBarDrawerToggle toggle;
+        NavigationView navigationView;
 
 
     @Override

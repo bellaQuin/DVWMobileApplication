@@ -67,7 +67,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
                         android:gravity="center"
-                        android:text="In this ‘Resilience and Coping ’\n section we will be sharing some\n practical tools to help you deal with\n stress and develop your resilience. "
+                        android:text="In this ‘Resilience and Coping ’\n section we will be sharing some\n practical tools to help deal with\n stress and develop resilience. "
                         android:textColor="#000"/>
 
                     <ImageView
@@ -86,7 +86,7 @@
                         android:textSize="18dp"
                         android:gravity="center"
                         android:textColor="#000"
-                        android:text="We will also ask you some questions that\n will help find perspective and/n objectivity."/>
+                        android:text="We will ask some questions that\n will help find perspective and\n objectivity."/>
 
 
                     <TextView
@@ -97,21 +97,33 @@
                         android:layout_marginTop="20dp"
                         android:gravity="center"
                         android:fontFamily="@font/montserrat"
-                        android:text="We will help you select the best/n way to tackle the problem "/>
+                        android:text="We will help you select the best\n way to tackle the problem "/>
 
-                    <Button
 
-                        android:id="@+id/resilience"
-                        android:layout_width="200dp"
-                        android:layout_height="60dp"
-                        android:layout_marginLeft="100dp"
-                        android:layout_marginTop="20dp"
-                        android:background="#ffffff"
-                        android:fontFamily="@font/montserrat"
-                        android:onClick="btn_begin"
-                        android:text="Begin"
-                        android:textColor="#84c2c8"
-                        android:textSize="20dp" />
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+
+                            android:id="@+id/resilience"
+                            android:layout_width="200dp"
+                            android:layout_height="60dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="#ffffff"
+                            android:fontFamily="@font/montserrat"
+                            android:onClick="btn_begin"
+                            android:text="Begin"
+                            android:textColor="#84c2c8"
+                            android:textSize="20dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </LinearLayout>
 

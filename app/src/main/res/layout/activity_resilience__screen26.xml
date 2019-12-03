@@ -77,7 +77,7 @@
                         android:textSize="18sp"
                         android:gravity="center"
                         android:textColor="#1A237E"
-                        android:text="Exercise is one of the best ways\n to manage stress. It can be\n really difficult to start, especially when\n you are feeling tired and under\n pressure. "
+                        android:text="Exercise is one of the best ways\n to manage stress. It can be\n  difficult to start, especially when\n you are feeling tired and under\n pressure. "
                         />
 
                     <TextView
@@ -102,21 +102,36 @@
                         android:text="If it's safe for your health - run\n up stairs a few times or go for\n fast walk to start the dopamine\n release."
                         />
 
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
 
-                    <Button
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
 
-                        android:id="@+id/next"
-                        android:layout_width="200dp"
-                        android:layout_height="60dp"
-                        android:layout_marginLeft="100dp"
-                        android:layout_marginTop="40dp"
-                        android:background="#ffffff"
-                        android:fontFamily="@font/montserrat"
-                        android:onClick="btn_next"
-                        android:text="Next"
-                        android:textColor="#84c2c8"
-                        android:textSize="20dp" />
+                            <Button
+                                android:id="@+id/btn_next"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginBottom="20dp"
+                                android:background="#ffffff"
+                                android:fontFamily="@font/montserrat"
+                                android:onClick="btn_next"
+                                android:text="NEXT"
+                                android:textColor="#c4513e"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
 
+
+                    </LinearLayout>
                 </LinearLayout>
 
             </LinearLayout>

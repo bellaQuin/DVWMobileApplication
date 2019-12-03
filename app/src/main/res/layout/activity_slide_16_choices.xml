@@ -31,8 +31,7 @@
                 <RelativeLayout
 
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    >
+                    android:layout_height="wrap_content">
 
 
 
@@ -53,13 +52,14 @@
 
 
 
-                <LinearLayout
+                <RelativeLayout
                     android:layout_marginTop="20dp"
                     android:orientation="vertical"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <TextView
+
                         android:fontFamily="@font/montserrat"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -77,6 +77,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:textSize="20dp"
+                        android:layout_below="@+id/color_text"
                         android:layout_marginTop="10dp"
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
@@ -85,15 +86,27 @@
                         android:text="Smart people understand when they\n can’t cope and they get help.\n\n Not so smart people suffer in silence\n until they break.\n\nDon't be one of the ones that break!"
                         />
 
+                </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="70dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="10dp"
+                        app:cardElevation="0dp"
+                        app:cardPreventCornerOverlap="false"
                         android:id="@+id/contact_number"
                         android:onClick="contact_number"
-                        android:background="#b6e1df"
-                        >
+                        android:background="#b6e1df">
 
                         <RelativeLayout
                             android:background="#bfdfe2"
@@ -162,17 +175,27 @@
 
                         </RelativeLayout>
 
+
+
                     </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="70dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="10dp"
+                        app:cardElevation="0dp"
+                        app:cardPreventCornerOverlap="false"
                         android:id="@+id/resilience"
                         android:onClick="resilience"
-                        android:background="#b6e1df"
-                        >
+                        android:background="#b6e1df">
 
                         <RelativeLayout
                             android:background="#bfdfe2"
@@ -241,23 +264,255 @@
 
                         </RelativeLayout>
 
+
+
                     </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <Button
 
                         android:id="@+id/next"
                         android:layout_width="200dp"
                         android:layout_height="60dp"
-                        android:layout_marginLeft="100dp"
+                        android:layout_marginStart="20dp"
                         android:layout_marginTop="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="20dp"
                         android:background="#ffffff"
                         android:fontFamily="@font/montserrat"
                         android:onClick="btn_next"
                         android:text="Next"
                         android:textColor="#84c2c8"
-                        android:textSize="20dp" />
+                        android:textSize="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
 
-                </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:orientation="vertical">-->
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            >-->
+
+<!--                    <androidx.cardview.widget.CardView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="70dp"-->
+<!--                        android:layout_gravity="center_horizontal"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        app:cardElevation="0dp"-->
+<!--                        android:id="@+id/contact_number"-->
+<!--                        android:onClick="contact_number"-->
+<!--                        android:background="#b6e1df"-->
+<!--                        >-->
+
+<!--                        <RelativeLayout-->
+<!--                            android:background="#bfdfe2"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent">-->
+
+<!--                            <View-->
+<!--                                android:id="@+id/top_2"-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="4dp"-->
+<!--                                android:layout_marginRight="20dp"-->
+<!--                                android:layout_marginLeft="13dp"-->
+<!--                                android:layout_marginTop="10dp"-->
+<!--                                android:background="#976563"/>-->
+
+
+<!--                            <View-->
+<!--                                android:id="@+id/right_2"-->
+<!--                                android:layout_width="4dp"-->
+<!--                                android:layout_height="55dp"-->
+<!--                                android:layout_marginRight="20dp"-->
+<!--                                android:layout_marginLeft="12dp"-->
+<!--                                android:layout_marginTop="10dp"-->
+<!--                                android:background="#976563"/>-->
+
+<!--                            <View-->
+<!--                                android:layout_width="4dp"-->
+<!--                                android:layout_height="55dp"-->
+<!--                                android:layout_marginRight="20dp"-->
+<!--                                android:layout_marginLeft="20dp"-->
+<!--                                android:layout_marginTop="10dp"-->
+<!--                                android:background="#976563"-->
+<!--                                android:layout_alignParentRight="true" />-->
+
+<!--                            <View-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="4dp"-->
+<!--                                android:layout_marginRight="20dp"-->
+<!--                                android:layout_marginLeft="14dp"-->
+<!--                                android:layout_marginTop="30dp"-->
+<!--                                android:layout_alignParentBottom="true"-->
+<!--                                android:background="#976563"-->
+<!--                                android:layout_marginBottom="0.5dp"/>-->
+
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/text_2"-->
+<!--                                android:layout_toRightOf="@id/right_2"-->
+<!--                                android:layout_below="@id/top_2"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="Show me some emergency\n contact numbers"-->
+<!--                                android:textSize="18sp"-->
+<!--                                android:textAllCaps="true"-->
+<!--                                android:layout_centerHorizontal="true"-->
+<!--                                android:fontFamily="sans-serif-medium"-->
+<!--                                />-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_toRightOf="@id/text_2"-->
+<!--                                android:layout_marginTop="10dp"-->
+<!--                                android:layout_centerVertical="true"-->
+<!--                                android:layout_width="40dp"-->
+<!--                                android:layout_height="40dp"-->
+<!--                                android:src="@drawable/iconarrowright"/>-->
+
+<!--                        </RelativeLayout>-->
+
+<!--                    </androidx.cardview.widget.CardView>-->
+
+<!--                        </LinearLayout>-->
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            >-->
+<!--                    <androidx.cardview.widget.CardView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="70dp"-->
+<!--                        android:layout_gravity="center_horizontal"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        app:cardElevation="0dp"-->
+<!--                        android:id="@+id/resilience"-->
+<!--                        android:onClick="resilience"-->
+<!--                        android:background="#b6e1df"-->
+<!--                        >-->
+
+<!--                        <RelativeLayout-->
+<!--                            android:background="#bfdfe2"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent">-->///
+
+<!--                            <View-->
+<!--                                android:id="@+id/top_3"-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="4dp"-->
+<!--                                android:layout_marginRight="20dp"-->
+<!--                                android:layout_marginLeft="13dp"-->
+<!--                                android:layout_marginTop="10dp"-->
+<!--                                android:background="#931f1e"/>-->
+
+
+<!--                            <View-->
+<!--                                android:id="@+id/right_3"-->
+<!--                                android:layout_width="4dp"-->
+<!--                                android:layout_height="55dp"-->
+<!--                                android:layout_marginRight="20dp"-->
+<!--                                android:layout_marginLeft="12dp"-->
+<!--                                android:layout_marginTop="10dp"-->
+<!--                                android:background="#931f1e"/>-->
+
+<!--                            <View-->
+<!--                                android:layout_width="4dp"-->
+<!--                                android:layout_height="55dp"-->
+<!--                                android:layout_marginRight="20dp"-->
+<!--                                android:layout_marginLeft="20dp"-->
+<!--                                android:layout_marginTop="10dp"-->
+<!--                                android:background="#931f1e"-->
+<!--                                android:layout_alignParentRight="true" />-->
+
+<!--                            <View-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="4dp"-->
+<!--                                android:layout_marginRight="20dp"-->
+<!--                                android:layout_marginLeft="14dp"-->
+<!--                                android:layout_marginTop="30dp"-->
+<!--                                android:layout_alignParentBottom="true"-->
+<!--                                android:background="#931f1e"-->
+<!--                                android:layout_marginBottom="0.5dp"/>-->
+
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/text_3"-->
+<!--                                android:layout_toRightOf="@id/right_3"-->
+<!--                                android:layout_below="@id/top_3"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="I need immediate coping\n strategies and exercises"-->
+<!--                                android:textSize="18sp"-->
+<!--                                android:textAllCaps="true"-->
+<!--                                android:layout_centerHorizontal="true"-->
+<!--                                android:fontFamily="sans-serif-medium"-->
+<!--                                />-->
+
+<!--                            <ImageView-->
+<!--                                android:layout_toRightOf="@id/text_3"-->
+<!--                                android:layout_marginTop="10dp"-->
+<!--                                android:layout_centerVertical="true"-->
+<!--                                android:layout_width="40dp"-->
+<!--                                android:layout_height="40dp"-->
+<!--                                android:src="@drawable/iconarrowright"/>-->
+
+<!--                        </RelativeLayout>-->
+
+<!--                    </androidx.cardview.widget.CardView>-->
+
+<!--                        </LinearLayout>-->
+
+<!--                    </LinearLayout>-->
+
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content">-->
+
+<!--                        <Button-->
+
+<!--                            android:id="@+id/next"-->
+<!--                            android:layout_width="200dp"-->
+<!--                            android:layout_height="60dp"-->
+<!--                            android:layout_marginStart="20dp"-->
+<!--                            android:layout_marginTop="20dp"-->
+<!--                            android:layout_marginEnd="20dp"-->
+<!--                            android:layout_marginBottom="20dp"-->
+<!--                            android:background="#ffffff"-->
+<!--                            android:fontFamily="@font/montserrat"-->
+<!--                            android:onClick="btn_next"-->
+<!--                            android:text="Next"-->
+<!--                            android:textColor="#84c2c8"-->
+<!--                            android:textSize="20dp"-->
+<!--                            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toTopOf="parent" />-->
+
+
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
 
             </LinearLayout>
 

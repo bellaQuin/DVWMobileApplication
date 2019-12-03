@@ -514,7 +514,7 @@
 
     <string name="slide_39">
 
-        Step 3. <font color="#7E57C2">Resolve</font>\n Take action to\n find a resolve
+        Step 3. <font color="#E53935">Resolve</font>\n Take action to\n find a resolve
 
     </string>
 
@@ -629,6 +629,10 @@
 
         <b>Resolve</b>\n Recognise when you are stressed and\n need to do something about it.(this\n includes understanding what is\n happening in your mind and body\n when you are under stress)
 
+    </string>
+
+    <string name="search_yourtube">
+        search youtube for "people are awesome"
     </string>
 
 

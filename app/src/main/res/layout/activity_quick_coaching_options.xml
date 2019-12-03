@@ -149,12 +149,9 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
-
                     android:onClick="btn_goals"
                     app:cardPreventCornerOverlap="false"
-
-                    android:id="@+id/card_view_2_anim"
-                    >
+                    android:id="@+id/card_view_2_anim">
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"

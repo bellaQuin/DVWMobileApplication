@@ -101,24 +101,27 @@
                             android:textColor="#fff"
                             android:textSize="18sp"
                             android:background="#424242"
-                            android:text="    Finding it hard to make decisions"
+                            android:text="Finding it hard to make decisions"
                             />
 
                             <CheckBox
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="Constantly worrying"
+
                                 android:id="@+id/check_1"
                                 />
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Avoiding situations that are"
+
                             android:id="@+id/check_2"
                             />
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+
                             android:text="Troubling you"
                             android:id="@+id/check_3"
                             />
@@ -126,11 +129,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Snapping at people"
+
                             android:id="@+id/check_4"
                             />
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+
                             android:text="Biting your nails"
                             android:id="@+id/check_5"
                             />
@@ -138,23 +143,27 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Picking at your skin"
+
                             android:id="@+id/check_6"
                             />
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Unable to concentrate"
+
                             android:id="@+id/check_7"
                             />
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Eating too much or too little"
+
                             android:id="@+id/check_8"
                             />
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+
                             android:text="Smoking or drinking alcohol"
                             android:id="@+id/check_9"
                             />
@@ -162,32 +171,47 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Being tearful or crying"
+
                             android:id="@+id/check_10"
                             />
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Restless, like you can't sit still"
+
                             android:id="@+id/check_11"
                             />
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/next"
+                                android:layout_width="200dp"
+                                android:layout_height="60dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="40dp"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginBottom="30dp"
+                                android:background="#ffffff"
+                                android:fontFamily="@font/montserrat"
+                                android:onClick="b_btn_next"
+                                android:text="Next"
+                                android:textColor="#84c2c8"
+                                android:textSize="20dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 
 
                     </LinearLayout>
 
 
-                    <Button
-
-                        android:id="@+id/next"
-                        android:layout_width="200dp"
-                        android:layout_height="60dp"
-                        android:layout_marginLeft="100dp"
-                        android:layout_marginTop="40dp"
-                        android:background="#ffffff"
-                        android:fontFamily="@font/montserrat"
-                        android:onClick="btn_next"
-                        android:text="Next"
-                        android:textColor="#84c2c8"
-                        android:textSize="20dp" />
 
                 </LinearLayout>
 
