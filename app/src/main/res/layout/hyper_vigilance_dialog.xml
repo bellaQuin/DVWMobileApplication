@@ -18,7 +18,8 @@
         android:text="Hyper vigilance\n during stress"
         android:textAllCaps="true"
         android:textColor="#fff"
-        android:textSize="30sp"
+        android:textSize="25sp"
+        android:fontFamily="@font/montserrat"
         android:layout_marginTop="10dp"
         android:gravity="center"
         />
@@ -30,11 +31,12 @@
         android:layout_height="wrap_content"/>
 
     <TextView
+        android:fontFamily="@font/montserrat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textSize="20sp"
-        android:text="Hyper vigilance changes how we\n perceive the world around us.\n Once our fight or flight defence\n mechanism has kicked in - we are\n more likely to see something as a\n threat and respond to it in a\n negative /defensive or even\n aggressive way - EVEN\n UNFORTUNATELY IF IT'S NOT\n ACTUALLYA THREAT"
+        android:textSize="18sp"
+        android:text="Hyper vigilance changes how we\n perceive the world around us.\n Once our fight or flight defence\n mechanism has kicked in - we are\n more likely to see something as a\n threat and respond to it in a\n negative /defensive or even\n aggressive way - EVEN\n UNFORTUNATELY IF IT'S NOT\n ACTUALLY A THREAT"
         />
     <Button
         android:layout_width="150dp"

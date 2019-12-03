@@ -18,7 +18,8 @@
         android:text="Threat detected\n (stress)"
         android:textAllCaps="true"
         android:textColor="#fff"
-        android:textSize="30sp"
+        android:fontFamily="@font/montserrat"
+        android:textSize="25sp"
         android:layout_marginTop="10dp"
         android:gravity="center"
         />
@@ -33,7 +34,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textSize="20sp"
+        android:textSize="18sp"
+        android:fontFamily="@font/montserrat"
         android:text="Our brains permanenetly scan for\n danger. If we subconsciously\n detect a threat, (a shout/ scream -\n even if its on a movie screen) our\n minds get us ready - e.g. by\n making us frightened…"
         />
 
