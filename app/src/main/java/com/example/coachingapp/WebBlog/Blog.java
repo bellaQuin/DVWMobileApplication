@@ -97,25 +97,52 @@ public class Blog extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_blog);
 
+//        firebaseAuth = FirebaseAuth.getInstance();
+//        user = firebaseAuth.getCurrentUser();
+//          myRef = FirebaseDatabase.getInstance().getReference();
+//
+//        database = FirebaseDatabase.getInstance();
+//        current_user_id = firebaseAuth.getCurrentUser().getUid();
+
+
         firebaseAuth = FirebaseAuth.getInstance();
         user = firebaseAuth.getCurrentUser();
-       myRef = FirebaseDatabase.getInstance().getReference();
-
+        myRef = FirebaseDatabase.getInstance().getReference();
         database = FirebaseDatabase.getInstance();
-        current_user_id = firebaseAuth.getCurrentUser().getUid();
-        userRef = FirebaseDatabase.getInstance().getReference().child("users");
-        blogsRef= FirebaseDatabase.getInstance().getReference().child("Blog");
+
+
 
 
 
         actionBar = getSupportActionBar();
         checkUserStatus();
 
+
+        Query query = myRef.child("users").child(user.getUid());
+
+        query.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                for(DataSnapshot ds: dataSnapshot.getChildren()){
+                    name =  ""+ ds.child("username").getValue();
+
+
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+
+
         titleEt = findViewById(R.id.pTitleEt);
         descriptionEt = findViewById(R.id.pDescriptionEt);
         imageIv = findViewById(R.id.pImageIv);
         uploadBtn = findViewById(R.id.pUploadBtn);
         uUserNameEt = findViewById(R.id.pUsernameEt);
+
 
 
 
@@ -164,7 +191,7 @@ public class Blog extends AppCompatActivity {
             public void onClick(View v) {
                 String title = titleEt.getText().toString().trim();
                 String desc = descriptionEt.getText().toString().trim();
-                String username = uUserNameEt.getText().toString().trim();
+
 
                 if (TextUtils.isEmpty(title)){
                     Toast.makeText(Blog.this, "Please enter your title", Toast.LENGTH_SHORT).show();
@@ -184,7 +211,7 @@ public class Blog extends AppCompatActivity {
                 }else {
 
                     actionBar.setTitle("Add New Post");
-                    uploadData(title, desc, username);
+                    uploadData(title, desc);
 
 
                 }
@@ -462,8 +489,8 @@ public class Blog extends AppCompatActivity {
 
                             Picasso.get().load(editImage).into(imageIv);
 
-                        }catch (Exception e){
 
+                        }catch (Exception e){
                         }
                     }
 
@@ -479,7 +506,7 @@ public class Blog extends AppCompatActivity {
     }
 
 
-    private void uploadData(final String title, final String desc, final String username) {
+    private void uploadData(final String title, final String desc) {
         progressDialog.setMessage("Publishing app....");
         progressDialog.show();
 
@@ -514,7 +541,7 @@ public class Blog extends AppCompatActivity {
                                     HashMap<Object, String> hashMap = new HashMap<>();
                                     //Put post info
                                     hashMap.put("uid", uid);
-                                    hashMap.put("uName",username);
+                                    hashMap.put("uName",name);
                                     hashMap.put("uEmail", email);
                                     hashMap.put("uDp", dp);
                                     hashMap.put("pId", timeStamp);
@@ -527,12 +554,12 @@ public class Blog extends AppCompatActivity {
 
 
 
-                                   // DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child(current_user_id).child("Blog");
+                                    DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Blog");
                                    // issuesRef.child(current_user_id).child("Blog");
                                     //blogsRef= FirebaseDatabase.getInstance().getReference().child("Blog");
                                     // blogsRef.child(current_user_id).child(timeStamp).setValue(hashMap)
 
-                                    blogsRef.child(timeStamp).setValue(hashMap)
+                                   ref.child(timeStamp).setValue(hashMap)
 
                                             .addOnSuccessListener(new OnSuccessListener<Void>() {
                                                 @Override
@@ -575,7 +602,7 @@ public class Blog extends AppCompatActivity {
                 HashMap<Object, String> hashMap = new HashMap<>();
                 //Put post info
                 hashMap.put("uid", uid);
-                hashMap.put("uName",username);
+                hashMap.put("uName",name);
                 hashMap.put("uEmail", email);
                 hashMap.put("uDp", dp);
                 hashMap.put("pId", timeStamp);
@@ -587,10 +614,10 @@ public class Blog extends AppCompatActivity {
                 String id = user.getUid();
                 // myRef.child("users").child(id).child("users info");
 
-               // DatabaseReference ref = FirebaseDatabase.getInstance().getReference("users").child(id).child("Blog");
+                DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Blog");
               //  DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child(current_user_id).child("Blog");
 
-                blogsRef.child(timeStamp).setValue(hashMap)
+                ref.child(timeStamp).setValue(hashMap)
                         .addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
                             public void onSuccess(Void aVoid) {
@@ -775,6 +802,7 @@ public class Blog extends AppCompatActivity {
         FirebaseUser user = firebaseAuth.getCurrentUser();
         if (user!=null){
             email = user.getEmail();
+
 
             uid = user.getUid();
 
