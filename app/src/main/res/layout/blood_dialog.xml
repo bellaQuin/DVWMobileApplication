@@ -18,7 +18,8 @@
         android:text="Blood &amp; oxygen re-routed\n during stress"
         android:textAllCaps="true"
         android:textColor="#fff"
-        android:textSize="30sp"
+        android:textSize="25sp"
+        android:fontFamily="@font/montserrat"
         android:layout_marginTop="10dp"
         android:gravity="center"
         />
@@ -27,7 +28,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textSize="20sp"
+        android:textSize="18sp"
+        android:fontFamily="@font/montserrat"
         android:text="Blood and oxygen rerouted from\n gut and organs to major muscle\n groups – ready to run or fight!"
         />
 

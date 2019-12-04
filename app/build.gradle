@@ -7,7 +7,7 @@ android {
         applicationId "com.example.coachingapp"
         // minSdkVersion 18 previously 27
 
-          minSdkVersion 27
+          minSdkVersion 18
 
 
         targetSdkVersion 29
@@ -35,6 +35,7 @@ dependencies {
 
     def picassoVersion = "2.71828"
     implementation "com.squareup.picasso:picasso:$picassoVersion"
+    implementation 'com.squareup.picasso:picasso:2.71828'
 
     implementation 'com.google.android.gms:play-services-auth:17.0.0'
 

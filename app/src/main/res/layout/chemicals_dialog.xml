@@ -17,8 +17,9 @@
                 android:layout_height="wrap_content"
                 android:text="Chemicals released\n during stress"
                 android:textAllCaps="true"
+                android:fontFamily="@font/montserrat"
                 android:textColor="#fff"
-                android:textSize="30sp"
+                android:textSize="25sp"
                 android:layout_marginTop="10dp"
                 android:gravity="center"
                 />
@@ -33,7 +34,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:textSize="20sp"
+                android:textSize="18sp"
+                android:fontFamily="@font/montserrat"
                 android:text="The feelings of fear or anger are\n triggered by a range of hormones\n and neurotransmitters which are\n produced (mostly) by our brains.\n These signalling chemicals start\n our fight or flight response"
                 />
 

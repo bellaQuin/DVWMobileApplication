@@ -139,21 +139,18 @@
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="@+id/btn_Hyper_vigilance" />
 
+
                             <Button
                                 android:id="@+id/Threat_detected"
                                 android:layout_width="248dp"
                                 android:layout_height="62dp"
                                 android:layout_gravity="center"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="20dp"
-                                android:layout_marginEnd="20dp"
+                                android:layout_marginTop="25dp"
                                 android:background="#fff"
                                 android:text="Threat detected\n(creats stress)"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintHorizontal_bias="0.449"
-                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintEnd_toEndOf="@+id/btn_Hyper_vigilance"
+                                app:layout_constraintStart_toStartOf="@+id/btn_Hyper_vigilance"
                                 app:layout_constraintTop_toBottomOf="@+id/btn_Hyper_vigilance" />
-
 
                             <ImageView
                                 android:id="@+id/imageView8"
@@ -175,14 +172,11 @@
                                 android:layout_width="252dp"
                                 android:layout_height="62dp"
                                 android:layout_gravity="center"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="28dp"
-                                android:layout_marginEnd="20dp"
+                                android:layout_marginTop="25dp"
                                 android:background="#fff"
                                 android:text="Chemicals\n released"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintHorizontal_bias="0.502"
-                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintEnd_toEndOf="@+id/Threat_detected"
+                                app:layout_constraintStart_toStartOf="@+id/Threat_detected"
                                 app:layout_constraintTop_toBottomOf="@+id/Threat_detected" />
 
                             <ImageView
@@ -204,15 +198,13 @@
                                 android:layout_width="256dp"
                                 android:layout_height="64dp"
                                 android:layout_gravity="center"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="20dp"
-                                android:layout_marginEnd="20dp"
+                                android:layout_marginTop="25dp"
                                 android:layout_marginBottom="20dp"
                                 android:background="#fff"
                                 android:text="Brain says\n 'fight or fight'"
                                 app:layout_constraintBottom_toTopOf="@+id/imageView10"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintEnd_toEndOf="@+id/Chemicals"
+                                app:layout_constraintStart_toStartOf="@+id/Chemicals"
                                 app:layout_constraintTop_toBottomOf="@+id/Chemicals"
                                 app:layout_constraintVertical_bias="0.0" />
 
@@ -233,15 +225,12 @@
                                 android:layout_width="249dp"
                                 android:layout_height="61dp"
                                 android:layout_gravity="center"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="248dp"
-                                android:layout_marginEnd="20dp"
+                                android:layout_marginTop="25dp"
                                 android:background="#fff"
                                 android:text="Blood &amp; oxygen\n rerouted"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintHorizontal_bias="0.51"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+                                app:layout_constraintEnd_toEndOf="@+id/Brain_says"
+                                app:layout_constraintStart_toStartOf="@+id/Brain_says"
+                                app:layout_constraintTop_toBottomOf="@+id/Brain_says" />
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
 

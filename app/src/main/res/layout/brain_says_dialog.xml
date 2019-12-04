@@ -18,7 +18,8 @@
                 android:text="Hyper vigilance\n during stress"
                 android:textAllCaps="true"
                 android:textColor="#fff"
-                android:textSize="30sp"
+                android:textSize="25sp"
+                android:fontFamily="@font/montserrat"
                 android:layout_marginTop="10dp"
                 android:gravity="center"
                 />
@@ -44,7 +45,7 @@
                 android:background="#ffffff"
                 android:fontFamily="@font/montserrat"
                 android:textColor="#84c2c8"
-                android:textSize="20dp"
+                android:textSize="18dp"
                 android:text="Next"
                 android:id="@+id/btn_next_4"
 
