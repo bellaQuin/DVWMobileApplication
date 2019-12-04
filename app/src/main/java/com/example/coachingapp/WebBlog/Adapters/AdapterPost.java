@@ -36,6 +36,7 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.squareup.picasso.Picasso;
 
+
 import java.util.Calendar;
 import java.util.List;
 import java.util.Locale;
@@ -100,8 +101,9 @@ public class AdapterPost extends RecyclerView.Adapter<AdapterPost.MyHolder> {
 
             Calendar calendar = Calendar.getInstance(Locale.getDefault());
             calendar.setTimeInMillis(Long.parseLong(pTimeStamp));
-            String pTime = DateFormat.format("dd/mm/yyyy hh:mm:aa", calendar).toString();
-            holder.pTimeTv.setText(pTime);
+            String pTime = DateFormat.format("dd/MM/yyyy hh:mm aa", calendar).toString();
+
+             holder.pTimeTv.setText(pTime);
 
 
         //calendar.setTimeInMillis(Long.parseLong(pTimeStamp));

@@ -25,7 +25,7 @@ import com.example.coachingapp.WebBlog.DashboardBlog;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 
-public class resilience_Screen25 extends AppCompatActivity  implements NavigationView.OnNavigationItemSelectedListener {
+public class resilience_Screen25 extends AppCompatActivity  implements NavigationView.OnNavigationItemSelectedListener  {
     ImageButton imageIconRight;
     DrawerLayout drawerLayout;
     ActionBarDrawerToggle toggle;
@@ -68,6 +68,8 @@ public class resilience_Screen25 extends AppCompatActivity  implements Navigatio
                 }
             }
         });
+
+
     }
 
     private void singOut(){

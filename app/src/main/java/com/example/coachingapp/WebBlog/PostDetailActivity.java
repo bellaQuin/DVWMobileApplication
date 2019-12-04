@@ -158,7 +158,7 @@ public class PostDetailActivity extends AppCompatActivity {
 
         commentsList = new ArrayList<>();
 
-        ///Chnaged now
+
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference("Blog").child(blogId).child("Comment");
                 //.child(user.getUid()).child("Blog").child(blogId).child("Comment");
         //FirebaseDatabase.getInstance().getReference("users").child(user.getUid()).child("Blog");
@@ -171,7 +171,7 @@ public class PostDetailActivity extends AppCompatActivity {
 
                     commentsList.add(modelComments);
 
-                    //pass myUid and postId as a parmeter of constru
+                   
 
                     adapterComment = new AdapterComment(getApplicationContext(), commentsList, myUid, blogId);
                     recyclerView.setAdapter(adapterComment);
@@ -318,7 +318,7 @@ public class PostDetailActivity extends AppCompatActivity {
 
                     Calendar calendar = Calendar.getInstance(Locale.getDefault());
                     calendar.setTimeInMillis(Long.parseLong(pTimeStamp));
-                    String pTime = DateFormat.format("dd/mm/yyyy hh:mm:aa", calendar).toString();
+                    String pTime = DateFormat.format("dd/MM/yyyy hh:mm aa", calendar).toString();
 
 
 
