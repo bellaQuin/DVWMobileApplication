@@ -45,7 +45,7 @@ public class Slide_12_Behavioural extends AppCompatActivity implements Navigatio
 
     LinearLayout mLayout;
 
-    CheckBox check_1,check_2,check_3,check_4,check_5,check_6,check_7,check_8,check_9,check_10,check_11;
+    CheckBox check_0,check_1,check_2,check_4,check_5,check_6,check_7,check_8,check_9,check_10,check_11;
     List<String> options = new ArrayList<>();
     List<CheckBox> checkBoxes = new ArrayList<>();
 
@@ -64,9 +64,10 @@ public class Slide_12_Behavioural extends AppCompatActivity implements Navigatio
         myRef = FirebaseDatabase.getInstance().getReference();
         database = FirebaseDatabase.getInstance();
 
+        check_0 = findViewById(R.id.check_0);
         check_1 = (CheckBox) findViewById(R.id.check_1);
         check_2 = (CheckBox) findViewById(R.id.check_2);
-        check_3 = (CheckBox) findViewById(R.id.check_3);
+
         check_4 = (CheckBox) findViewById(R.id.check_4);
         check_5 = (CheckBox) findViewById(R.id.check_5);
         check_6 = (CheckBox) findViewById(R.id.check_6);
@@ -76,9 +77,10 @@ public class Slide_12_Behavioural extends AppCompatActivity implements Navigatio
         check_10 = (CheckBox) findViewById(R.id.check_10);
         check_11= (CheckBox) findViewById(R.id.check_11);
 
+        checkBoxes.add(check_0);
         checkBoxes.add(check_1);
         checkBoxes.add(check_2);
-        checkBoxes.add(check_3);
+
         checkBoxes.add(check_4);
         checkBoxes.add(check_5);
         checkBoxes.add(check_6);

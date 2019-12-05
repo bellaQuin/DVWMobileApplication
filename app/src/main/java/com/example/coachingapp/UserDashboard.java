@@ -16,6 +16,7 @@ import android.widget.ImageButton;
 import com.example.coachingapp.Goals.Goal_DisplaySummary;
 import com.example.coachingapp.ResilienceandCopingMechanisms.ResilienceMain;
 import com.example.coachingapp.ResilienceandCopingMechanisms.Slide_12_Behavioural;
+import com.example.coachingapp.ResilienceandCopingMechanisms.Slide_13;
 import com.example.coachingapp.ResilienceandCopingMechanisms.resilience_Screen24;
 import com.example.coachingapp.ResilienceandCopingMechanisms.resilience_Screen25;
 import com.example.coachingapp.ResilienceandCopingMechanisms.resilience_Screen38;

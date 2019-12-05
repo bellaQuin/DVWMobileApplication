@@ -90,11 +90,11 @@
                                 android:layout_marginRight="20dp"
                                 android:gravity="center"
                                 android:textColor="#000"
-                                android:text="During our fight or fight our\n brains produce a complex mix of\n chemicals(hormones and\n neurotansmitters).\n These chemicals can affect how\n we see things and reactto them."
+                                android:text="During our fight or fight our\n brains produce a complex mix of\n chemicals (hormones and\n neurotansmitters).\n These chemicals can affect how\n we see things and react to them."
                                 />
 
 
-                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
                         <androidx.constraintlayout.widget.ConstraintLayout
@@ -147,7 +147,7 @@
                                 android:layout_gravity="center"
                                 android:layout_marginTop="25dp"
                                 android:background="#fff"
-                                android:text="Threat detected\n(creats stress)"
+                                android:text="THREAT DETECTED (CREATES STRESS)"
                                 app:layout_constraintEnd_toEndOf="@+id/btn_Hyper_vigilance"
                                 app:layout_constraintStart_toStartOf="@+id/btn_Hyper_vigilance"
                                 app:layout_constraintTop_toBottomOf="@+id/btn_Hyper_vigilance" />

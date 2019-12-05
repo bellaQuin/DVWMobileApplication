@@ -95,15 +95,15 @@
                         android:layout_marginTop="20dp"
                         android:orientation="vertical">
 
-                        <TextView
+
+
+                        <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:textColor="#fff"
-                            android:textSize="18sp"
-                            android:background="#424242"
                             android:text="Finding it hard to make decisions"
-                            />
 
+                            android:id="@+id/check_0"
+                            />
                             <CheckBox
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -114,17 +114,17 @@
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Avoiding situations that are"
+                            android:text="Avoiding situations that are troubling you"
 
                             android:id="@+id/check_2"
                             />
-                        <CheckBox
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+<!--                        <CheckBox-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
 
-                            android:text="Troubling you"
-                            android:id="@+id/check_3"
-                            />
+<!--                            android:text="Troubling you"-->
+<!--                            android:id="@+id/check_3"-->
+<!--                            />-->
                         <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"

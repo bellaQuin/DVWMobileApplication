@@ -124,9 +124,8 @@
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="10dp"
                             android:layout_marginEnd="20dp"
-                            android:layout_marginBottom="56dp"
+                            android:layout_marginBottom="96dp"
                             android:background="@drawable/button_shape"
-
                             android:onClick="btn_nex_nextt"
                             android:text="NEXT"
                             android:textColor="#84c2c8"

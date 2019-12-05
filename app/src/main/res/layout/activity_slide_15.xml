@@ -81,7 +81,8 @@
                         android:layout_marginRight="20dp"
                         android:fontFamily="@font/montserrat"
                         android:gravity="center"
-                        android:text="Under stress our brain releases\n a chemical called cortisol."
+                        android:text="Under stress we emotionally react to a situation, instead of calmly responding to it.\n\n Step 2 of managing stress and building resilience is about doing something that allows you to
+start thinking clearly about the situation – instead of being overwhelmed by it."
                         android:textColor="#000"
                         android:textSize="20dp" />
 

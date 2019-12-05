@@ -61,7 +61,7 @@
                         android:textSize="20sp"
                         android:textColor="#1976D2"
                         android:gravity="center"
-                        android:text="There is no‘perfect’piece of\n music that will work for everyone.\n List your favourite music on your\n phone/PC."
+                        android:text="There is no 'perfect' piece of\n music that will work for everyone.\n List your favourite music on your\n phone/PC."
                         />
                     <TextView
                         android:layout_marginTop="20dp"
@@ -79,7 +79,7 @@
                         android:layout_marginLeft="20dp"
                         android:textSize="20sp"
                         android:textColor="#1976D2"
-                        android:text=" 1. Classical: ‘Nimrod’(Elgar) or‘Air on G’(Bach)"
+                        android:text=" 1. Classical: ‘Nimrod’ (Elgar) or‘Air on G’ (Bach)"
                         />
 
                     <TextView
@@ -89,7 +89,7 @@
                         android:layout_marginLeft="20dp"
                         android:textSize="20sp"
                         android:textColor="#1976D2"
-                        android:text=" 2. Film : ‘Happy’(Despicable Me 2 – Pharrell Williams) or ‘I Will Get Back Up Again’ (Trolls – Anna Kendrick)"
+                        android:text=" 2. Film : ‘Happy’ (Despicable Me 2 – Pharrell Williams) or ‘I Will Get Back Up Again’ (Trolls – Anna Kendrick)"
                         />
                     <TextView
                         android:layout_marginTop="20dp"
@@ -98,7 +98,7 @@
                         android:layout_marginLeft="20dp"
                         android:textSize="20sp"
                         android:textColor="#1976D2"
-                        android:text=" 3. Modern/Dance:  ‘Happier’(Marshmellow ft Bastille), ‘Where I’ll Be Waiting’ (Rich Edwards ft. Cozi Zuehlsdorff)"
+                        android:text=" 3. Modern/Dance: ‘Happier’ (Marshmellow ft Bastille), ‘Where I’ll Be Waiting’ (Rich Edwards ft. Cozi Zuehlsdorff)"
                         />
                     <TextView
                         android:layout_marginTop="20dp"

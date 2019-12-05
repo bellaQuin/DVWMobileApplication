@@ -164,10 +164,6 @@ public class Goal_Question_5 extends AppCompatActivity implements NavigationView
 
         Query query1 = myRef.child("users").child(user.getUid());
 
-
-
-
-
         query.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
