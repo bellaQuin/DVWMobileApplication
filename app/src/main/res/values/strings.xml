@@ -34,20 +34,22 @@
     -------Custom_Dialog_Box_Two-------
 
     <string name="Custom_Dialog_Box_Text_Two">
-        "Often when we describe a problem we describe the symptoms instead of the underlying problem that it is causing the symptom/issue.
+        "Often when we describe a problem, we describe the symptoms instead of the underlying problem that it is causing the symptom/issue.
     </string>
 
     <string name="Custom_Dialog_Box_Text_Three">
-        For example a symptom might be “my staff members performance is very poor but I cannot talk to them about it because they accuse me of bullying them”
+        For example, a symptom might be “my staff members performance is very poor but I cannot talk to them about it because they accuse me of bullying them”
     </string>
 
     <string name="Custom_Dialog_Box_Text_Four">
         Whilst the underlying problem could be “I have a really bad relationship with my staff member, there is a mutual distrust and it means everything is a fight” or “from what I can see, if a staff member accuses a manager of bullying, my company will always back the staff member and punish the manager”
-        "You can click ‘Next’ now, but you may want to take this opportunity to double check you have noted down the specific underlying problem or issue, not just a symptom.
+
     </string>
 
     <string name="Custom_Dialog_Box_Text_Fiver">
-        "You can click ‘Next’ now, but you may want to take this opportunity to double check you have noted down the specific underlying problem or issue, not just a symptom.
+       “You can click ‘Next’ now, but
+        you may want to take this opportunity to double check you have noted down the
+        specific underlying problem or issue, not just a symptom.”
     </string>
 
 
@@ -257,13 +259,13 @@
     -------WHY-------
 
     <string name="Why_Text_one">
-       It can help us understand\n our <b>motivation</b> to go deeper
+       It can help us understand\n our <b>motivation</b> to go deeper.
 
     </string>
 
 
     <string name="Why_Text_two">
-       For example: if you want a promotion and more money to afford a new house - keep asking yourself <u>WHY</u> do i want this?
+       For example: if you want a promotion and more money to afford a new house - keep asking yourself <u>WHY</u> do I want this?
 
     </string>
 
@@ -271,18 +273,18 @@
 
     <string name="Why_So_Important_One">
       Goal statement are important because:
-      They identify the real goal or WHY
-      They often show other ways of achieving the ultimate or deeper goal.
+       They identify the real goal or WHY. This often shows other ways of achieving
+        the ultimate or deeper goal.
 
     </string>
 
 
     <string name="Why_So_Important_2">
-      For example in the goal statement above we can see that perhaps “getting promoted” is not the best way to achieve the “more money”, which enables “a house”, which enables a “new life with my partner”.
+      For example in the first example of a goal statement above we can see that perhaps “getting promoted” is not the best way to achieve the “more money”, which enables “a house”, which enables a “new life with my partner”.
     </string>
 
     <string name="Why_So_Important_3">
-      Perhaps what we should really be focussing on here is changing to a more lucrative career,  Moving to a different region or country, or focussing on our credit rating to enable a better mortgage offer.
+      Perhaps what we should really be focusing on here is changing to a more lucrative career,  Moving to a different region or country, or focusing on our credit rating to enable a better mortgage offer.
     </string>
 
 
@@ -298,7 +300,8 @@
 
     <string name="Rd_map_plan">
 
-       A good reverse engineered road map starts with your destination or goal. It then works backwards to identify each step that needs to take place in order to achieve the goal. It can also identify milestones and measurabes if you need it to. Next you will find two examples of road maps.
+       A good reverse engineered road map starts with your destination or goal. It then works backwards to identify each step that needs to take place in order to achieve the goal. It can also identify milestones and measurable if you need it to. Next you will find two examples of road maps – a
+      blank template and one for running a marathon.
 
 
     </string>

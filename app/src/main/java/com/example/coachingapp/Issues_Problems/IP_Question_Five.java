@@ -9,6 +9,7 @@ import android.widget.ImageButton;
 import com.example.coachingapp.AboutUs;
 import com.example.coachingapp.Login;
 import com.example.coachingapp.R;
+import com.example.coachingapp.ResilienceandCopingMechanisms.ResilienceMain;
 import com.example.coachingapp.UserDashboard;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
@@ -43,6 +44,9 @@ public class IP_Question_Five extends AppCompatActivity implements NavigationVie
     }
 
     public void resilience(View view) {
+        Intent intent = new Intent(IP_Question_Five.this,  ResilienceMain.class);
+        startActivity(intent);
+
     }
 
 

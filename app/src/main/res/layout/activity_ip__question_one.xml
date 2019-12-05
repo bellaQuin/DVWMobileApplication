@@ -42,7 +42,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Write down your issue or problem in the text box below try and be as specific and concise as possible"
+                android:text="“Write down your issue or problem in the text box below. Try and be as
+specific and concise as possible.”"
                 android:layout_below="@id/icon_people_talk"
                 android:textSize="20dp"
                 android:gravity="center"

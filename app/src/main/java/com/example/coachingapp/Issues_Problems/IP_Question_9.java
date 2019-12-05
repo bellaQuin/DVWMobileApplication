@@ -124,7 +124,7 @@ public class IP_Question_9 extends AppCompatActivity implements NavigationView.O
             yesbtn.setBackgroundColor(getResources().getColor(R.color.colorAccent));
             nobtn.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
             textView.setText("No");
-            Toast.makeText(getBaseContext(), "Your are chosing No", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getBaseContext(), "Your are choosing No", Toast.LENGTH_SHORT).show();
         }
         buttonState++;
 
@@ -139,7 +139,7 @@ public class IP_Question_9 extends AppCompatActivity implements NavigationView.O
             yesbtn.setBackgroundColor(getResources().getColor(R.color.colorAccent));
             nobtn.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
             textView.setText("Yes");
-            Toast.makeText(getBaseContext(), "Your are chosing YES", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getBaseContext(), "Your are choosing YES", Toast.LENGTH_SHORT).show();
         }
         buttonState++;
     }

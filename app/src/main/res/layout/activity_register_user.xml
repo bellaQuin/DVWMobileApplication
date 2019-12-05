@@ -58,43 +58,43 @@
 
                 />
 
+<!--            <EditText-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="57dp"-->
+<!--                android:fontFamily="@font/montserrat"-->
+<!--                android:layout_below="@+id/register_user_username"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:layout_marginRight="30dp"-->
+<!--                android:layout_marginLeft="30dp"-->
+<!--                android:background="@drawable/button_shape"-->
+<!--                android:hint="Address (Optional)"-->
+<!--                android:id="@+id/register_user_address"-->
+<!--                android:textAlignment="center"-->
+<!--                />-->
+
+
+
+<!--            <EditText-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="57dp"-->
+<!--                android:layout_below="@+id/register_user_address"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:layout_marginRight="30dp"-->
+<!--                android:layout_marginLeft="30dp"-->
+<!--                android:background="@drawable/button_shape"-->
+<!--                android:hint="Birthdate (Optional)"-->
+<!--                android:inputType="date"-->
+<!--                android:focusable="false"-->
+<!--                android:editable="false"-->
+<!--                android:id="@+id/register_user_birthdate"-->
+<!--                android:fontFamily="@font/montserrat"-->
+<!--                android:textAlignment="center"-->
+<!--                />-->
+
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="57dp"
-                android:fontFamily="@font/montserrat"
                 android:layout_below="@+id/register_user_username"
-                android:layout_marginTop="15dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginLeft="30dp"
-                android:background="@drawable/button_shape"
-                android:hint="Address (Optional)"
-                android:id="@+id/register_user_address"
-                android:textAlignment="center"
-                />
-
-
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="57dp"
-                android:layout_below="@+id/register_user_address"
-                android:layout_marginTop="15dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginLeft="30dp"
-                android:background="@drawable/button_shape"
-                android:hint="Birthdate (Optional)"
-                android:inputType="date"
-                android:focusable="false"
-                android:editable="false"
-                android:id="@+id/register_user_birthdate"
-                android:fontFamily="@font/montserrat"
-                android:textAlignment="center"
-                />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="57dp"
-                android:layout_below="@+id/register_user_birthdate"
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="30dp"
                 android:layout_marginLeft="30dp"

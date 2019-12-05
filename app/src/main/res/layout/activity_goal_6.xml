@@ -208,7 +208,7 @@
                                             android:layout_marginTop="10dp"
                                             android:layout_marginEnd="20dp"
                                             android:fontFamily="@font/montserrat"
-                                            android:text="Click NEXT to create your own goal."
+                                            android:text="Click NEXT to create your own goal statement.."
                                             android:textSize="18sp"
                                             app:layout_constraintEnd_toStartOf="@+id/barleft1"
                                             app:layout_constraintStart_toStartOf="parent"
