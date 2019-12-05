@@ -79,6 +79,7 @@ public class PostDetailActivity extends AppCompatActivity {
     ActionBar actionBar;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -88,8 +89,8 @@ public class PostDetailActivity extends AppCompatActivity {
         user = firebaseAuth.getCurrentUser();
         myRef = FirebaseDatabase.getInstance().getReference();
         database = FirebaseDatabase.getInstance();
-        current_user_id = firebaseAuth.getCurrentUser().getUid();
-        blogsRef = FirebaseDatabase.getInstance().getReference("Blog");
+        //current_user_id = firebaseAuth.getCurrentUser().getUid();
+        //blogsRef = FirebaseDatabase.getInstance().getReference("Blog");
 
         Intent intent = getIntent();
         blogId = intent.getStringExtra("blogId");
@@ -97,7 +98,26 @@ public class PostDetailActivity extends AppCompatActivity {
         actionBar = getSupportActionBar();
         actionBar.setTitle("View Blog");
         //actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.actionBarColor)));
-
+//
+//        Query query = myRef.child("users").child(user.getUid());
+//
+//        query.addValueEventListener(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+//                for(DataSnapshot ds: dataSnapshot.getChildren()){
+//                    myName =  ""+ ds.child("username").getValue();
+//                    String n = ""+ ds.child("username").getValue();
+//
+//
+//                    modelComments.setuName(n);
+//
+//                }
+//            }
+//            @Override
+//            public void onCancelled(@NonNull DatabaseError databaseError) {
+//
+//            }
+//        });
 
 
        // commentsList = new ArrayList<>();
@@ -171,7 +191,7 @@ public class PostDetailActivity extends AppCompatActivity {
 
                     commentsList.add(modelComments);
 
-                   
+
 
                     adapterComment = new AdapterComment(getApplicationContext(), commentsList, myUid, blogId);
                     recyclerView.setAdapter(adapterComment);
@@ -187,6 +207,7 @@ public class PostDetailActivity extends AppCompatActivity {
 
 
     }
+
 
 
     private void postComment() {
@@ -214,7 +235,7 @@ public class PostDetailActivity extends AppCompatActivity {
         hashMap.put("uid", myUid);
         hashMap.put("uEmail", myEmail);
         hashMap.put("uDp", myDp);
-        hashMap.put("uName", myName);
+       hashMap.put("uName",myName );
 
 
         ref.child(timeStamp).setValue(hashMap)
@@ -257,35 +278,19 @@ public class PostDetailActivity extends AppCompatActivity {
 //
 //    }
 
-
+//
     private void loadUserInfo() {
 
-//        DatabaseReference ref = FirebaseDatabase.getInstance().getReference("user");
-//        Query query = ref.orderByChild("uid").equalTo(myUid);
-        Query query = FirebaseDatabase.getInstance().getReference("Blog");
-        query.addValueEventListener(new ValueEventListener() {
+//
+
+        DatabaseReference ref = FirebaseDatabase.getInstance().getReference("users").child(user.getUid());
+        ref.orderByChild("uid").equalTo(myUid).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 for (DataSnapshot ds: dataSnapshot.getChildren()){
-                    myName = ""+ds.child("uName").getValue();
-//                    myEmail = ""+ds.child("email").getValue();
-//                    myDp = ""+ds.child("image").getValue();
-
-
-//                    try
-//                    {
-//                        Picasso.get().load(R.drawable.ic_menu_camera).into(cAvatarIv);
-//
-//                    }
-//                    catch (Exception e)
-//                    {
-//                        Picasso.get().load(R.drawable.ic_menu_camera).into(cAvatarIv);
-//
-//                    }
-
+                    myName = ""+ds.child("username").getValue();
 
                 }
-
             }
 
             @Override
@@ -294,8 +299,10 @@ public class PostDetailActivity extends AppCompatActivity {
             }
         });
 
+//
 
     }
+
 
     private void loadPostinfo() {
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference("Blog");
@@ -313,7 +320,7 @@ public class PostDetailActivity extends AppCompatActivity {
                    // hisDp =  ""+ds.child("pImage").getValue();
                     String uid = ""+ds.child("uid").getValue();
                     String uEmail = ""+ds.child("pEmail").getValue();
-                    String  hisName = ""+ds.child("uName").getValue();
+                    hisName = ""+ds.child("uName").getValue();
                   //  String commentCount = ""+ds.child("pComment").getValue();
 
                     Calendar calendar = Calendar.getInstance(Locale.getDefault());
