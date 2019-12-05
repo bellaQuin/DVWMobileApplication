@@ -100,8 +100,8 @@
 
                             <TextView
                                 android:id="@+id/goal_question_3_box_3"
-                                android:layout_width="355dp"
-                                android:layout_height="46dp"
+                                android:layout_width="350dp"
+                                android:layout_height="50dp"
                                 android:layout_below="@+id/goal_question_3_box_1"
                                 android:layout_marginStart="20dp"
                                 android:layout_marginTop="18dp"
@@ -117,8 +117,8 @@
 
                             <EditText
                                 android:id="@+id/goal_question_3_box_2"
-                                android:layout_width="348dp"
-                                android:layout_height="62dp"
+                                android:layout_width="350dp"
+                                android:layout_height="50dp"
                                 android:layout_below="@+id/goal_question_3_box_3"
                                 android:layout_marginStart="20dp"
                                 android:layout_marginTop="18dp"
@@ -134,8 +134,8 @@
 
                             <EditText
                                 android:id="@+id/goal_question_3_box_4"
-                                android:layout_width="353dp"
-                                android:layout_height="55dp"
+                                android:layout_width="350dp"
+                                android:layout_height="50dp"
                                 android:layout_below="@+id/goal_question_3_box_2"
                                 android:layout_marginStart="20dp"
                                 android:layout_marginTop="18dp"

@@ -202,15 +202,14 @@
 
                                         <TextView
                                             android:id="@+id/why_goal_important_text_5"
-                                            android:layout_width="291dp"
-                                            android:layout_height="wrap_content"
+                                            android:layout_width="314dp"
+                                            android:layout_height="24dp"
                                             android:layout_below="@+id/why_goal_important_text_4"
                                             android:layout_centerHorizontal="true"
                                             android:layout_marginStart="20dp"
-                                            android:layout_marginTop="10dp"
                                             android:layout_marginEnd="20dp"
                                             android:fontFamily="@font/montserrat"
-                                            android:text="Click NEXT to create your own goal statement.."
+                                            android:text="Click NEXT to create your own goal statement."
                                             android:textSize="18sp"
                                             app:layout_constraintEnd_toStartOf="@+id/barleft1"
                                             app:layout_constraintStart_toStartOf="parent"

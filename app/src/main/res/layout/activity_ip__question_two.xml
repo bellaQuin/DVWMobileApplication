@@ -43,7 +43,7 @@
                 android:layout_margin="30dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="“Where is this issue on a scale of 1-10? Where 10 is death and 1 is ‘You have
+                android:text="Where is this issue on a scale of 1-10? Where 10 is death and 1 is ‘You have
 just spilt some tap water at home’?"
                 android:layout_below="@id/question"
                 android:textColor="#fff"
@@ -107,7 +107,7 @@ just spilt some tap water at home’?"
                 android:layout_width="200dp"
                 android:layout_height="60dp"
                 android:layout_below="@id/vote"
-                android:layout_marginTop="60dp"
+                android:layout_marginTop="40dp"
                 android:layout_marginBottom="20dp"
                 android:background="@drawable/button_shape"
                 android:layout_centerHorizontal="true"

@@ -50,14 +50,14 @@
 
                         <TextView
                             android:id="@+id/textView15"
-                            android:layout_width="218dp"
-                            android:layout_height="81dp"
-                            android:layout_marginStart="30dp"
-                            android:layout_marginEnd="30dp"
+                            android:layout_width="233dp"
+                            android:layout_height="91dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="15dp"
                             android:fontFamily="@font/montserrat"
                             android:text="To help you archive your goal, we are going to cover the following"
                             android:textColor="@android:color/white"
-                            android:textSize="18sp"
+                            android:textSize="20sp"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.0"
                             app:layout_constraintStart_toStartOf="parent"
@@ -87,18 +87,18 @@
                         app:layout_constraintTop_toBottomOf="@+id/constraintLayout15">
 
                         <ImageView
-                            android:layout_width="312dp"
-                            android:layout_height="400dp"
+                            android:layout_width="343dp"
+                            android:layout_height="428dp"
                             android:layout_centerHorizontal="true"
                             android:layout_centerVertical="true"
                             android:layout_marginStart="20dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:layout_marginEnd="20dp"
-                            android:layout_marginBottom="20dp"
+                            android:layout_marginBottom="10dp"
                             android:background="@drawable/schelpachivegoal"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintHorizontal_bias="0.473"
+                            app:layout_constraintHorizontal_bias="0.333"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
                             app:layout_constraintVertical_bias="1.0" />
@@ -122,11 +122,10 @@
 
                             android:layout_height="41dp"
                             android:layout_marginStart="20dp"
-                            android:layout_marginTop="16dp"
+                            android:layout_marginTop="10dp"
                             android:layout_marginEnd="20dp"
-                            android:layout_marginBottom="56dp"
+                            android:layout_marginBottom="96dp"
                             android:background="@drawable/button_shape"
-
                             android:onClick="btn_nex_nextt"
                             android:text="NEXT"
                             android:textColor="#84c2c8"

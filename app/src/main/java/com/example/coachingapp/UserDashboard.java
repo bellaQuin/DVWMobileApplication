@@ -133,7 +133,7 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
 
     public void btnResilience(View view) {
 //ResilienceMain, Slide_12_Behavioural  resilience_Screen25
-        Intent intent = new Intent(UserDashboard.this, Slide_13.class);
+        Intent intent = new Intent(UserDashboard.this, ResilienceMain.class);
         startActivity(intent);
     }
 }

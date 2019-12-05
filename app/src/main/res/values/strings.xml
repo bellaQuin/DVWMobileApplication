@@ -47,9 +47,9 @@
     </string>
 
     <string name="Custom_Dialog_Box_Text_Fiver">
-       “You can click ‘Next’ now, but
+       You can click ‘Next’ now, but
         you may want to take this opportunity to double check you have noted down the
-        specific underlying problem or issue, not just a symptom.”
+        specific underlying problem or issue, not just a symptom.
     </string>
 
 
@@ -125,7 +125,7 @@
     </string>
 
     <string name="Play_Back_Summary_7">
-      What are the implications
+      What are the implications?
     </string>
 
 
@@ -179,8 +179,8 @@
     -------Last_Question-------
 
     <string name="Last_Question">
-        (Make sure this is a precise timing point such as "Monday at 9:00am". Answers such as "as soon as possible" will not help you much.
-        The more specific you can get the date and time the more likely you are to actually do this)
+        (Make sure this is a precise timing point such as \"Monday at 9:00am\". Answers such as \"as soon as possible\" will not help you much.
+        The more specific you can get the date and time the more likely you are to actually do this.)
 
     </string>
 
@@ -280,7 +280,7 @@
 
 
     <string name="Why_So_Important_2">
-      For example in the first example of a goal statement above we can see that perhaps “getting promoted” is not the best way to achieve the “more money”, which enables “a house”, which enables a “new life with my partner”.
+      For example in the first example of a goal statement we can see that perhaps “getting promoted” is not the best way to achieve the “more money”, which enables “a house”, which enables a “new life with my partner”.
     </string>
 
     <string name="Why_So_Important_3">
@@ -327,7 +327,7 @@
         1.) What…specifically…is the challenge here? - Why can\'t this be rated as an 9,8 or 10?\n\n
         2.) What can you do or put in place to make this challenge easier?\n\n
         3.) What would be the first step in doing that?\n\n
-        4.) is there anyone who can help you?\n\n
+        4.) Is there anyone who can help you?\n\n
 
     </string>
 

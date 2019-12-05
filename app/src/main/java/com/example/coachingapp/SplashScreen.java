@@ -20,7 +20,9 @@ package com.example.coachingapp;
         import com.example.coachingapp.Issues_Problems.IP_Question_12;
         import com.example.coachingapp.Issues_Problems.IP_Question_13;
         import com.example.coachingapp.Issues_Problems.IP_Question_14;
+        import com.example.coachingapp.Issues_Problems.IP_Question_15;
         import com.example.coachingapp.Issues_Problems.IP_Question_9;
+        import com.example.coachingapp.Issues_Problems.LastQuestion;
         import com.example.coachingapp.ResilienceandCopingMechanisms.ResilienceMain;
         import com.example.coachingapp.ResilienceandCopingMechanisms.Slide_12_Behavioural;
         import com.example.coachingapp.ResilienceandCopingMechanisms.Slide_13;
@@ -57,7 +59,7 @@ public class SplashScreen extends AppCompatActivity  {
     }
 
     public void btn_splash_screen_begin(View view) {
-        Intent intent = new Intent(SplashScreen.this,  UserDashboard.class);
+        Intent intent = new Intent(SplashScreen.this,  Login.class);
         startActivity(intent);
 
     }

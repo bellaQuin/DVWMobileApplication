@@ -168,8 +168,7 @@ public class Goal_DisplaySummary extends AppCompatActivity implements Navigation
     public void btn_email(View view)  {
 
 
-        Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
-                "mailto","Write You Email Here", null));
+        Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto","Write You Email Here", null));
         emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Da Vinci's Workshop");
         emailIntent.putExtra(Intent.EXTRA_TEXT,"Hi There! \n\n Please see summary below: \n\n" + "Your Goal is " + display_goal.getText().toString()  + "\n Which You want to achieve because: " + display_reason.getText().toString()+"\nYou will take first action in making this goal a reality on: " + txtday.getText().toString()+ " " + txtMonth.getText().toString()+ " "+ txttime.getText().toString()+ "\n\n We hope this simple coaching exercise has helped." +"\n\n Thanks," + "\nYour Da Vinci's Workshop Team");
         startActivity(Intent.createChooser(emailIntent, "Send email..."));

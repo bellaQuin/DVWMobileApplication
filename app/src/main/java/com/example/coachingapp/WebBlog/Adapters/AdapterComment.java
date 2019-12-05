@@ -22,7 +22,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
-import java.text.SimpleDateFormat;
+
 import java.util.Calendar;
 import java.util.List;
 import java.util.Locale;
@@ -60,14 +60,9 @@ public class AdapterComment extends RecyclerView.Adapter<AdapterComment.MyHolder
         String timestamp =commentsList.get(position).getTimestamp();
 
 
-//        Calendar calendar = Calendar.getInstance(Locale.getDefault());
-//       // SimpleDateFormat sdf = new SimpleDateFormat()
-//        calendar.setTimeInMillis(Long.parseLong(timestamp));
-//        String pTime = DateFormat.format("dd/MM/yyyy HH:mm aa", calendar).toString();
-
         Calendar calendar = Calendar.getInstance(Locale.getDefault());
-        SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy hh:mm aa");
-        String pTime = dateFormat.format(calendar.getTimeInMillis());
+        calendar.setTimeInMillis(Long.parseLong(timestamp));
+        String pTime = DateFormat.format("dd/MM/yyyy hh:mm aa", calendar).toString();
 
         //holder.pComments.setText(pComments + " Comment");
         holder.nametv.setText(name);
