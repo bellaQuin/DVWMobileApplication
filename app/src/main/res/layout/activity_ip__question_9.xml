@@ -38,18 +38,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="270dp"
                 android:layout_below="@id/text"
-                android:layout_margin="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="236dp"
                     android:layout_height="192dp"
-                    android:layout_margin="20dp"
+                    android:layout_margin="18dp"
                     android:layout_marginTop="30dp"
                     android:fontFamily="@font/montserrat"
-                    android:text="Thinking of the\n issue or problem,\n has your\nresponse so far been\nappropriate?"
+                    android:text="Thinking of the\nissue or problem,\nhas your\nresponse so far been\nappropriate?"
                     android:textColor="@android:color/white"
-                    android:textSize="25sp" />
+                    android:textSize="24sp" />
 
                 <ImageView
                     android:layout_width="100dp"
