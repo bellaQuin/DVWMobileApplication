@@ -57,8 +57,8 @@
 
                         <TextView
                             android:id="@+id/title_roadmap_steps"
-                            android:layout_width="212dp"
-                            android:layout_height="50dp"
+                            android:layout_width="206dp"
+                            android:layout_height="48dp"
                             android:layout_gravity="center"
                             android:layout_marginStart="16dp"
                             android:layout_marginTop="8dp"
@@ -67,7 +67,7 @@
                             android:text="Run marathon in under 4h 30mins, in 12 months"
                             android:textAlignment="center"
                             android:textColor="@android:color/white"
-                            android:textSize="18dp"
+                            android:textSize="17sp"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />

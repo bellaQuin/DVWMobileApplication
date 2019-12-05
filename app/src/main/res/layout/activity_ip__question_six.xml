@@ -33,7 +33,7 @@
                 android:layout_height="189dp"
                 android:layout_marginTop="30dp"
                 android:fontFamily="@font/montserrat"
-                android:text="Using the same scale, where will this issue be when you look back on it in ‘6 month’s time’ "
+                android:text="Using the same scale, where will this issue be when you look back on it in 6 month’s time "
                 android:textColor="@android:color/white"
                 android:textSize="25dp"
                 android:textStyle="bold" />
@@ -61,7 +61,7 @@
                 android:layout_height="60dp"
                 android:background="@drawable/button_shape"
                 android:text="NEXT"
-                android:layout_marginTop="110dp"
+                android:layout_marginTop="95dp"
                 android:layout_marginBottom="20dp"
                 android:layout_centerHorizontal="true"
                 android:textColor="#84c2c8"

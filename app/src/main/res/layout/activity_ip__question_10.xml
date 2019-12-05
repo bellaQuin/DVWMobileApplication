@@ -55,15 +55,15 @@
 
                             <TextView
                                 android:id="@+id/text"
-                                android:layout_width="match_parent"
+                                android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="10dp"
-                                android:layout_marginEnd="20dp"
+                                android:layout_marginStart="32dp"
+                                android:layout_marginTop="1dp"
+                                android:layout_marginEnd="32dp"
                                 android:fontFamily="@font/montserrat"
                                 android:gravity="center"
                                 android:text="Effective responses so far?"
-                                android:textSize="25sp"
+                                android:textSize="24sp"
                                 android:textStyle="bold"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
@@ -78,20 +78,25 @@
                             android:id="@+id/constraintLayout2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/constraintLayout5">
 
                             <TextView
                                 android:id="@id/text_2"
-                                android:layout_width="378dp"
-                                android:layout_height="110dp"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="10dp"
-                                android:layout_marginEnd="20dp"
+                                android:layout_width="339dp"
+                                android:layout_height="159dp"
+                                android:layout_marginStart="32dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginEnd="32dp"
                                 android:fontFamily="@font/montserrat"
                                 android:gravity="center_vertical"
                                 android:text="Effective means your response worked and helped to resolve the issue.\n\n There is a big difference between a response that emotionally feels right and a response that actually helps!"
                                 android:textColor="#ffffff"
-                                android:textSize="15sp"
+                                android:textSize="18sp"
+                                app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent" />
@@ -110,7 +115,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="20dp"
-                                android:layout_marginTop="10dp"
+                                android:layout_marginTop="5dp"
                                 android:layout_marginEnd="20dp"
                                 android:orientation="horizontal"
                                 app:layout_constraintEnd_toEndOf="parent"
@@ -172,8 +177,12 @@
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/constraintLayout6"
-                            android:layout_width="match_parent"
+                            android:layout_width="413dp"
                             android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/constraintLayout3">
 
                             <TextView
@@ -193,12 +202,12 @@
 
                             <EditText
                                 android:id="@+id/effective_response_text_box_1"
-                                android:layout_width="match_parent"
-                                android:layout_height="100dp"
+                                android:layout_width="351dp"
+                                android:layout_height="111dp"
                                 android:layout_below="@id/txt_view"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="13dp"
-                                android:layout_marginEnd="20dp"
+                                android:layout_marginStart="27dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginEnd="27dp"
                                 android:background="@drawable/button_shape"
                                 android:fontFamily="@font/montserrat"
                                 android:gravity="top"
@@ -206,7 +215,7 @@
                                 android:textSize="18sp"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/txt_view" />
+                                app:layout_constraintTop_toTopOf="parent" />
 
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -223,7 +232,7 @@
                                 android:layout_height="60dp"
                                 android:layout_centerHorizontal="true"
                                 android:layout_marginStart="20dp"
-                                android:layout_marginTop="20dp"
+                                android:layout_marginTop="10dp"
                                 android:layout_marginEnd="20dp"
                                 android:layout_marginBottom="20dp"
                                 android:background="@drawable/button_shape"

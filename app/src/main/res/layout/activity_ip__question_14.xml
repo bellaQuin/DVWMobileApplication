@@ -31,7 +31,7 @@
                     android:id="@+id/text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="10dp"
                     android:fontFamily="@font/montserrat"
                     android:gravity="center"
                     android:text="STRONGER \n AND WISER"
@@ -55,10 +55,9 @@
                         android:layout_marginRight="20dp"
                         android:fontFamily="@font/montserrat"
                         android:gravity="center"
-
-                        android:text="How going through this situation could make you stronger and wiser?"
+                        android:text="How will going through this situation could make you stronger and wiser?"
                         android:textColor="#fff"
-                        android:textSize="20sp"
+                        android:textSize="19sp"
                         />
 
                     <ImageView
@@ -84,6 +83,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:fontFamily="@font/montserrat"
+                        android:layout_gravity="center"
                         android:text="What does not kill us, makes us stronger. Not strictly true, but a nice idea. Smart people learn from their experiences so that the next time they encounter a similar situation - they can manage it in an easier and more successful way."
                         android:textColor="#fff"
                         android:textSize="17sp"/>
@@ -97,7 +97,8 @@
                     android:layout_height="150dp"
                     android:layout_below="@id/imagetext_2"
                     android:layout_centerHorizontal="true"
-                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
                     android:background="@drawable/button_shape"
                     android:fontFamily="@font/montserrat"
                     android:gravity="top"
