@@ -228,29 +228,32 @@ public class Slide_13 extends AppCompatActivity implements NavigationView.OnNavi
 
 
     public void btn_resilience_question_one(View view) {
-        if (editText.getText().toString().equals("")) {
-            Toast.makeText(getApplicationContext(),"Please enter something...", Toast.LENGTH_SHORT).show();
-        } else {
-            addToFirebase();
-        }
+        Intent intent = new Intent(Slide_13.this, Slide_14.class);
+        startActivity(intent);
+
+//        if (editText.getText().toString().equals("")) {
+//            Toast.makeText(getApplicationContext(),"Please enter something...", Toast.LENGTH_SHORT).show();
+//        } else {
+//            addToFirebase();
+//        }
     }
 
-    private void addToFirebase() {
-        String input_1 = editText.getText().toString().trim();
-
-        if (user != null) {
-
-            Resilience_1 resilience = new Resilience_1(input_1);
-            String id = user.getUid();
-//            myRef.child("users").child(id).push().setValue(issues);
-            myRef.child("users").child(id).child("Resilience").child("resilience_1").setValue(resilience);
-
-            Toast.makeText(this, "Information Saved", Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(Slide_13.this, Slide_14.class);
-            startActivity(intent);
-
-        }
-    }
+//    private void addToFirebase() {
+//        String input_1 = editText.getText().toString().trim();
+//
+//        if (user != null) {
+//
+//            Resilience_1 resilience = new Resilience_1(input_1);
+//            String id = user.getUid();
+////            myRef.child("users").child(id).push().setValue(issues);
+//            myRef.child("users").child(id).child("Resilience").child("resilience_1").setValue(resilience);
+//
+//            Toast.makeText(this, "Information Saved", Toast.LENGTH_SHORT).show();
+//            Intent intent = new Intent(Slide_13.this, Slide_14.class);
+//            startActivity(intent);
+//
+//        }
+//    }
 
     private void nav(){
         drawerLayout = findViewById(R.id.layout_drawer);
