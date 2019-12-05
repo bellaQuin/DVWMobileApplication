@@ -60,19 +60,22 @@
                        >
 
 
-
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="My Issue or problem is:"
-                            android:textSize="18sp"
-                            android:fontFamily="@font/montserrat"/>
+                            android:fontFamily="@font/montserrat"
+                            android:text="My issue or problem is:"
+                            android:textColor="@android:color/holo_red_light"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
 
                         <TextView
+
                             android:id="@+id/playback_text_1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/montserrat"
+                            android:textColor="@android:color/holo_blue_bright"
                             android:textSize="18sp" />
 
 
@@ -83,26 +86,33 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/montserrat"
-                            android:textSize="18sp"
-                            android:text="Where is this issue on a scale of 1 – 10.  Where 10 is Death and 1 is ‘you have just spilt some tap water at home:"/>
+                            android:text="Where is this issue on a scale of 1–10?. Where 10 is death and 1 is ‘You have just spilt some tap water at home:"
+                            android:textColor="@android:color/holo_red_light"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
                         <TextView
                             android:id="@+id/playback_text_2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/montserrat"
                             android:textSize="18sp"
+                            android:textColor="@android:color/holo_blue_bright"
                             />
 
                         <TextView
                             android:layout_marginTop="20dp"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:textSize="18sp"
+                            android:text="Using the same scale, where will this issue be when you look back on it in '6 months time'?"
+                            android:textColor="@android:color/holo_red_light"
+                            android:textSize="20sp"
                             android:fontFamily="@font/montserrat"
-                            android:text="Using the same scale, where will this issue be when you look back on it in 6 months time?"/>
+                            android:textStyle="bold"/>
                         <TextView
+                            android:textColor="@android:color/holo_blue_bright"
                             android:id="@+id/playback_text_3"
                             android:layout_width="match_parent"
+                            android:textSize="18sp"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/montserrat"
                             />
@@ -110,13 +120,17 @@
                         <TextView
                             android:layout_marginTop="20dp"
                             android:layout_width="match_parent"
-                            android:textSize="18sp"
+                            android:textColor="@android:color/holo_red_light"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/montserrat"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
                             android:text="@string/Play_Back_Summary_1"/>
                         <TextView
+                            android:textColor="@android:color/holo_blue_bright"
                             android:id="@+id/playback_text_4"
                             android:layout_margin="10dp"
+                            android:textSize="18sp"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/montserrat"
@@ -124,13 +138,16 @@
 
 
                         <TextView
+                            android:textColor="@android:color/holo_red_light"
+                            android:textSize="20sp"
                             android:layout_marginTop="20dp"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:textSize="18sp"
+                            android:textStyle="bold"
                             android:fontFamily="@font/montserrat"
                             android:text="@string/Play_Back_Summary_2"/>
                         <TextView
+                            android:textColor="@android:color/holo_blue_bright"
                             android:id="@+id/playback_text_5"
                             android:layout_width="match_parent"
                             android:fontFamily="@font/montserrat"
@@ -139,12 +156,17 @@
                             />
 
                         <TextView
+                            android:text="Has your response to
+this issue or problem been appropriate so far?"
+                            android:textColor="@android:color/holo_red_light"
                             android:layout_marginTop="20dp"
+                            android:textSize="20sp"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/montserrat"
-                            android:text="@string/Play_Back_Summary_3"/>
+                            android:textStyle="bold"/>
                         <TextView
+                            android:textColor="@android:color/holo_blue_bright"
                             android:id="@+id/playback_text_6"
                             android:layout_width="match_parent"
                             android:fontFamily="@font/montserrat"
@@ -152,21 +174,39 @@
                             android:layout_height="wrap_content"
                             />
 
+
                         <TextView
+                            android:text="Has your response to
+this issue or problem been appropriate so far?"
+                            android:textColor="@android:color/holo_red_light"
+                            android:textSize="20sp"
                             android:layout_marginTop="20dp"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/montserrat"
-                            android:textSize="18sp"
-                            android:text="@string/Play_Back_Summary_4"/>
+                            android:textStyle="bold"/>
+
                         <TextView
+                            android:textColor="@android:color/holo_blue_bright"
                             android:id="@+id/playback_text_7"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textSize="18sp"
                             android:fontFamily="@font/montserrat"
                             />
+
+
                         <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/montserrat"
+                            android:text="@string/Play_Back_Summary_4"
+                            android:textColor="@android:color/holo_red_light"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:textColor="@android:color/holo_blue_bright"
                             android:id="@+id/playback_text_7_part_1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -175,13 +215,17 @@
                             />
 
                         <TextView
+                            android:text="How can you influence or improve the situation"
+                            android:textColor="@android:color/holo_red_light"
                             android:layout_marginTop="20dp"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:textSize="18sp"
-                            android:text="@string/Play_Back_Summary_5"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
                             android:fontFamily="@font/montserrat"/>
                         <TextView
+                            android:textColor="@android:color/holo_blue_bright"
+                            android:textSize="18sp"
                             android:id="@+id/playback_text_8"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -189,6 +233,8 @@
                             />
 
                         <TextView
+                            android:textColor="@android:color/holo_red_light"
+                            android:textStyle="bold"
                             android:layout_marginTop="20dp"
                             android:layout_width="match_parent"
                             android:textSize="18sp"
@@ -196,6 +242,7 @@
                             android:fontFamily="@font/montserrat"
                             android:text="@string/Play_Back_Summary_6"/>
                         <TextView
+                            android:textColor="@android:color/holo_blue_bright"
                             android:id="@+id/playback_text_9"
                             android:layout_width="match_parent"
                             android:textSize="18sp"
@@ -209,10 +256,13 @@
 
 
                         <TextView
+
+                            android:textColor="@android:color/holo_red_light"
+                            android:textSize="20sp"
                             android:layout_marginTop="20dp"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:textSize="18sp"
+                            android:textStyle="bold"
                             android:fontFamily="@font/montserrat"
                             android:text="@string/Play_Back_Summary_7"/>
                         <TextView
@@ -227,13 +277,16 @@
 
 
                         <TextView
+                            android:textColor="@android:color/holo_red_light"
+                            android:textSize="20sp"
                             android:layout_marginTop="20dp"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/montserrat"
-                            android:textSize="18sp"
+                            android:textStyle="bold"
                             android:text="@string/Play_Back_Summary_8"/>
                         <TextView
+                            android:textColor="@android:color/holo_blue_bright"
                             android:id="@+id/playback_text_11"
                             android:layout_width="match_parent"
                             android:fontFamily="@font/montserrat"

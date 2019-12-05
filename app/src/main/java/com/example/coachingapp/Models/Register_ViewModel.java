@@ -14,11 +14,9 @@ public class Register_ViewModel {
     }
 
 
-    public Register_ViewModel(String name, String username, String address, String birthdate, String email, String password, String reEnterPaswword) {
+    public Register_ViewModel(String name, String username,  String email, String password, String reEnterPaswword) {
         this.name = name;
         this.username = username;
-        this.address = address;
-        this.birthdate = birthdate;
         this.email = email;
         this.password = password;
         this.reEnterPaswword = reEnterPaswword;
@@ -40,21 +38,6 @@ public class Register_ViewModel {
         this.username = username;
     }
 
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-    public String getBirthdate() {
-        return birthdate;
-    }
-
-    public void setBirthdate(String birthdate) {
-        this.birthdate = birthdate;
-    }
 
     public String getEmail() {
         return email;

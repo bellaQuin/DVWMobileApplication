@@ -94,7 +94,7 @@
                             android:layout_marginLeft="40dp"
                             android:layout_centerVertical="true"
                             android:textColor="@android:color/white"
-                            android:text="I need coaching to manage a issue or problem"
+                            android:text="I need coaching to manage an issue or problem"
                             android:textSize="20dp"
                             android:gravity="center"
                             android:id="@+id/textLeft"

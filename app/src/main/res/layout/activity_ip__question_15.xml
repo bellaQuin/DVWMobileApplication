@@ -79,7 +79,7 @@
                                 android:layout_marginTop="20dp"
                                 android:layout_marginEnd="20dp"
                                 android:fontFamily="@font/montserrat"
-                                android:text="What positives can take from this situation?"
+                                android:text="What positives can you take from this situation?"
                                 android:textColor="#fff"
                                 android:textSize="24dp"
                                 app:layout_constraintEnd_toEndOf="parent"

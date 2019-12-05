@@ -53,7 +53,7 @@ public class RegisterUser extends AppCompatActivity {
 
 
         validate();
-        datePicker();
+      //  datePicker();
 
         mAuth = FirebaseAuth.getInstance();
         progressDialog= new ProgressDialog(this);
@@ -79,47 +79,47 @@ public class RegisterUser extends AppCompatActivity {
     private void validate(){
         uNmae = findViewById(R.id.register_user_name);
         uUsername = findViewById(R.id.register_user_username);
-        uAddress = findViewById(R.id.register_user_address);
-        uBirthdate = findViewById(R.id.register_user_birthdate);
+//        uAddress = findViewById(R.id.register_user_address);
+//        uBirthdate = findViewById(R.id.register_user_birthdate);
         uEmail = findViewById(R.id.register_user_email);
         uPassword = findViewById(R.id.register_user_password);
         uReEnterPassword = findViewById(R.id.register_user_reEnterPassword);
     }
 
-        private void datePicker(){
+//        private void datePicker(){
+//
+//        final DatePickerDialog.OnDateSetListener date = new DatePickerDialog.OnDateSetListener() {
+//            @Override
+//            public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+//
+//                calendar.set(Calendar.YEAR, year);
+//                calendar.set(Calendar.MONTH, month);
+//                calendar.set(Calendar.DAY_OF_MONTH, dayOfMonth);
+//                updateLable();
+//
+//
+//
+//            }
+//
+//
+//
+//        };
+//
+//        uBirthdate.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                new DatePickerDialog(RegisterUser.this, date, calendar.get(calendar.YEAR),calendar.get(calendar.MONTH), calendar.get(calendar.DAY_OF_MONTH) ).show();
+//            }
+//        });
+//
+//    }
 
-        final DatePickerDialog.OnDateSetListener date = new DatePickerDialog.OnDateSetListener() {
-            @Override
-            public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
-
-                calendar.set(Calendar.YEAR, year);
-                calendar.set(Calendar.MONTH, month);
-                calendar.set(Calendar.DAY_OF_MONTH, dayOfMonth);
-                updateLable();
-
-
-
-            }
-
-
-
-        };
-
-        uBirthdate.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                new DatePickerDialog(RegisterUser.this, date, calendar.get(calendar.YEAR),calendar.get(calendar.MONTH), calendar.get(calendar.DAY_OF_MONTH) ).show();
-            }
-        });
-
-    }
-
-    private void updateLable(){
-        String myFormat = "MM/dd/yy";
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(myFormat, Locale.ENGLISH);
-
-        uBirthdate.setText(simpleDateFormat.format(calendar.getTime()));
-    }
+//    private void updateLable(){
+//        String myFormat = "MM/dd/yy";
+//        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(myFormat, Locale.ENGLISH);
+//
+//        uBirthdate.setText(simpleDateFormat.format(calendar.getTime()));
+//    }
 
 
 
@@ -127,8 +127,8 @@ public class RegisterUser extends AppCompatActivity {
     private void createNewAccount() {
         final String name = uNmae.getText().toString().trim();
         final String username = uUsername.getText().toString().trim();
-        final String address = uAddress.getText().toString().trim();
-        final String birthdate = uBirthdate.getText().toString().trim();
+//        final String address = uAddress.getText().toString().trim();
+//        final String birthdate = uBirthdate.getText().toString().trim();
         final String email = uEmail.getText().toString().trim();
         final String password = uPassword.getText().toString().trim();
         final String reEnterPassword = uReEnterPassword.getText().toString().trim();
@@ -162,8 +162,6 @@ public class RegisterUser extends AppCompatActivity {
                                 Register_ViewModel registerViewModel = new Register_ViewModel(
                                         name,
                                         username,
-                                        address,
-                                        birthdate,
                                         email,
                                         password,
                                         reEnterPassword

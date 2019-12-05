@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import com.example.coachingapp.AboutUs;
 import com.example.coachingapp.Login;
+import com.example.coachingapp.Models.Issues_2;
 import com.example.coachingapp.Models.Issues_3;
 import com.example.coachingapp.R;
 import com.example.coachingapp.UserDashboard;
@@ -144,9 +145,9 @@ public class IP_Question_Two_Part_Two extends AppCompatActivity implements Navig
         String answer_3 = text.getText().toString();
 
         if (user != null) {
-            Issues_3 issues_3 = new Issues_3(answer_3);
+            Issues_2 issues_3 = new Issues_2(answer_3);
             String id = user.getUid();
-            myRef.child("users").child(id).child("Issues").child("answer_3").setValue(issues_3);
+            myRef.child("users").child(id).child("Issues").child("answer_2").setValue(issues_3);
             Toast.makeText(this, "Information Saved", Toast.LENGTH_SHORT).show();
 //            Intent intent = new Intent(IssuesAndProblemsPart3.this, IssuesAndProblemsPart4.class);
 //            startActivity(intent);
