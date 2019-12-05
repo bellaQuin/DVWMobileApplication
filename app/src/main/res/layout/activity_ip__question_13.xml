@@ -31,7 +31,7 @@
             android:id="@+id/text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:fontFamily="@font/montserrat"
             android:gravity="center"
             android:text="IMPROVEMENTS"
@@ -56,10 +56,11 @@
                 android:layout_marginBottom="20dp"
                 android:fontFamily="@font/montserrat"
                 android:gravity="center"
-                android:text="You will need to write something in the text boxes in order to progress to the next coaching question"
+                android:text="You will need to write something in the text boxes in order to progress to the next coaching question."
                 android:textColor="#fff"
                 android:textSize="24dp"
                 />
+
             <ImageView
                 android:id="@+id/icon_people_talk"
                 android:layout_width="80dp"
@@ -67,7 +68,7 @@
                 android:layout_below="@id/text"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/scsteps"/>
+                android:background="@drawable/scsteps" />
 
         </LinearLayout>
 
@@ -81,7 +82,7 @@
             android:background="@drawable/button_shape"
             android:fontFamily="@font/montserrat"
             android:gravity="top"
-            android:hint="How can you influence or improve the situation?\n\nIf I can influence or improve the situation then…"
+            android:hint="How can you influence or improve the situation?\n\n"
             />
 
         <Button
@@ -90,7 +91,7 @@
             android:layout_height="60dp"
             android:layout_below="@id/improvements_text_box"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_marginBottom="50dp"
             android:background="@drawable/button_shape"
             android:onClick="btn_next_improvements"

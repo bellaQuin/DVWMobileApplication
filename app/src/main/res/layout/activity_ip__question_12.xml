@@ -31,7 +31,7 @@
                     android:id="@+id/text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="10dp"
                     android:fontFamily="@font/montserrat"
                     android:gravity="center"
                     android:text="WHAT ARE THE \n IMPLICATIONS?"
@@ -49,7 +49,7 @@
                     android:layout_marginBottom="20dp"
                     android:fontFamily="@font/montserrat"
                     android:gravity="center"
-                    android:text="You will need to write something in both text boxes in order to progress to the next coaching question"
+                    android:text="You will need to write something in both text boxes in order to progress to the next coaching question."
                     android:textColor="#fff"
                     android:textSize="24dp"
                     />
@@ -73,7 +73,7 @@
                     android:layout_height="60dp"
                     android:layout_below="@id/implication_text_box"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginBottom="50dp"
                     android:background="@drawable/button_shape"
                     android:fontFamily="@font/montserrat"
@@ -86,7 +86,6 @@
 
             </RelativeLayout>
         </ScrollView>
-
 
 
     </RelativeLayout>

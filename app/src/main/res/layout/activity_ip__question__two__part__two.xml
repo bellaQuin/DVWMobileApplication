@@ -58,7 +58,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginBottom="20dp"
                 android:layout_marginTop="20dp"
-                android:text="Please now reselect a number to\n show you have considered this\n very carefully.\n\n You can still select the same\n number if you feel this issue really is that important"
+                android:text="Please now reselect a number to\n show you have considered this\n very carefully.\n\n You can still select the same\n number if you feel this issue really is that important."
                 android:fontFamily="@font/montserrat"
                 />
 
