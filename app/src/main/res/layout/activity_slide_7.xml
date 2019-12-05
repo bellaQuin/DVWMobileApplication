@@ -68,7 +68,7 @@
                         android:layout_marginRight="20dp"
                         android:gravity="center"
                         android:textColor="#fff"
-                        android:text="Our primal survival mechanisms can be\n activated when we feel under pressure or\n stress. We call this our ‘fight or flight\n’ mechanism. Although there is a third\n option – which is to freeze!"
+                        android:text="Our primal survival mechanisms can be\n activated when we feel under pressure or\n stress. We call this our ‘fight or flight,\n mechanism. Although there is a third\n option – which is to freeze!"
                         />
 
                     <ImageView

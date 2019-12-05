@@ -16,6 +16,7 @@ import android.widget.ImageButton;
 import com.example.coachingapp.Goals.Goal_DisplaySummary;
 import com.example.coachingapp.ResilienceandCopingMechanisms.ResilienceMain;
 import com.example.coachingapp.ResilienceandCopingMechanisms.Slide_12_Behavioural;
+import com.example.coachingapp.ResilienceandCopingMechanisms.Slide_13;
 import com.example.coachingapp.ResilienceandCopingMechanisms.resilience_Screen24;
 import com.example.coachingapp.ResilienceandCopingMechanisms.resilience_Screen25;
 import com.example.coachingapp.ResilienceandCopingMechanisms.resilience_Screen38;
@@ -132,7 +133,7 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
 
     public void btnResilience(View view) {
 //ResilienceMain, Slide_12_Behavioural  resilience_Screen25
-        Intent intent = new Intent(UserDashboard.this, ResilienceMain.class);
+        Intent intent = new Intent(UserDashboard.this, Slide_13.class);
         startActivity(intent);
     }
 }

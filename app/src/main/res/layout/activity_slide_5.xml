@@ -96,7 +96,7 @@
                             android:layout_below="@+id/rtv1"
                             android:fontFamily="@font/montserrat"
                             android:gravity="center"
-                            android:text="Recognise when you are stressed\n and need to do  something about\n it,(this includes understanding\n what is happening in your mind\n and body when you are under\n stress)"
+                            android:text="Recognise when you are stressed\n and need to do something about\n it, (this includes understanding\n what is happening in your mind\n and body when you are under\n stress)"
                             android:textColor="#000"
                             android:textSize="20dp"
                             app:layout_constraintEnd_toEndOf="parent"

@@ -77,13 +77,13 @@
                         android:layout_marginTop="20dp"
                         android:orientation="vertical">
 
-                        <TextView
+
+
+                        <CheckBox
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:textColor="#fff"
-                            android:textSize="18sp"
-                            android:background="#424242"
-                            android:text="    Irritable, aggressive, impatient"
+                            android:id="@+id/check_0"
+                            android:text="Irritable, aggressive, impatient"
                             />
 
                         <CheckBox

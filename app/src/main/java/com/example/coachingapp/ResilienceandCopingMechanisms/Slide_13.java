@@ -6,12 +6,19 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
+import android.widget.ScrollView;
+import android.widget.TableLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.coachingapp.AboutUs;
@@ -19,11 +26,19 @@ import com.example.coachingapp.Login;
 import com.example.coachingapp.Models.Resilience_1;
 import com.example.coachingapp.R;
 import com.example.coachingapp.UserDashboard;
+import com.example.coachingapp.ViewStressSigns;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
+import com.google.firebase.database.ValueEventListener;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Slide_13 extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     ImageButton imageIconRight;
@@ -36,6 +51,10 @@ public class Slide_13 extends AppCompatActivity implements NavigationView.OnNavi
     FirebaseDatabase database;
     DatabaseReference myRef;
     FirebaseUser user;
+    LinearLayout mLayout;
+    List<String> signsList;
+    ScrollView goalDisplayParentView, goalDisplayChildView;
+    int len;
 
     Button myButton;
 
@@ -51,6 +70,160 @@ public class Slide_13 extends AppCompatActivity implements NavigationView.OnNavi
         user = firebaseAuth.getCurrentUser();
         myRef = FirebaseDatabase.getInstance().getReference();
         database = FirebaseDatabase.getInstance();
+        mLayout = findViewById(R.id.showsings);
+
+        goalDisplayParentView = findViewById(R.id.goalDisplayParentView);
+        goalDisplayChildView = findViewById(R.id.goalDisplayChildView);
+
+        goalDisplayParentView.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+
+                findViewById(R.id.goalDisplayParentView).getParent().requestDisallowInterceptTouchEvent(false);
+                return false;
+            }
+        });
+
+
+        goalDisplayChildView.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+
+                v.getParent().requestDisallowInterceptTouchEvent(true);
+
+                return false;
+            }
+        });
+
+
+
+
+
+
+
+        Query displayStressSigns = myRef.child("users").child(user.getUid()).child("Resilience").child("behavioural").child("choices");
+        displayStressSigns.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+
+                signsList = new ArrayList<>();
+
+                for (DataSnapshot ds: dataSnapshot.getChildren()){
+
+
+                    String s = ds.getValue(String.class);
+                    signsList.add(s);
+                }
+//
+//
+                len = signsList.size();
+
+                for (int i = 0; i < len; i++) {
+
+
+
+                    TextView ed = new TextView(Slide_13.this);
+                    ed.setText(signsList.get(i).toString());
+                    TableLayout.LayoutParams layoutParams = new TableLayout.LayoutParams();
+                    ed.setTextColor(Color.BLACK);
+                    ed.setLayoutParams(layoutParams);
+                    ed.setEnabled(false);
+                    ed.setTextSize(18);
+                    ed.setBackground(getDrawable(R.drawable.text_box));
+                   layoutParams.setMargins(0, 0, 0, 0);
+                    mLayout.addView(ed);
+
+
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+
+        Query displayStressSignsP = myRef.child("users").child(user.getUid()).child("Resilience").child("resilience_10").child("choices");
+        displayStressSignsP.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                signsList = new ArrayList<>();
+
+                for (DataSnapshot ds: dataSnapshot.getChildren()){
+
+
+                    String s = ds.getValue(String.class);
+                    signsList.add(s);
+                }
+//
+//
+                len = signsList.size();
+
+                for (int i = 0; i < len; i++) {
+                   // editText.setText(signsList.get(i).toString());
+                    TextView ed = new TextView(Slide_13.this);
+                    ed.setText(signsList.get(i).toString());
+                    TableLayout.LayoutParams layoutParams = new TableLayout.LayoutParams();
+                    ed.setBackground(getDrawable(R.drawable.text_box));
+                    ed.setTextColor(Color.BLACK);
+                    ed.setLayoutParams(layoutParams);
+                    ed.setEnabled(false);
+                    ed.setTextSize(18);
+                    layoutParams.setMargins(0, 0, 0, 0);
+
+                    mLayout.addView(ed);
+
+
+                }
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+
+
+        Query displayStressSignsIT = myRef.child("users").child(user.getUid()).child("Resilience").child("resilience_11").child("choices");
+        displayStressSignsIT.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                signsList = new ArrayList<>();
+
+                for (DataSnapshot ds: dataSnapshot.getChildren()){
+
+
+                    String s = ds.getValue(String.class);
+                    signsList.add(s);
+                }
+//
+//
+                len = signsList.size();
+
+                for (int i = 0; i < len; i++) {
+                   // editText.setText(signsList.get(i).toString());
+                    TextView ed = new TextView(Slide_13.this);
+                    ed.setText(signsList.get(i).toString());
+                    TableLayout.LayoutParams layoutParams = new TableLayout.LayoutParams();
+                    ed.setBackground(getDrawable(R.drawable.text_box));
+                    ed.setTextColor(Color.BLACK);
+                    ed.setTextSize(18);
+                    ed.setLayoutParams(layoutParams);
+                    ed.setEnabled(false);
+                    layoutParams.setMargins(0, 0, 0, 0);
+                    mLayout.addView(ed);
+
+
+                }
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
     }
 
 

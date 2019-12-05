@@ -59,16 +59,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                    <TextView
-                        android:fontFamily="@font/montserrat"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:textSize="18dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:gravity="center"
-                        android:text="'The worrld breaks everyone and\n afterward, some are strong at the broke\n places'.\n Earnest Hemmingway"
-                        android:textColor="#D81B60"/>
+<!--                    <TextView-->
+<!--                        android:fontFamily="@font/montserrat"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:textSize="18dp"-->
+<!--                        android:layout_marginLeft="20dp"-->
+<!--                        android:layout_marginRight="20dp"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="'The world breaks everyone and\n afterward, some are strong at the broke\n places'.\n Earnest Hemmingway"-->
+<!--                        android:textColor="#D81B60"/>-->
 
 
                     <TextView
@@ -81,7 +81,7 @@
                         android:textSize="18dp"
                         android:gravity="center"
                         android:textColor="#000"
-                        android:text="Developing resilience can help\n deal with pressure, reduce the\n impact that stress and lead to a\n more successful, happy life."/>
+                        android:text="Developing resilience can help\n deal with pressure, reduce the\n impact that stress has on us and lead to a\n more successful, happy life."/>
 
 
                     <TextView
@@ -95,15 +95,15 @@
                         android:text="Resilience is not just your ability\n to bounce back, but also your\n capacity to adapt in the face of\n challenging circumstances."/>
 
                     <TextView
-                        android:fontFamily="@font/montserrat"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:textSize="18dp"
+                        android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
+                        android:fontFamily="@font/montserrat"
                         android:gravity="center"
-                        android:text="Resilience isn't a personality\n trait.It can be learnt..."
-                        android:textColor="#D81B60"/>
+                        android:text="Resilience isn't a personality\n trait. It can be learnt..."
+                        android:textColor="#D81B60"
+                        android:textSize="18dp" />
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">

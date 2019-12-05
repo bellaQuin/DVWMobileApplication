@@ -42,18 +42,18 @@
                         />
 
                     <EditText
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        android:background="@drawable/button_shape"
+                        android:id="@+id/question_1_edit_text"
+                        android:layout_width="329dp"
+                        android:layout_height="277dp"
                         android:layout_below="@id/title"
                         android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
                         android:layout_marginTop="20dp"
-                        android:hint="@string/slide_28"
-                        android:gravity="top"
-                        android:id="@+id/question_1_edit_text"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginRight="10dp"
                         android:fontFamily="@font/montserrat"
-                        />
+                        android:background="@drawable/button_shape"
+                        android:gravity="top"
+                        android:hint="@string/slide_28" />
 
                     <LinearLayout
                         android:layout_below="@id/question_1_edit_text"

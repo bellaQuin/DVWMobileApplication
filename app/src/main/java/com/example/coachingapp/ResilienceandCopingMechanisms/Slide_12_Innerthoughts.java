@@ -42,7 +42,7 @@ public class Slide_12_Innerthoughts extends AppCompatActivity implements Navigat
 
     LinearLayout mLayout;
 
-    CheckBox check_1,check_2,check_3,check_4,check_5,check_6,check_7,check_8,check_9,check_10;
+    CheckBox check_0,check_1,check_2,check_3,check_4,check_5,check_6,check_7,check_8,check_9,check_10;
     List<String> options = new ArrayList<>();
     List<CheckBox> checkBoxes = new ArrayList<>();
 
@@ -59,6 +59,7 @@ public class Slide_12_Innerthoughts extends AppCompatActivity implements Navigat
         myRef = FirebaseDatabase.getInstance().getReference();
         database = FirebaseDatabase.getInstance();
 
+        check_0 = findViewById(R.id.check_0);
         check_1 = (CheckBox) findViewById(R.id.check_1);
         check_2 = (CheckBox) findViewById(R.id.check_2);
         check_3 = (CheckBox) findViewById(R.id.check_3);
@@ -70,6 +71,7 @@ public class Slide_12_Innerthoughts extends AppCompatActivity implements Navigat
         check_9 = (CheckBox) findViewById(R.id.check_9);
         check_10 = (CheckBox) findViewById(R.id.check_10);
 
+       checkBoxes.add(check_0);
         checkBoxes.add(check_1);
         checkBoxes.add(check_2);
         checkBoxes.add(check_3);

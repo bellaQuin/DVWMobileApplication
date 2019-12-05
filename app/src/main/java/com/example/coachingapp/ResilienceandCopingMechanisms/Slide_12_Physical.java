@@ -41,7 +41,7 @@ public class Slide_12_Physical extends AppCompatActivity  implements NavigationV
 
     LinearLayout mLayout;
 
-    CheckBox check_1,check_2,check_3,check_4,check_5,check_6,check_7,check_8,check_9,check_10,check_11,check_12,check_13,check_14;
+    CheckBox check_0,check_1,check_2,check_3,check_4,check_5,check_6,check_7,check_8,check_9,check_10,check_11,check_12,check_13,check_14;
 
     List<String> options = new ArrayList<>();
     List<CheckBox> checkBoxes = new ArrayList<>();
@@ -59,6 +59,7 @@ public class Slide_12_Physical extends AppCompatActivity  implements NavigationV
         myRef = FirebaseDatabase.getInstance().getReference();
         database = FirebaseDatabase.getInstance();
 
+        check_0 = findViewById(R.id.check_0);
         check_1 = (CheckBox) findViewById(R.id.check_1);
         check_2 = (CheckBox) findViewById(R.id.check_2);
         check_3 = (CheckBox) findViewById(R.id.check_3);
@@ -74,6 +75,7 @@ public class Slide_12_Physical extends AppCompatActivity  implements NavigationV
         check_13= (CheckBox) findViewById(R.id.check_13);
         check_14= (CheckBox) findViewById(R.id.check_14);
 
+        checkBoxes.add(check_0);
         checkBoxes.add(check_1);
         checkBoxes.add(check_2);
         checkBoxes.add(check_3);

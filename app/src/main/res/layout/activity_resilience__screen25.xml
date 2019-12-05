@@ -85,7 +85,7 @@
                         android:textColor="#1976D2"
 
                         android:textAlignment="center"
-                        android:text="How the science works: Watch someone doing somrthing uplifting and we start to mirror some of thier emotions. (We are social animals and emotions can truly be infectious"
+                        android:text="How the science works: Watch someone doing something uplifting and we start to mirror some of their emotions. (We are social animals and emotions can truly be infectious"
                         />
                     <TextView
                         android:layout_marginTop="20dp"
