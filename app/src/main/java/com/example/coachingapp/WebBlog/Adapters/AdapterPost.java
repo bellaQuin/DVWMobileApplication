@@ -37,6 +37,7 @@ import com.google.firebase.storage.StorageReference;
 import com.squareup.picasso.Picasso;
 
 
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.List;
 import java.util.Locale;
@@ -99,11 +100,14 @@ public class AdapterPost extends RecyclerView.Adapter<AdapterPost.MyHolder> {
         String pCommentsTv = postList.get(position).getpCommentCount();
 
 
-            Calendar calendar = Calendar.getInstance(Locale.getDefault());
-            calendar.setTimeInMillis(Long.parseLong(pTimeStamp));
-            String pTime = DateFormat.format("dd/MM/yyyy hh:mm aa", calendar).toString();
-
-             holder.pTimeTv.setText(pTime);
+        Calendar calendar = Calendar.getInstance(Locale.getDefault());
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy hh:mm aa");
+        String pTime = dateFormat.format(calendar.getTimeInMillis());
+//            Calendar calendar = Calendar.getInstance(Locale.getDefault());
+//            calendar.setTimeInMillis(Long.parseLong(pTimeStamp));
+//            String pTime = DateFormat.format("dd/MM/yyyy hh:mm aa", calendar).toString();
+//
+              holder.pTimeTv.setText(pTime);
 
 
         //calendar.setTimeInMillis(Long.parseLong(pTimeStamp));

@@ -320,7 +320,7 @@ public class PostDetailActivity extends AppCompatActivity {
                    // hisDp =  ""+ds.child("pImage").getValue();
                     String uid = ""+ds.child("uid").getValue();
                     String uEmail = ""+ds.child("pEmail").getValue();
-                    hisName = ""+ds.child("uName").getValue();
+                   String  hisName = ""+ds.child("uName").getValue();
                   //  String commentCount = ""+ds.child("pComment").getValue();
 
                     Calendar calendar = Calendar.getInstance(Locale.getDefault());
