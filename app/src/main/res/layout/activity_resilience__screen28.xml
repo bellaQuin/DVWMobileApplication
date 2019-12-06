@@ -37,6 +37,7 @@
                         android:textColor="#FFAB91"
                         android:textSize="30dp"
                         android:gravity="center"
+                        android:fontFamily="@font/montserrat"
                         android:text="Gratitude &amp; positive thinking"
                         android:textAllCaps="true"
                         />

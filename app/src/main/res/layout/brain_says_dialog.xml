@@ -15,7 +15,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Hyper vigilance\n during stress"
+                android:text="Brain Says"
                 android:textAllCaps="true"
                 android:textColor="#fff"
                 android:textSize="25sp"
@@ -34,7 +34,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:textSize="20sp"
+                android:textSize="18sp"
+                android:fontFamily="@font/montserrat"
                 android:text="This is how most people respond to\n a threat. Physical changes happen\n to prepare our bodies to ‘fight’ or\n run away -‘Flight'. When these\n chemical changes happen this\n affects how we see things - e.g. we become hyper vigilant.(super\n aware of stuff)."
                 />
             <Button

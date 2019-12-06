@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import com.example.coachingapp.AboutUs;
 import com.example.coachingapp.Login;
@@ -37,7 +38,7 @@ public class resilience_Screen22 extends AppCompatActivity implements Navigation
 
 
     public void btn_play(View view) {
-
+         //Toast.makeText(resilience_Screen22.this, "The audio file may take a while to load. Please wait for 5 seconds.", Toast.LENGTH_SHORT).show();
          mediaPlayer = new MediaPlayer();
         try {
             mediaPlayer.setDataSource("https://firebasestorage.googleapis.com/v0/b/coachingapp-a95d5.appspot.com/o/guidance%20for%20image%20relaxation.m4a?alt=media&token=81f8aac5-a291-4fde-864f-48b78800d7bf");

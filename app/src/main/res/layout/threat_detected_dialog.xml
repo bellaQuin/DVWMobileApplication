@@ -36,7 +36,7 @@
         android:gravity="center"
         android:textSize="18sp"
         android:fontFamily="@font/montserrat"
-        android:text="Our brains permanenetly scan for\n danger. If we subconsciously\n detect a threat, (a shout/ scream -\n even if its on a movie screen) our\n minds get us ready - e.g. by\n making us frightened…"
+        android:text="Our brains permanently scan for\n danger. If we subconsciously\n detect a threat, (a shout/ scream -\n even if its on a movie screen) our\n minds get us ready - e.g. by\n making us frightened…"
         />
 
     <ImageView

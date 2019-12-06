@@ -91,14 +91,14 @@
 
 
                         <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
+                            android:layout_width="376dp"
+                            android:layout_height="160dp"
                             android:layout_below="@+id/rtv1"
                             android:fontFamily="@font/montserrat"
                             android:gravity="center"
-                            android:text="Recognise when you are stressed\n and need to do something about\n it, (this includes understanding\n what is happening in your mind\n and body when you are under\n stress)"
+                            android:text="Recognise when you are stressed\n and need to do something about\n it, (this includes understanding\n what is happening in your mind\n and body when you are under\n stress)."
                             android:textColor="#000"
-                            android:textSize="20dp"
+                            android:textSize="18dp"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/rtv1" />
@@ -146,9 +146,9 @@
                             android:layout_marginEnd="20dp"
                             android:fontFamily="@font/montserrat"
                             android:gravity="center"
-                            android:text="Respond to the situation.\n Take short term action to keep\n yourself safe and move to a\n position where you think clearly"
+                            android:text="Respond to the situation.\n Take short term action to keep\n yourself safe and move to a\n position where you think clearly."
                             android:textColor="#000"
-                            android:textSize="20dp"
+                            android:textSize="18dp"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/rtv2" />
@@ -193,9 +193,9 @@
                             android:layout_marginEnd="20dp"
                             android:fontFamily="@font/montserrat"
                             android:gravity="center"
-                            android:text="Take long term action to resolve or\n removethe issue permanently"
+                            android:text="Take long term action to resolve or\n remove the issue permanently."
                             android:textColor="#000"
-                            android:textSize="20dp"
+                            android:textSize="18dp"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/textView11" />

@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="18sp"
-        android:text="Hyper vigilance changes how we\n perceive the world around us.\n Once our fight or flight defence\n mechanism has kicked in - we are\n more likely to see something as a\n threat and respond to it in a\n negative /defensive or even\n aggressive way - EVEN\n UNFORTUNATELY IF IT'S NOT\n ACTUALLY A THREAT"
+        android:text="Hyper vigilance changes how we\n perceive the world around us.\n Once our fight or flight defence\n mechanism has kicked in - we are\n more likely to see something as a\n threat and respond to it in a\n negative/defensive or even\n aggressive way - EVEN\n UNFORTUNATELY IF IT'S NOT\n ACTUALLY A THREAT"
         />
     <Button
         android:layout_width="150dp"
@@ -46,7 +46,7 @@
         android:background="#ffffff"
         android:fontFamily="@font/montserrat"
         android:textColor="#84c2c8"
-        android:textSize="20dp"
+        android:textSize="18dp"
         android:text="Next"
         android:id="@+id/btn_next_1"
 

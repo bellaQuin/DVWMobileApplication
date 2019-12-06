@@ -83,7 +83,7 @@
                         android:textSize="20dp"
                         android:gravity="center"
                         android:textColor="#000"
-                        android:text="Its similar to the way that in an\n aircraft emergency we have to\n put our own oxygen mask first,\n in order to help others. If you\n aren't okay yourself, then you\n can’t help/lead anyone else..."/>
+                        android:text="Its similar to the way that in an\n aircraft emergency we have to\n put our own oxygen mask first,\n in order to help others. If you\n aren't okay yourself, then you\n can’t help/lead anyone else."/>
 
 
                     <androidx.constraintlayout.widget.ConstraintLayout

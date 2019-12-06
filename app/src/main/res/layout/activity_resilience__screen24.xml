@@ -61,9 +61,10 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:gravity="center"
+                        android:fontFamily="@font/montserrat"
                         android:text="There is no 'perfect' piece of\n music that will work for everyone.\n List your favourite music on your\n phone/PC."
                         android:textColor="#1976D2"
-                        android:textSize="20sp" />
+                        android:textSize="18sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -71,26 +72,29 @@
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="20dp"
                         android:text=" Suggestions:"
+                        android:fontFamily="@font/montserrat"
                         android:textColor="#1976D2"
-                        android:textSize="20sp" />
+                        android:textSize="18sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="8dp"
+                        android:fontFamily="@font/montserrat"
                         android:text=" 1. Classical: ‘Nimrod’ (Elgar) or‘Air on G’ (Bach)"
                         android:textColor="#1976D2"
-                        android:textSize="20sp" />
+                        android:textSize="18sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="20dp"
+                        android:fontFamily="@font/montserrat"
                         android:text=" 2. Film : ‘Happy’ (Despicable Me 2 – Pharrell Williams) or ‘I Will Get Back Up Again’ (Trolls – Anna Kendrick)"
                         android:textColor="#1976D2"
-                        android:textSize="20sp" />
+                        android:textSize="18sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -99,16 +103,18 @@
                         android:layout_marginTop="20dp"
                         android:text=" 3. Modern/Dance: ‘Happier’ (Marshmellow ft Bastille), ‘Where I’ll Be Waiting’ (Rich Edwards ft. Cozi Zuehlsdorff)"
                         android:textColor="#1976D2"
-                        android:textSize="20sp" />
+                        android:fontFamily="@font/montserrat"
+                        android:textSize="18sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="56dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="20dp"
+                        android:fontFamily="@font/montserrat"
                         android:text=" 4. Rock: ‘We are the Champions’ (Queen)"
                         android:textColor="#1976D2"
-                        android:textSize="20sp" />
+                        android:textSize="18sp" />
 
                     <Button
                         android:id="@+id/shw_images"

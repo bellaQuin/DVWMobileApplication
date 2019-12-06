@@ -36,9 +36,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textColor="#fff"
-                        android:textSize="30dp"
+                        android:textSize="28dp"
                         android:gravity="center"
-                        android:text="so now you know\n the signs..."
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/montserrat"
+                        android:text="so now that you know\n the signs"
                         android:textAllCaps="true"
                         />
 
@@ -112,7 +114,8 @@
                         android:textSize="18dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Take step 2 - responding and taking\n short term action to get yourself in a\n better place so you can actually do\n something about it..."
+                        android:fontFamily="@font/montserrat"
+                        android:text="Take step 2 - responding and taking\n short term action to get yourself in a\n better place so you can actually do\n something about it."
                         />
 
 

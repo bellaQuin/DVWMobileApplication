@@ -91,6 +91,7 @@
                         android:layout_marginTop="20dp"
                         android:textSize="20dp"
                         android:textStyle="bold"
+                        android:fontFamily="@font/montserrat"
                         android:text="If you need to - Start by saying:"
                         />
                     <TextView
@@ -100,6 +101,7 @@
                         android:textColor="#F44336"
                         android:layout_marginTop="20dp"
                         android:textSize="20dp"
+                        android:fontFamily="@font/montserrat"
                         android:text="“I am not in a good place and I need\n help.  Please will you help me?”"
                         />
 

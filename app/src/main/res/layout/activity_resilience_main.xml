@@ -67,7 +67,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
                         android:gravity="center"
-                        android:text="In this ‘Resilience and Coping ’\n section we will be sharing some\n practical tools to help deal with\n stress and develop resilience. "
+                        android:text="In this ‘Resilience and Coping ’\n section, we will be sharing some\n practical tools to help deal with\n stress and develop resilience. "
                         android:textColor="#000"/>
 
                     <ImageView
@@ -97,7 +97,7 @@
                         android:layout_marginTop="20dp"
                         android:gravity="center"
                         android:fontFamily="@font/montserrat"
-                        android:text="We will help you select the best\n way to tackle the problem "/>
+                        android:text="We will help you select the best\n way to tackle the problem. "/>
 
 
                     <androidx.constraintlayout.widget.ConstraintLayout

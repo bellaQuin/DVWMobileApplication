@@ -38,7 +38,7 @@ public class Slide_9_Brain extends AppCompatActivity implements NavigationView.O
         nav();
 
         TextView textView = (TextView)findViewById(R.id.color_text);
-        String text = "In an office or home environment this is not very useful, in fact it <font color = #E53935>can make the situation worse</font>. For example cortisol also reduces our working memory and ability to solve complex problems; not things we normally need to do when we are under physical attack";
+        String text = "In an office or home environment this is not very useful, in fact it <font color = #E53935>can make the situation worse</font>. For example cortisol also reduces our working memory and ability to solve complex problems; not things we normally need to do when we are under physical attack.";
         textView.setText(Html.fromHtml(text));
     }
 

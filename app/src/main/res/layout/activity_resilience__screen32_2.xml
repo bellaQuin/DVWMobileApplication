@@ -61,6 +61,7 @@
                     tools:ignore="ExtraText">
 
                     <TextView
+                        android:fontFamily="@font/montserrat"
                         android:layout_marginTop="20dp"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
@@ -75,16 +76,17 @@
                         />
 
                     <TextView
+                        android:fontFamily="@font/montserrat"
                         android:layout_marginTop="10dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textSize="25sp"
+                        android:textSize="20sp"
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
                         android:layout_gravity="center"
                         android:gravity="center"
                         android:textColor="#616161"
-                        android:text="Suggest an alternative option/s.\n Ask which they prefer......"
+                        android:text="Suggest an alternative option/s.\n Ask which they prefer."
                         android:background="#EF9A9A"
                         />
 
@@ -92,12 +94,13 @@
                         android:layout_marginTop="10dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textSize="25sp"
+                        android:textSize="20sp"
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
                         android:layout_gravity="center"
                         android:gravity="center"
                         android:textColor="#616161"
+                        android:fontFamily="@font/montserrat"
                         android:text="&quot;I can get this done for you by\n 2pm Thursday, or recommend\n another team member, which\n option works best for you?&quot;"
                         android:background="#FFCDD2"
                         />

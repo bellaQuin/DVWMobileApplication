@@ -63,7 +63,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
                         android:gravity="center"
-                        android:text="&quot;With knowledge comes\n power, with involvement\n comes control."
+                        android:text="&quot;With knowledge comes\n power, with involvement\n comes control.&quot;"
                         android:textColor="#fff"/>
 
                     <TextView

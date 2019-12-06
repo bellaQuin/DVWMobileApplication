@@ -99,6 +99,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
         android:gravity="center"
+        android:fontFamily="@font/montserrat"
         android:text="@string/res3_slide_20"
         android:textColor="#2b59a2"
         android:textSize="18dp"

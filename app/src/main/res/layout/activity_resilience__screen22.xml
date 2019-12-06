@@ -66,17 +66,18 @@
                         android:layout_marginTop="20dp"
                         android:textSize="20sp"
                         android:textColor="#2b59a2"
+                        android:fontFamily="@font/montserrat"
                         android:textStyle="bold"
-                        android:text="Make sure you have your\n image in mind (or in front of\n you), then CLICK PLAY…"
+                        android:text="Make sure you have your\n image in mind (or in front of\n you), then CLICK PLAY.\nIt may take 5 seconds \nfor the audio to respond.\nPlease wait."
                         />
 
                     <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="20dp"
                         android:onClick="btn_play"
-                        android:background="@drawable/slide_22"/>
+                        android:background="@drawable/ic_play"/>
 
 
                     <LinearLayout

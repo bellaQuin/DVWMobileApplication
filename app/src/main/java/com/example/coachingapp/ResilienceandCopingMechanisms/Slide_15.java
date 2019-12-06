@@ -41,7 +41,7 @@ public class Slide_15 extends AppCompatActivity implements NavigationView.OnNavi
         ctext_2.setText(Html.fromHtml(text_2));
 
         TextView ctext_3 = (TextView)findViewById(R.id.color_text_3);
-        String text_3 = "However,conrtisol preventsus from multi-tasking. solving complex problems or <font color = #E53935>responding calmly.</font>";
+        String text_3 = "However,cortisol prevents us from multi-tasking. solving complex problems or <font color = #E53935>responding calmly.</font>";
         ctext_3.setText(Html.fromHtml(text_3));
     }
     public void btn_next(View view) {

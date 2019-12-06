@@ -59,6 +59,7 @@
                     android:layout_height="match_parent">
 
                     <TextView
+                        android:fontFamily="@font/montserrat"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
@@ -67,6 +68,7 @@
                         android:text="Think of a real life scenario\n where you need to say ‘no’ and\n create your own phrase below:"/>
 
                     <TextView
+                        android:fontFamily="@font/montserrat"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"

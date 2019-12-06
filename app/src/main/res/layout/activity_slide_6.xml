@@ -67,7 +67,7 @@
                         android:layout_marginRight="20dp"
                         android:gravity="center"
                         android:textColor="#000"
-                        android:text="...and what to do about it..."
+                        android:text="..and what to do about it.."
                         />
 
                     <ImageView

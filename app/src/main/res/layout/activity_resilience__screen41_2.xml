@@ -70,7 +70,7 @@
                         android:layout_marginRight="20dp"
                         android:gravity="center"
                         android:textStyle="bold"
-                        android:text="People who are resilient\n generally think a certain\n way..."
+                        android:text="People who are resilient\n generally think a certain\n way."
                         android:textColor="#4FC3F7"/>
 
                     <TextView

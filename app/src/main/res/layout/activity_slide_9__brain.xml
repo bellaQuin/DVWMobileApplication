@@ -70,13 +70,13 @@
                         android:fontFamily="@font/montserrat"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:textSize="18dp"
+                        android:textSize="18sp"
                         android:id="@+id/color_text"
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
                         android:gravity="center"
                         android:textColor="#000"
-                        android:text="In an office or home\n environment this is not very\n useful, in fact it can make the situation worse. For example\n cortisol also reduces our working\n memory and ability to solve\n complex problems; not things\n we normally need to do when\n we are under physical attack"
+                        android:text="In an office or home\n environment this is not very\n useful, in fact it can make the situation worse. For example\n cortisol also reduces our working\n memory and ability to solve\n complex problems; not things\n we normally need to do when\n we are under physical attack."
                         />
 
                     <androidx.constraintlayout.widget.ConstraintLayout

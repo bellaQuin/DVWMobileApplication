@@ -72,7 +72,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
                         android:fontFamily="@font/montserrat"
-                        android:text="1. Breathe in through nose\n2. Hold breath 2 secs\n3. Breathe out through mouth\n4. Repeat for three to four mins."
+                        android:text="1. Breathe in through nose.\n2. Hold breath 2 secs.\n3. Breathe out through mouth.\n4. Repeat for three to four mins."
                         android:textColor="#9575CD"
                         android:textSize="20sp" />
 

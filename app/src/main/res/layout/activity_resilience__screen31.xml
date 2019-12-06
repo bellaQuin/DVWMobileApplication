@@ -66,10 +66,12 @@
                         android:layout_marginTop="20dp"
                         android:textSize="20sp"
                         android:textColor="#37474F"
+                        android:fontFamily="@font/montserrat"
                         android:text="@string/slide_31"
                         />
 
                     <TextView
+                        android:fontFamily="@font/montserrat"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
@@ -80,6 +82,7 @@
                         />
 
                     <TextView
+                        android:fontFamily="@font/montserrat"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"

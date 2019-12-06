@@ -68,7 +68,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
                         android:gravity="center"
-                        android:text="People who are resilient\n generally think a certain way..."
+                        android:text="People who are resilient\n generally think a certain way."
                         android:textColor="#dd0074"/>
 
 

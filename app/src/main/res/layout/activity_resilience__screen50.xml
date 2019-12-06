@@ -66,6 +66,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:gravity="center"
+                            android:fontFamily="@font/montserrat"
                             android:text="@string/slide_50_1"
                             android:textSize="20sp" />
 
@@ -79,6 +80,7 @@
                         android:onClick="btn_Response">
 
                         <TextView
+                            android:fontFamily="@font/montserrat"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
@@ -96,6 +98,7 @@
                         android:onClick="btn_Resolve">
 
                         <TextView
+                            android:fontFamily="@font/montserrat"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"

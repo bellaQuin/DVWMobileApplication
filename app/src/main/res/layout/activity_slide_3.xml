@@ -101,7 +101,7 @@
                         android:layout_marginRight="20dp"
                         android:fontFamily="@font/montserrat"
                         android:gravity="center"
-                        android:text="Resilience isn't a personality\n trait. It can be learnt..."
+                        android:text="Resilience isn't a personality\n trait. It can be learnt."
                         android:textColor="#D81B60"
                         android:textSize="18dp" />
         <androidx.constraintlayout.widget.ConstraintLayout

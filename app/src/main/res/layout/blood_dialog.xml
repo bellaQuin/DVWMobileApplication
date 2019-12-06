@@ -30,7 +30,7 @@
         android:gravity="center"
         android:textSize="18sp"
         android:fontFamily="@font/montserrat"
-        android:text="Blood and oxygen rerouted from\n gut and organs to major muscle\n groups – ready to run or fight!"
+        android:text="Blood and oxygen re-routed from\n gut and organs to major muscle\n groups – ready to run or fight!"
         />
 
     <ImageView

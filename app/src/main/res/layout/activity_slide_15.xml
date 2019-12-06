@@ -108,7 +108,7 @@ start thinking clearly about the situation – instead of being overwhelmed by i
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
                         android:gravity="center"
-                        android:text="However,conrtisol preventsus\n from multi-tasking. solving\n complex problems or\n responding calmly."
+                        android:text="However,cortisol prevents us\n from multi-tasking, solving\n complex problems, or\n responding calmly."
                         android:textColor="#000"/>
 
                     <TextView
