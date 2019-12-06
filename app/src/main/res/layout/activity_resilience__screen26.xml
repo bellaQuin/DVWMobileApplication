@@ -42,10 +42,11 @@
                         <ImageView
                             android:layout_width="60dp"
                             android:layout_height="60dp"
-                            android:layout_marginLeft="80dp"
+                            android:layout_marginLeft="70dp"
                             android:layout_marginTop="10dp"
-                            android:src="@drawable/slide_26"/>
-                    <TextView
+                            android:src="@drawable/slide_26" />
+
+                        <TextView
                         android:fontFamily="@font/montserrat"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"

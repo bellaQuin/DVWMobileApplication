@@ -23,10 +23,13 @@
 
             <include
                 android:id="@+id/toolbar"
-                layout="@layout/nav_toolbar" />
+                layout="@layout/nav_toolbar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="413dp"
+                android:layout_width="0dp"
                 android:layout_height="593dp"
                 android:layout_marginTop="4dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -36,10 +39,11 @@
 
                 <ScrollView
                     android:id="@+id/goalDisplayParentView"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    tools:layout_editor_absoluteX="0dp"
-                    tools:layout_editor_absoluteY="0dp">
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
@@ -48,14 +52,14 @@
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/constraintLayout5"
-                            android:layout_width="371dp"
-                            android:layout_height="0dp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent">
 
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:layout_marginStart="20dp"
@@ -75,8 +79,8 @@
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/constraintLayout7"
-                            android:layout_width="116dp"
-                            android:layout_height="402dp"
+                            android:layout_width="79dp"
+                            android:layout_height="404dp"
                             android:layout_marginTop="8dp"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/constraintLayout5">
@@ -112,7 +116,7 @@
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/constraintLayout2"
-                            android:layout_width="231dp"
+                            android:layout_width="0dp"
                             android:layout_height="404dp"
                             android:layout_marginStart="3dp"
                             android:layout_marginEnd="16dp"
@@ -125,11 +129,9 @@
 
                             <ScrollView
                                 android:id="@+id/goalDisplayChildView"
-                                android:layout_width="230dp"
+                                android:layout_width="0dp"
                                 android:layout_height="389dp"
-                                android:layout_marginStart="16dp"
                                 android:layout_marginTop="20dp"
-                                android:layout_marginEnd="16dp"
                                 android:layout_marginBottom="16dp"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
@@ -176,7 +178,7 @@
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/constraintLayout13"
-                            android:layout_width="match_parent"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -185,8 +187,8 @@
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/constraintLayout3"
-                            android:layout_width="367dp"
-                            android:layout_height="44dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.347"
                             app:layout_constraintStart_toStartOf="parent"
@@ -256,7 +258,7 @@
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <androidx.constraintlayout.widget.ConstraintLayout
-                            android:layout_width="match_parent"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -269,12 +271,14 @@
                                 android:layout_centerHorizontal="true"
                                 android:layout_marginStart="20dp"
                                 android:layout_marginEnd="20dp"
+                                android:layout_marginBottom="300dp"
                                 android:background="@drawable/button_shape"
                                 android:fontFamily="@font/montserrat"
                                 android:onClick="btn_next"
                                 android:text="NEXT"
                                 android:textColor="#326b6f"
                                 android:textSize="28dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent" />

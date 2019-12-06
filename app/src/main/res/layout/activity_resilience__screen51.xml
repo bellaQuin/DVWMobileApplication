@@ -23,13 +23,16 @@
 
             <include
                 android:id="@+id/toolbar"
-                layout="@layout/nav_toolbar" />
+                layout="@layout/nav_toolbar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="402dp"
+            android:layout_width="0dp"
             android:layout_height="575dp"
             android:layout_marginEnd="9dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -37,9 +40,11 @@
             app:layout_constraintTop_toBottomOf="@+id/constraintLayout4">
 
             <ScrollView
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_marginTop="0dp">
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -48,15 +53,15 @@
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:id="@+id/constraintLayout5"
-                        android:layout_width="371dp"
-                        android:layout_height="0dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent">
 
                         <TextView
                             android:id="@+id/title"
-                            android:layout_width="match_parent"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="10dp"
@@ -74,27 +79,28 @@
 
 
                         <TextView
-                            android:layout_width="match_parent"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_below="@id/title"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginEnd="2dp"
                             android:gravity="center"
                             android:text="congatulation - you've just\n worked really really hard!!!"
                             android:textAllCaps="true"
                             android:textColor="#E53935"
                             android:textSize="20sp"
                             android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/title" />
-
-
-
-
 
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:id="@+id/cs"
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.0"
@@ -120,14 +126,15 @@
                         <TextView
 
                             android:id="@+id/textView13"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="11dp"
                             android:layout_marginEnd="20dp"
                             android:fontFamily="@font/montserrat"
-                            android:textSize="20sp"
+                            android:textAlignment="center"
                             android:text="Your are grateful for:"
+                            android:textSize="20sp"
                             android:textStyle="bold"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -135,26 +142,28 @@
 
                         <TextView
                             android:id="@+id/gratefulTv_1"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
                             android:layout_marginEnd="20dp"
                             android:fontFamily="@font/montserrat"
                             android:hint="text Box 1"
                             android:textSize="18sp"
+                            android:textAlignment="center"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
                         <TextView
                             android:id="@+id/textView12"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="24dp"
                             android:layout_marginEnd="20dp"
                             android:fontFamily="@font/montserrat"
                             android:text="What makes you happy:"
+                            android:textAlignment="center"
                             android:textSize="20sp"
                             android:textStyle="bold"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -163,7 +172,7 @@
 
                         <TextView
                             android:id="@+id/happyTv"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="24dp"
@@ -171,16 +180,18 @@
                             android:fontFamily="@font/montserrat"
                             android:hint="text view 2"
                             android:textSize="18sp"
+                            android:textAlignment="center"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/gratefulTv_1" />
 
                         <TextView
                             android:id="@+id/textView14"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
                             android:layout_marginEnd="20dp"
+                            android:textAlignment="center"
                             android:fontFamily="@font/montserrat"
                             android:text="You can set expectations by saying:"
                             android:textSize="20sp"
@@ -191,9 +202,10 @@
 
                         <TextView
                             android:id="@+id/expectationsTV_1"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
+                            android:textAlignment="center"
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="12dp"
                             android:layout_marginEnd="20dp"
@@ -207,7 +219,7 @@
 
                         <TextView
                             android:id="@+id/expectationsTV_2"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
                             android:layout_marginStart="20dp"
@@ -215,6 +227,7 @@
                             android:layout_marginEnd="20dp"
                             android:fontFamily="@font/montserrat"
                             android:hint="text view 3"
+                            android:textAlignment="center"
                             android:textSize="18sp"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -223,45 +236,48 @@
 
                         <TextView
                             android:id="@+id/expectationsTV_3"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="12dp"
                             android:layout_marginEnd="20dp"
                             android:fontFamily="@font/montserrat"
-                            android:textSize="18sp"
                             android:hint="text view 3"
+                            android:textAlignment="center"
+                            android:textSize="18sp"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/expectationsTV_2" />
 
                         <TextView
                             android:id="@+id/expectationsTV_4"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="12dp"
                             android:layout_marginEnd="20dp"
+                            android:textAlignment="center"
                             android:fontFamily="@font/montserrat"
-                            android:textSize="18sp"
                             android:hint="text view 3"
+                            android:textSize="18sp"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/expectationsTV_3" />
 
                         <TextView
                             android:id="@+id/expectationsTV_5"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="12dp"
                             android:layout_marginEnd="20dp"
                             android:fontFamily="@font/montserrat"
-                            android:textSize="18sp"
                             android:hint="text view 3"
+                            android:textSize="18sp"
+                            android:textAlignment="center"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.501"
                             app:layout_constraintStart_toStartOf="parent"
@@ -269,27 +285,29 @@
 
                         <TextView
                             android:id="@+id/expectationsTV_6"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="12dp"
                             android:layout_marginEnd="20dp"
+                            android:textAlignment="center"
                             android:fontFamily="@font/montserrat"
-                            android:textSize="18sp"
                             android:hint="text view 6"
+                            android:textSize="18sp"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/expectationsTV_5" />
 
                         <TextView
                             android:id="@+id/purposeAndGoals"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="12dp"
                             android:layout_marginEnd="20dp"
                             android:fontFamily="@font/montserrat"
+                            android:textAlignment="center"
                             android:text="Your purpose and goals are:"
                             android:textSize="20sp"
                             android:textStyle="bold"
@@ -299,11 +317,12 @@
 
                         <TextView
                             android:id="@+id/purposeAndGoalsTV_1"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
                             android:layout_marginEnd="20dp"
                             android:fontFamily="@font/montserrat"
+                            android:textAlignment="center"
                             android:hint="text View 4"
                             android:textSize="18sp"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -313,11 +332,12 @@
 
                         <TextView
                             android:id="@+id/purposeAndGoalsTV_2"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
                             android:layout_marginEnd="20dp"
                             android:fontFamily="@font/montserrat"
+                            android:textAlignment="center"
                             android:hint="text View 4"
                             android:textSize="18sp"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -326,23 +346,25 @@
 
                         <TextView
                             android:id="@+id/textView16"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
+                            android:textAlignment="center"
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="10dp"
                             android:layout_marginEnd="20dp"
                             android:fontFamily="@font/montserrat"
+                            android:text="You have identified the following\n thinks that you can control"
                             android:textSize="20sp"
                             android:textStyle="bold"
-                            android:text="You have identified the following\n thinks that you can control"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/purposeAndGoalsTV_2" />
 
                         <TextView
                             android:id="@+id/controlTV_1"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
+                            android:textAlignment="center"
                             android:layout_marginStart="20dp"
                             android:layout_marginEnd="20dp"
                             android:fontFamily="@font/montserrat"
@@ -356,15 +378,16 @@
 
                         <TextView
                             android:id="@+id/textView17"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
+                            android:textAlignment="center"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
                             android:layout_marginEnd="20dp"
-                            android:textSize="20sp"
-                            android:textStyle="bold"
                             android:fontFamily="@font/montserrat"
-
                             android:text="You have identified the following\n thinks that you cannot control"
+                            android:textSize="20sp"
+
+                            android:textStyle="bold"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.427"
                             app:layout_constraintStart_toStartOf="parent"
@@ -372,9 +395,10 @@
 
                         <TextView
                             android:id="@+id/controlTV_2"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
+                            android:textAlignment="center"
                             android:layout_marginEnd="20dp"
                             android:fontFamily="@font/montserrat"
                             android:hint="text view 6"
@@ -384,7 +408,7 @@
                             app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
                         <androidx.constraintlayout.widget.ConstraintLayout
-                            android:layout_width="match_parent"
+                            android:layout_width="0dp"
                             android:layout_height="300dp"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.0"
@@ -415,35 +439,34 @@
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <!--                        <TextView-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:layout_marginStart="20dp"-->
-<!--                            android:layout_marginEnd="20dp"-->
-<!--                            android:fontFamily="@font/montserrat"-->
-<!--                            android:text="You have identified the following\n thinks that you can control"-->
-<!--                            app:layout_constraintEnd_toEndOf="parent"-->
-<!--                            app:layout_constraintStart_toStartOf="parent"-->
-<!--                            app:layout_constraintTop_toBottomOf="@+id/controlTV_2" />-->
+                        <!--                            android:layout_width="wrap_content"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            android:layout_marginStart="20dp"-->
+                        <!--                            android:layout_marginEnd="20dp"-->
+                        <!--                            android:fontFamily="@font/montserrat"-->
+                        <!--                            android:text="You have identified the following\n thinks that you can control"-->
+                        <!--                            app:layout_constraintEnd_toEndOf="parent"-->
+                        <!--                            app:layout_constraintStart_toStartOf="parent"-->
+                        <!--                            app:layout_constraintTop_toBottomOf="@+id/controlTV_2" />-->
 
 
-<!--                        <TextView-->
-<!--                            android:id="@+id/controlTV_1"-->
-<!--                            android:layout_width="match_parent"-->
-<!--                            android:fontFamily="@font/montserrat"-->
-<!--                            android:textSize="18sp"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            />-->
-
-
-
+                        <!--                        <TextView-->
+                        <!--                            android:id="@+id/controlTV_1"-->
+                        <!--                            android:layout_width="match_parent"-->
+                        <!--                            android:fontFamily="@font/montserrat"-->
+                        <!--                            android:textSize="18sp"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            />-->
 
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
                     <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/cs">
 
 
@@ -469,7 +492,6 @@
 
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
-
 
 
                 </androidx.constraintlayout.widget.ConstraintLayout>

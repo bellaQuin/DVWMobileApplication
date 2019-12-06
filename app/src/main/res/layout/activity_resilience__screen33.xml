@@ -58,55 +58,85 @@
                     android:orientation="vertical"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
-
-                    <TextView
+                    <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:textColor="#fff"
-                        android:textSize="20sp"
-                        android:text="Think of a real life scenario\n where you need to say ‘no’ and\n create your own phrase below:"/>
+                        android:layout_height="wrap_content">
 
-                    <TextView
-                        android:layout_marginTop="10dp"
-                        android:layout_width="370dp"
-                        android:layout_height="60dp"
-                        android:text="Acknowledge and Agree"
-                        android:layout_marginRight="20dp"
-                        android:layout_marginLeft="20dp"
-                        android:background="#C62828"
-                        android:textSize="25sp"
-                        android:layout_gravity="center"
-                        android:textColor="#fff"
-                        android:gravity="center"
-                        />
-                    <EditText
-                        android:layout_width="370dp"
-                        android:layout_height="150dp"
-                        android:background="#FFCDD2"
-                        android:layout_below="@id/title"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginTop="20dp"
-                        android:layout_gravity="center"
-                        android:gravity="top"
-                        android:id="@+id/resilience_1_edit_text"
-                        android:fontFamily="@font/montserrat"
-                        />
 
-                    <EditText
-                        android:layout_width="370dp"
-                        android:layout_height="200dp"
-                        android:background="#FFEBEE"
-                        android:layout_below="@id/title"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginTop="20dp"
-                        android:layout_gravity="center"
-                        android:gravity="top"
-                        android:id="@+id/resilience_2_edit_text"
-                        android:fontFamily="@font/montserrat"
-                        />
+                        <TextView
+                            android:id="@+id/textView21"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:gravity="center"
+                            android:text="Think of a real life scenario\n where you need to say ‘no’ and\n create your own phrase below:"
+                            android:textColor="#fff"
+                            android:textSize="20sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView22"
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:background="#C62828"
+                            android:gravity="center"
+                            android:text="Acknowledge and Agree"
+                            android:textColor="#fff"
+                            android:textSize="25sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+
+                        <EditText
+                            android:id="@+id/resilience_1_edit_text"
+                            android:layout_width="0dp"
+                            android:layout_height="150dp"
+
+                            android:layout_gravity="center"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="20dp"
+                            android:background="#FFCDD2"
+                            android:fontFamily="@font/montserrat"
+                            android:gravity="top"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView22"
+                            app:layout_constraintVertical_bias="0.0" />
+
+                        <EditText
+                            android:id="@+id/resilience_2_edit_text"
+                            android:layout_width="0dp"
+                            android:layout_height="200dp"
+
+                            android:layout_gravity="center"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="20dp"
+                            android:background="#FFEBEE"
+                            android:fontFamily="@font/montserrat"
+                            android:gravity="top"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/resilience_1_edit_text" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
                     <LinearLayout
                         android:layout_below="@id/question_1_edit_text"
                         android:layout_width="match_parent"
@@ -115,7 +145,8 @@
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="300dp">
 
                             <Button
                                 android:id="@+id/back"

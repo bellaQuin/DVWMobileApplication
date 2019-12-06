@@ -56,52 +56,52 @@
                     android:layout_height="match_parent">
 
                     <androidx.cardview.widget.CardView
-                        android:layout_width="350dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:onClick="btn_Recognise"
-                        android:layout_height="wrap_content">
+                        android:onClick="btn_Recognise">
 
                         <TextView
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:gravity="center"
-                            android:textSize="20sp"
-                            android:text="@string/slide_50_1"/>
+                            android:text="@string/slide_50_1"
+                            android:textSize="20sp" />
 
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
-                        android:layout_marginTop="10dp"
-                        android:layout_width="350dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:onClick="btn_Response"
-                        android:layout_height="wrap_content">
+                        android:layout_marginTop="10dp"
+                        android:onClick="btn_Response">
 
                         <TextView
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:gravity="center"
-                            android:textSize="20sp"
-                            android:text="@string/slide_50_2"/>
+                            android:text="@string/slide_50_2"
+                            android:textSize="20sp" />
 
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
-                        android:layout_marginTop="10dp"
-                        android:layout_width="350dp"
-                        android:onClick="btn_Resolve"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_height="wrap_content">
+                        android:layout_marginTop="10dp"
+                        android:onClick="btn_Resolve">
 
                         <TextView
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:gravity="center"
-                            android:textSize="20sp"
-                            android:text="@string/slide_50_3"/>
+                            android:text="@string/slide_50_3"
+                            android:textSize="20sp" />
 
                     </androidx.cardview.widget.CardView>
 
@@ -117,7 +117,7 @@
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginEnd="20dp"
-                            android:layout_marginBottom="20dp"
+                            android:layout_marginBottom="300dp"
                             android:background="#ffffff"
                             android:fontFamily="@font/montserrat"
                             android:onClick="btn_next"
@@ -139,14 +139,14 @@
         </ScrollView>
 
     </RelativeLayout>
+
     <com.google.android.material.navigation.NavigationView
-        android:layout_width="wrap_content"
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="end"
-        android:id="@+id/nav_view"
         app:headerLayout="@layout/nav_drawer"
-        app:menu="@menu/toolbar_nav_drawer"
-        />
+        app:menu="@menu/toolbar_nav_drawer" />
 
 
 </androidx.drawerlayout.widget.DrawerLayout>

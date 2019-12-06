@@ -31,22 +31,20 @@
                 <RelativeLayout
 
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    >
+                    android:layout_height="wrap_content">
 
-                        <TextView
-                            android:fontFamily="@font/montserrat"
-                            android:layout_width="250dp"
-                            android:layout_height="wrap_content"
-                            android:text="My purpose"
-                            android:textAllCaps="true"
-                            android:textColor="#2b59a2"
-                            android:gravity="center"
-                            android:layout_marginLeft="80dp"
-                            android:layout_marginTop="20dp"
-                            android:textStyle="bold"
-                            android:id="@+id/why"
-                            android:textSize="25sp"/>
+                    <TextView
+                        android:id="@+id/why"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="center"
+                        android:text="My purpose"
+                        android:textAllCaps="true"
+                        android:textColor="#2b59a2"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
 
                 </RelativeLayout>
 
@@ -107,15 +105,16 @@
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="300dp">
 
                             <Button
                                 android:id="@+id/back"
                                 android:layout_width="150dp"
                                 android:layout_height="60dp"
-                                android:layout_marginStart="20dp"
+                                android:layout_marginStart="10dp"
                                 android:layout_marginTop="20dp"
-                                android:layout_marginEnd="20dp"
+                                android:layout_marginEnd="10dp"
                                 android:layout_marginBottom="20dp"
                                 android:background="#ffffff"
                                 android:fontFamily="@font/montserrat"
@@ -132,9 +131,9 @@
                                 android:id="@+id/next"
                                 android:layout_width="150dp"
                                 android:layout_height="60dp"
-                                android:layout_marginStart="20dp"
+                                android:layout_marginStart="10dp"
                                 android:layout_marginTop="20dp"
-                                android:layout_marginEnd="20dp"
+                                android:layout_marginEnd="10dp"
                                 android:layout_marginBottom="20dp"
                                 android:background="#ffffff"
                                 android:fontFamily="@font/montserrat"

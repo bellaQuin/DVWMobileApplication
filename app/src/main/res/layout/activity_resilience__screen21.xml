@@ -105,16 +105,17 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="200dp">
 
 
                 <Button
                     android:id="@+id/back"
                     android:layout_width="150dp"
                     android:layout_height="60dp"
-                    android:layout_marginStart="48dp"
+                    android:layout_marginStart="10dp"
                     android:layout_marginTop="20dp"
-                    android:layout_marginEnd="20dp"
+                    android:layout_marginEnd="12dp"
                     android:layout_marginBottom="20dp"
                     android:background="#ffffff"
                     android:fontFamily="@font/montserrat"
@@ -132,9 +133,8 @@
                     android:id="@+id/next"
                     android:layout_width="150dp"
                     android:layout_height="60dp"
-                    android:layout_marginStart="20dp"
                     android:layout_marginTop="20dp"
-                    android:layout_marginEnd="20dp"
+                    android:layout_marginEnd="10dp"
                     android:layout_marginBottom="20dp"
                     android:background="#ffffff"
                     android:fontFamily="@font/montserrat"

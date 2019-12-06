@@ -15,7 +15,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintLayout4"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -23,10 +23,13 @@
 
             <include
                 android:id="@+id/toolbar"
-                layout="@layout/nav_toolbar" />
+                layout="@layout/nav_toolbar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="413dp"
+                android:layout_width="0dp"
                 android:layout_height="593dp"
                 android:layout_marginTop="4dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -46,8 +49,8 @@
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/constraintLayout5"
-                            android:layout_width="371dp"
-                            android:layout_height="0dp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent">
@@ -55,7 +58,7 @@
 
                             <TextView
                                 android:id="@+id/why"
-                                android:layout_width="match_parent"
+                                android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="20dp"
                                 android:layout_marginEnd="20dp"
@@ -75,33 +78,32 @@
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/constraintLayout7"
-                            android:layout_width="404dp"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/constraintLayout5">
 
                             <TextView
-                                android:fontFamily="@font/montserrat"
-                                android:layout_width="match_parent"
+                                android:layout_width="0dp"
                                 android:layout_height="match_parent"
-                                android:textSize="18dp"
-                                android:layout_marginLeft="20dp"
-                                android:layout_marginRight="20dp"
+                                android:fontFamily="@font/montserrat"
                                 android:gravity="center"
-                                android:textColor="#000"
                                 android:text="During our fight or fight our\n brains produce a complex mix of\n chemicals (hormones and\n neurotansmitters).\n These chemicals can affect how\n we see things and react to them."
-                                />
+                                android:textColor="#000"
+                                android:textSize="18dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
 
 
-                    </androidx.constraintlayout.widget.ConstraintLayout>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
 
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/constraintLayout8"
-                            android:layout_width="411dp"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="4dp"
                             android:layout_marginEnd="20dp"
@@ -112,7 +114,7 @@
 
                             <Button
                                 android:id="@+id/btn_Hyper_vigilance"
-                                android:layout_width="252dp"
+                                android:layout_width="0dp"
                                 android:layout_height="58dp"
                                 android:layout_gravity="center"
                                 android:layout_marginStart="20dp"
@@ -127,7 +129,7 @@
 
                             <ImageView
                                 android:id="@+id/imageView11"
-                                android:layout_width="50dp"
+                                android:layout_width="0dp"
                                 android:layout_height="50dp"
                                 android:layout_marginStart="20dp"
                                 android:layout_marginTop="44dp"
@@ -142,7 +144,7 @@
 
                             <Button
                                 android:id="@+id/Threat_detected"
-                                android:layout_width="248dp"
+                                android:layout_width="0dp"
                                 android:layout_height="62dp"
                                 android:layout_gravity="center"
                                 android:layout_marginTop="25dp"
@@ -154,7 +156,7 @@
 
                             <ImageView
                                 android:id="@+id/imageView8"
-                                android:layout_width="50dp"
+                                android:layout_width="0dp"
                                 android:layout_height="50dp"
                                 android:layout_marginStart="20dp"
                                 android:layout_marginTop="36dp"
@@ -169,7 +171,7 @@
 
                             <Button
                                 android:id="@+id/Chemicals"
-                                android:layout_width="252dp"
+                                android:layout_width="0dp"
                                 android:layout_height="62dp"
                                 android:layout_gravity="center"
                                 android:layout_marginTop="25dp"
@@ -181,7 +183,7 @@
 
                             <ImageView
                                 android:id="@+id/imageView9"
-                                android:layout_width="50dp"
+                                android:layout_width="0dp"
                                 android:layout_height="50dp"
                                 android:layout_marginStart="20dp"
                                 android:layout_marginTop="39dp"
@@ -195,7 +197,7 @@
 
                             <Button
                                 android:id="@+id/Brain_says"
-                                android:layout_width="256dp"
+                                android:layout_width="0dp"
                                 android:layout_height="64dp"
                                 android:layout_gravity="center"
                                 android:layout_marginTop="25dp"
@@ -210,7 +212,7 @@
 
                             <ImageView
                                 android:id="@+id/imageView10"
-                                android:layout_width="50dp"
+                                android:layout_width="0dp"
                                 android:layout_height="50dp"
                                 android:layout_marginTop="36dp"
                                 android:rotation="5490"
@@ -222,7 +224,7 @@
 
                             <Button
                                 android:id="@+id/Blood"
-                                android:layout_width="249dp"
+                                android:layout_width="0dp"
                                 android:layout_height="61dp"
                                 android:layout_gravity="center"
                                 android:layout_marginTop="25dp"
@@ -236,8 +238,12 @@
 
 
                         <androidx.constraintlayout.widget.ConstraintLayout
-                            android:layout_width="match_parent"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
+                            android:layout_marginBottom="300dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/constraintLayout8">
 
                             <Button
@@ -261,8 +267,6 @@
                                 app:layout_constraintTop_toTopOf="parent" />
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 
 
                     </androidx.constraintlayout.widget.ConstraintLayout>

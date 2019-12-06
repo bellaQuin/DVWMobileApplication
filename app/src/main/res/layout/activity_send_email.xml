@@ -24,47 +24,50 @@
 
             <include
                 android:id="@+id/toolbar"
-                layout="@layout/nav_toolbar" />
+                layout="@layout/nav_toolbar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <EditText
             android:id="@+id/editEmail"
-            android:layout_width="343dp"
+            android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="20dp"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="To:"
             android:fontFamily="@font/montserrat"
+            android:hint="To:"
+            android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/constraintLayout4" />
 
         <EditText
             android:id="@+id/editSubject"
-            android:layout_width="343dp"
+            android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_marginTop="10dp"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Subject:"
             android:fontFamily="@font/montserrat"
+            android:hint="Subject:"
+            android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="@+id/editEmail"
             app:layout_constraintStart_toStartOf="@+id/editEmail"
             app:layout_constraintTop_toBottomOf="@+id/editEmail" />
 
         <TextView
             android:id="@+id/textResult"
-            android:layout_width="326dp"
+            android:layout_width="0dp"
             android:layout_height="216dp"
             android:layout_marginTop="30dp"
+            android:fontFamily="@font/montserrat"
             android:hint="Results:"
             android:textSize="20sp"
-            android:fontFamily="@font/montserrat"
             app:layout_constraintEnd_toEndOf="@+id/editSubject"
             app:layout_constraintStart_toStartOf="@+id/editSubject"
             app:layout_constraintTop_toBottomOf="@+id/editSubject" />

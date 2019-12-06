@@ -19,109 +19,110 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@id/toolbar">
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbar"
+            android:layout_marginTop="2dp">
 
 
             <LinearLayout
-                android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    >
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:fontFamily="@font/montserrat"
+                        android:id="@+id/why"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="center"
                         android:text="music is personal"
                         android:textAllCaps="true"
                         android:textColor="#fff"
-                        android:gravity="center"
-                        android:layout_marginTop="20dp"
-                        android:textStyle="bold"
-                        android:id="@+id/why"
-                        android:textSize="25sp"/>
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
 
                 </RelativeLayout>
 
                 <LinearLayout
-                    android:layout_marginTop="20dp"
-                    android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:textSize="20sp"
-                        android:textColor="#1976D2"
+                        android:layout_marginLeft="10dp"
                         android:gravity="center"
                         android:text="There is no 'perfect' piece of\n music that will work for everyone.\n List your favourite music on your\n phone/PC."
-                        />
-                    <TextView
-                        android:layout_marginTop="20dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:textSize="20sp"
                         android:textColor="#1976D2"
-                        android:text=" Suggestions:"
-                        />
-                    <TextView
-                        android:layout_marginTop="20dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:textSize="20sp"
-                        android:textColor="#1976D2"
-                        android:text=" 1. Classical: ‘Nimrod’ (Elgar) or‘Air on G’ (Bach)"
-                        />
+                        android:textSize="20sp" />
 
                     <TextView
-                        android:layout_marginTop="20dp"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text=" Suggestions:"
                         android:textColor="#1976D2"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="8dp"
+                        android:text=" 1. Classical: ‘Nimrod’ (Elgar) or‘Air on G’ (Bach)"
+                        android:textColor="#1976D2"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
                         android:text=" 2. Film : ‘Happy’ (Despicable Me 2 – Pharrell Williams) or ‘I Will Get Back Up Again’ (Trolls – Anna Kendrick)"
-                        />
-                    <TextView
-                        android:layout_marginTop="20dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:textSize="20sp"
                         android:textColor="#1976D2"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
                         android:text=" 3. Modern/Dance: ‘Happier’ (Marshmellow ft Bastille), ‘Where I’ll Be Waiting’ (Rich Edwards ft. Cozi Zuehlsdorff)"
-                        />
-                    <TextView
-                        android:layout_marginTop="20dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:textSize="20sp"
                         android:textColor="#1976D2"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="56dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
                         android:text=" 4. Rock: ‘We are the Champions’ (Queen)"
-                        />
+                        android:textColor="#1976D2"
+                        android:textSize="20sp" />
+
                     <Button
                         android:id="@+id/shw_images"
                         android:layout_width="200dp"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:layout_marginStart="32dp"
                         android:layout_marginTop="16dp"
-                        android:textColor="#2b59a2"
                         android:layout_marginEnd="32dp"
                         android:background="#ffffff"
-                        android:layout_gravity="center"
+                        android:fontFamily="@font/montserrat"
                         android:onClick="btn_show"
                         android:text="SHOW ME WHAT OTHERS \n LISTEN TO"
-                        android:fontFamily="@font/montserrat" />
+                        android:textColor="#2b59a2" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -130,7 +131,8 @@
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="300dp">
 
                             <Button
                                 android:id="@+id/btn_back"

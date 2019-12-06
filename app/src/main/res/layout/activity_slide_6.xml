@@ -35,19 +35,18 @@
                     >
 
 
-
                     <TextView
-                        android:fontFamily="@font/montserrat"
+                        android:id="@+id/why"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="center"
                         android:text="How to recognise\n when you are\n stressed"
                         android:textAllCaps="true"
                         android:textColor="#fff"
-                        android:gravity="center"
-                        android:layout_marginTop="20dp"
-                        android:textStyle="bold"
-                        android:id="@+id/why"
-                        android:textSize="25sp"/>
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
 
                 </RelativeLayout>
 
@@ -89,7 +88,8 @@
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="300dp">
 
                         <Button
 
