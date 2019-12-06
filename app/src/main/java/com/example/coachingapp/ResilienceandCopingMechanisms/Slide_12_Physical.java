@@ -67,46 +67,46 @@ public class Slide_12_Physical extends AppCompatActivity {
             String id = user.getUid();
 
             if(check_1.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_10").setValue("Panic attack");
+                myRef.child("users").child(id).child("Resilience").child("resilience_10").child("resilience_10_1").setValue("Panic attack");
             }
             if(check_2.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_10").setValue("Muscle tension");
+                myRef.child("users").child(id).child("Resilience").child("resilience_10").child("resilience_10_2").setValue("Muscle tension");
             }
             if(check_3.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_10").setValue("Blurred eyesight or sore eyes");
+                myRef.child("users").child(id).child("Resilience").child("resilience_10").child("resilience_10_3").setValue("Blurred eyesight or sore eyes");
             }
             if(check_4.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_10").setValue("Loss of libido");
+                myRef.child("users").child(id).child("Resilience").child("resilience_10").child("resilience_10_4").setValue("Loss of libido");
             }
             if(check_5.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_10").setValue("Tired all the time");
+                myRef.child("users").child(id).child("Resilience").child("resilience_10").child("resilience_10_5").setValue("Tired all the time");
             }
             if(check_6.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_10").setValue("Grinding your teeth");
+                myRef.child("users").child(id).child("Resilience").child("resilience_10").child("resilience_10_6").setValue("Grinding your teeth");
             }
             if(check_7.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_10").setValue("Clenching your jaws");
+                myRef.child("users").child(id).child("Resilience").child("resilience_10").child("resilience_10_7").setValue("Clenching your jaws");
             }
             if(check_8.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_10").setValue("Headches");
+                myRef.child("users").child(id).child("Resilience").child("resilience_10").child("resilience_10_8").setValue("Headches");
             }
             if(check_9.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_10").setValue("Chest pains");
+                myRef.child("users").child(id).child("Resilience").child("resilience_10").child("resilience_10_9").setValue("Chest pains");
             }
             if(check_10.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_10").setValue("High blood pressure");
+                myRef.child("users").child(id).child("Resilience").child("resilience_10").child("resilience_10_10").setValue("High blood pressure");
             }
             if(check_11.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_10").setValue("Indigeston or heartburn");
+                myRef.child("users").child(id).child("Resilience").child("resilience_10").child("resilience_10_11").setValue("Indigeston or heartburn");
             }
             if(check_12.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_10").setValue("Constipation or diarrhea");
+                myRef.child("users").child(id).child("Resilience").child("resilience_10").child("resilience_10_12").setValue("Constipation or diarrhea");
             }
             if(check_13.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_10").setValue("Feeling sick, dizzy or fainting");
+                myRef.child("users").child(id).child("Resilience").child("resilience_10").child("resilience_10_13").setValue("Feeling sick, dizzy or fainting");
             }
             if(check_14.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_10").setValue("Insomnia(not sleeping)");
+                myRef.child("users").child(id).child("Resilience").child("resilience_10").child("resilience_10_14").setValue("Insomnia(not sleeping)");
             }
 
             Toast.makeText(this, "Information Saved", Toast.LENGTH_SHORT).show();

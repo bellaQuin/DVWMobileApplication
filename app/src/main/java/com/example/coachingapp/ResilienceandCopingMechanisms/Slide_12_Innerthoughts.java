@@ -60,34 +60,34 @@ public class Slide_12_Innerthoughts extends AppCompatActivity {
             String id = user.getUid();
 
             if(check_1.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_11").setValue("Over-burdened");
+                myRef.child("users").child(id).child("Resilience").child("resilience_11").child("resilience_11_1").setValue("Over-burdened");
             }
             if(check_2.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_11").setValue("Anxious, nervous or afraid");
+                myRef.child("users").child(id).child("Resilience").child("resilience_11").child("resilience_11_2").setValue("Anxious, nervous or afraid");
             }
             if(check_3.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_11").setValue("Unable to enjoy yourself");
+                myRef.child("users").child(id).child("Resilience").child("resilience_11").child("resilience_11_3").setValue("Unable to enjoy yourself");
             }
             if(check_4.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_11").setValue("Racing thoughts");
+                myRef.child("users").child(id).child("Resilience").child("resilience_11").child("resilience_11_4").setValue("Racing thoughts");
             }
             if(check_5.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_11").setValue("Depressed");
+                myRef.child("users").child(id).child("Resilience").child("resilience_11").child("resilience_11_5").setValue("Depressed");
             }
             if(check_6.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_11").setValue("Uninterested in life");
+                myRef.child("users").child(id).child("Resilience").child("resilience_11").child("resilience_11_6").setValue("Uninterested in life");
             }
             if(check_7.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_11").setValue("Lost your sense of humuor");
+                myRef.child("users").child(id).child("Resilience").child("resilience_11").child("resilience_11_7").setValue("Lost your sense of humuor");
             }
             if(check_8.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_11").setValue("A sense of dread");
+                myRef.child("users").child(id).child("Resilience").child("resilience_11").child("resilience_11_8").setValue("A sense of dread");
             }
             if(check_9.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_11").setValue("Worried about your health");
+                myRef.child("users").child(id).child("Resilience").child("resilience_11").child("resilience_11_9").setValue("Worried about your health");
             }
             if(check_10.isChecked()) {
-                myRef.child("users").child(id).child("Resilience").child("resilience_11").setValue("Neglected or lonely");
+                myRef.child("users").child(id).child("Resilience").child("resilience_11").child("resilience_11_10").setValue("Neglected or lonely");
             }
 
             Toast.makeText(this, "Information Saved", Toast.LENGTH_SHORT).show();
