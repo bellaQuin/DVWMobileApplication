@@ -9,466 +9,379 @@
     android:background="#b6e1df"
     tools:context=".Goals.Goal_9">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraintLayout4"
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            layout="@layout/nav_toolbar"
+            android:id="@+id/toolbar"/>
+
+
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-            <include
-                android:id="@+id/toolbar"
-                layout="@layout/nav_toolbar" />
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="413dp"
-                android:layout_height="593dp"
-                android:layout_marginTop="4dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/toolbar">
+            android:layout_below="@id/toolbar"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:id="@+id/title_layout">
 
 
-                <ScrollView
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/montserrat"
+                android:text="ROADMAP STEPS"
+                android:textSize="26dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/title_roadmap_steps"/>
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_layout">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="0dp">
+                    android:layout_height="wrap_content">
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-
-
-                        <androidx.constraintlayout.widget.ConstraintLayout
-                            android:id="@+id/constraintLayout5"
-                            android:layout_width="371dp"
-                            android:layout_height="0dp"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent">
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/layout_1"
+                        >
 
 
-                            <TextView
-                                android:id="@+id/title_roadmap_steps"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="20dp"
-                                android:layout_marginEnd="20dp"
-                                android:fontFamily="@font/montserrat"
-                                android:text="ROADMAP STEPS"
-                                android:textSize="26dp"
-                                android:textStyle="bold"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent" />
-
-
-                        </androidx.constraintlayout.widget.ConstraintLayout>
-
-                        <androidx.constraintlayout.widget.ConstraintLayout
-                            android:id="@+id/constraintLayout5_part1"
-                            android:layout_width="121dp"
-                            android:layout_height="445dp"
-                            android:layout_marginStart="8dp"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout5">
-
-                            <TextView
-                                android:id="@+id/id_goal"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_centerHorizontal="true"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="27dp"
-                                android:layout_marginEnd="20dp"
-                                android:fontFamily="@font/montserrat"
-                                android:text="Goal"
-                                android:textColor="@android:color/holo_red_light"
-                                android:textSize="20dp"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent" />
-
-
-                            <ImageView
-                                android:id="@+id/imageView5"
-                                android:layout_width="70dp"
-                                android:layout_height="90dp"
-                                android:layout_gravity="center"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="148dp"
-                                android:layout_marginEnd="20dp"
-                                android:layout_marginBottom="8dp"
-                                android:background="@drawable/icongrey_arrow_down"
-                                app:layout_constraintBottom_toTopOf="@+id/textView8"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintHorizontal_bias="0.2"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/imageView6" />
-
-                            <ImageView
-                                android:id="@+id/imageView6"
-                                android:layout_width="70dp"
-                                android:layout_height="90dp"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="4dp"
-                                android:layout_marginEnd="20dp"
-                                android:background="@drawable/icongrey_arrow_up"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/id_goal" />
-
-                            <TextView
-                                android:id="@+id/textView8"
-                                android:layout_width="110dp"
-                                android:layout_height="wrap_content"
-                                android:layout_centerHorizontal="true"
-                                android:layout_marginStart="70dp"
-                                android:layout_marginTop="8dp"
-                                android:layout_marginEnd="20dp"
-                                android:layout_marginBottom="106dp"
-                                android:text="Where we are now"
-                                android:textAlignment="center"
-                                android:textColor="@android:color/holo_red_light"
-                                android:textSize="20dp"
-                                app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintHorizontal_bias="0.822"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/imageView5" />
-
-                        </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-                        <androidx.constraintlayout.widget.ConstraintLayout
-                            android:id="@+id/constraintLayout8"
-                            android:layout_width="258dp"
-                            android:layout_height="446dp"
-                            android:layout_marginEnd="20dp"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintHorizontal_bias="1.0"
-                            app:layout_constraintStart_toEndOf="@+id/constraintLayout5_part1"
-                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout5">
-
-                            <LinearLayout
-                                android:id="@+id/layout_1"
-                                android:layout_width="117dp"
-                                android:layout_height="100dp"
-                                android:layout_centerHorizontal="true"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="5dp"
-                                android:orientation="vertical"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent">
-
-                                <androidx.cardview.widget.CardView
-                                    android:id="@+id/card_view_step_1"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent">
-
-                                    <RelativeLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:background="@drawable/cardview_background">
-
-                                        <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_centerVertical="true"
-                                            android:layout_marginLeft="20dp"
-                                            android:layout_marginRight="20dp"
-                                            android:fontFamily="@font/montserrat"
-                                            android:text="First we have to achieve"
-                                            android:textAlignment="center"
-                                            android:textSize="18dp"
-                                            android:textStyle="bold" />
-
-
-                                    </RelativeLayout>
-
-
-                                </androidx.cardview.widget.CardView>
-
-                            </LinearLayout>
-
-
-                            <TextView
-                                android:id="@+id/text_m_1"
-                                android:layout_width="104dp"
-                                android:layout_height="59dp"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="16dp"
-                                android:layout_marginEnd="20dp"
-                                android:layout_toRightOf="@id/layout_1"
-                                android:text="Measured by..."
-                                android:textColor="#ffff"
-                                android:textSize="19dp"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintHorizontal_bias="0.434"
-                                app:layout_constraintStart_toEndOf="@+id/layout_1"
-                                app:layout_constraintTop_toTopOf="parent" />
-
-                            <ImageView
-                                android:id="@+id/imageView"
-                                android:layout_width="75dp"
-                                android:layout_height="85dp"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="72dp"
-                                android:background="@drawable/icon_arrow_down"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintHorizontal_bias="0.14"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="@+id/layout_1" />
-
-                            <LinearLayout
-                                android:id="@+id/layout_2"
-                                android:layout_width="117dp"
-                                android:layout_height="100dp"
-                                android:layout_centerHorizontal="true"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="132dp"
-                                android:orientation="vertical"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="@+id/layout_1">
-
-                                <androidx.cardview.widget.CardView
-                                    android:id="@+id/card_view_step_3"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent">
-
-                                    <RelativeLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:background="@drawable/cardview_background">
-
-                                        <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_centerVertical="true"
-                                            android:layout_marginLeft="20dp"
-                                            android:layout_marginRight="20dp"
-                                            android:fontFamily="@font/montserrat"
-                                            android:text="Then we have to achieve"
-                                            android:textAlignment="center"
-                                            android:textSize="18dp"
-                                            android:textStyle="bold" />
-
-                                    </RelativeLayout>
-
-
-                                </androidx.cardview.widget.CardView>
-
-
-                            </LinearLayout>
-
-                            <TextView
-                                android:id="@+id/text_m_2"
-                                android:layout_width="108dp"
-                                android:layout_height="55dp"
-                                android:layout_below="@+id/text_m_1"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="76dp"
-                                android:layout_marginEnd="20dp"
-                                android:layout_toRightOf="@id/layout_1"
-                                android:text="Measured by..."
-                                android:textColor="#ffff"
-                                android:textSize="19dp"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintHorizontal_bias="0.37"
-                                app:layout_constraintStart_toEndOf="@+id/layout_2"
-                                app:layout_constraintTop_toBottomOf="@+id/text_m_1" />
-
-                            <ImageView
-                                android:id="@+id/imageView2"
-                                android:layout_width="75dp"
-                                android:layout_height="85dp"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="216dp"
-                                android:layout_marginEnd="20dp"
-                                android:background="@drawable/icon_arrow_down"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintHorizontal_bias="0.17"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="@+id/layout_1" />
-
-                            <LinearLayout
-                                android:id="@+id/layout_3"
-                                android:layout_width="117dp"
-                                android:layout_height="100dp"
-                                android:layout_centerHorizontal="true"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="280dp"
-                                android:orientation="vertical"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="@+id/layout_1">
-
-                                <androidx.cardview.widget.CardView
-                                    android:id="@+id/card_view_step_2"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent">
-
-                                    <RelativeLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
-                                        android:background="@drawable/cardview_background">
-
-
-                                        <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_centerVertical="true"
-                                            android:layout_marginLeft="20dp"
-                                            android:layout_marginRight="20dp"
-                                            android:fontFamily="@font/montserrat"
-                                            android:text="Then we have to achieve"
-                                            android:textAlignment="center"
-                                            android:textSize="18dp"
-                                            android:textStyle="bold" />
-
-
-                                    </RelativeLayout>
-
-
-                                </androidx.cardview.widget.CardView>
-
-
-                            </LinearLayout>
-
-                            <TextView
-                                android:id="@+id/text_1"
-                                android:layout_width="101dp"
-                                android:layout_height="51dp"
-                                android:layout_below="@+id/text_m_2"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="104dp"
-                                android:layout_marginEnd="20dp"
-                                android:layout_toRightOf="@id/layout_1"
-                                android:text="Measured by..."
-                                android:textColor="#ffff"
-                                android:textSize="19dp"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toEndOf="@+id/layout_3"
-                                app:layout_constraintTop_toBottomOf="@+id/text_m_2" />
-
-
-                        </androidx.constraintlayout.widget.ConstraintLayout>
-
-                        <androidx.constraintlayout.widget.ConstraintLayout
+                        <androidx.cardview.widget.CardView
                             android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/card_view_step_1">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/cardview_background">
+
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="First we have to achieve"
+                                    android:textSize="18dp"
+                                    android:fontFamily="@font/montserrat"
+                                    android:textStyle="bold"
+                                    android:layout_marginRight="20dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:textAlignment="center"
+                                    android:layout_centerVertical="true" />
+
+
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_below="@id/layout_1"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:id="@+id/arrow_1">
+
+                        <ImageView
+                            android:layout_width="90dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/icon_arrow_down"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:orientation="vertical"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/layout_3"
+                        android:layout_below="@id/arrow_1">
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/card_view_step_3">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/cardview_background">
+
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Then we have to achieve"
+                                    android:textSize="18dp"
+                                    android:fontFamily="@font/montserrat"
+                                    android:textStyle="bold"
+                                    android:layout_marginRight="20dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:textAlignment="center"
+                                    android:layout_centerVertical="true" />
+
+
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_below="@id/layout_3"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:id="@+id/arrow_2">
+
+                        <ImageView
+                            android:layout_width="90dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/icon_arrow_down"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:orientation="vertical"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/layout_2"
+                        android:layout_below="@id/arrow_2">
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/card_view_step_2">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/cardview_background">
+
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Then we have to achieve"
+                                    android:textSize="18dp"
+                                    android:fontFamily="@font/montserrat"
+                                    android:textStyle="bold"
+                                    android:layout_marginRight="20dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:textAlignment="center"
+                                    android:layout_centerVertical="true" />
+
+
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+
+                    </LinearLayout>
+
+
+
+                    <RelativeLayout
+                        android:layout_width="100dp"
+                        android:layout_height="460dp"
+                        android:layout_marginTop="60dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout8">
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="15dp"
+                            android:id="@+id/id">
 
-
-                            <Button
-                                android:id="@+id/goal_9"
-                                android:layout_width="200dp"
-                                android:layout_height="60dp"
-                                android:layout_centerHorizontal="true"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="20dp"
-                                android:layout_marginEnd="20dp"
-                                android:layout_marginBottom="200dp"
-                                android:background="@drawable/button_shape"
-                                android:fontFamily="@font/montserrat"
-                                android:onClick="btn_goal_9_next"
-                                android:text="NEXT"
-                                android:textColor="#84c2c8"
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Goal"
                                 android:textSize="20dp"
-                                app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent" />
+                                android:layout_centerHorizontal="true"
+                                android:id="@+id/id_goal"
+                                android:textColor="@android:color/holo_red_light" />
+
+                        </LinearLayout>
 
 
-                        </androidx.constraintlayout.widget.ConstraintLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/arrow_up" >
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="90dp"
+                                android:background="@drawable/icongrey_arrow_up"
+                                />
+
+                        </LinearLayout>
 
 
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="359dp"
+
+                            android:id="@+id/wwan"
+
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Where we are now"
+                                android:textSize="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:textAlignment="center"
+                                android:textColor="@android:color/holo_red_light" />
+
+                        </LinearLayout>
 
 
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="299dp"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/arrow_down"
 
-                        <!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+                            >
 
-                        <!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
-                        <!--                            android:id="@+id/constraintLayout9"-->
-                        <!--                            android:layout_width="411dp"-->
-                        <!--                            android:layout_height="wrap_content"-->
-                        <!--                            app:layout_constraintEnd_toEndOf="parent"-->
-                        <!--                            app:layout_constraintStart_toStartOf="parent"-->
-                        <!--                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout8">-->
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_gravity="center"
+                                android:layout_height="90dp"
+                                android:background="@drawable/icongrey_arrow_down"
+                                />
 
-                        <!--                            <Button-->
-                        <!--                                android:id="@+id/goal_8"-->
-                        <!--                                android:layout_width="206dp"-->
-                        <!--                                android:layout_height="52dp"-->
-                        <!--                                android:layout_centerHorizontal="true"-->
-                        <!--                                android:layout_marginStart="20dp"-->
-                        <!--                                android:layout_marginTop="20dp"-->
-                        <!--                                android:layout_marginEnd="20dp"-->
-                        <!--                                android:layout_marginBottom="20dp"-->
-                        <!--                                android:background="@drawable/button_shape"-->
-                        <!--                                android:fontFamily="@font/montserrat"-->
-                        <!--                                android:text="NEXT"-->
-                        <!--                                android:textColor="#84c2c8"-->
-                        <!--                                android:textSize="20dp"-->
-                        <!--                                app:layout_constraintBottom_toBottomOf="parent"-->
-                        <!--                                app:layout_constraintEnd_toEndOf="parent"-->
-                        <!--                                app:layout_constraintStart_toStartOf="parent"-->
-                        <!--                                app:layout_constraintTop_toTopOf="parent" />-->
+                        </LinearLayout>
 
+                    </RelativeLayout>
 
-
-
-                        <!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
-
-                        <!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
-                        <!--                            android:id="@+id/constraintLayout10"-->
-                        <!--                            android:layout_width="411dp"-->
-                        <!--                            android:layout_height="wrap_content"-->
-
-                        <!--                            app:layout_constraintEnd_toEndOf="parent"-->
-                        <!--                            app:layout_constraintStart_toStartOf="parent"-->
-                        <!--                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout9">-->
-
-
-
-
-
-                        <!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
-
-                        <!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
-                        <!--                            android:layout_width="411dp"-->
-                        <!--                            android:layout_height="wrap_content"-->
-                        <!--                            app:layout_constraintEnd_toEndOf="parent"-->
-                        <!--                            app:layout_constraintStart_toStartOf="parent"-->
-                        <!--                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout10">-->
-
-
-
-
-
-                        <!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
-
-
-                    </androidx.constraintlayout.widget.ConstraintLayout>
-
-                </ScrollView>
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Measured by..."
+                        android:textColor="#ffff"
+                        android:textSize="19dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/layout_1"
+                        android:layout_marginTop="39dp"
+                        android:id="@+id/text_m_1"/>
 
 
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Measured by..."
+                        android:textColor="#ffff"
+                        android:textSize="19dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/layout_1"
+                        android:layout_marginTop="90dp"
+                        android:id="@+id/text_m_2"
+                        android:layout_below="@+id/text_m_1"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Measured by..."
+                        android:textColor="#ffff"
+                        android:id="@+id/text_1"
+                        android:textSize="19dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/layout_1"
+                        android:layout_marginTop="90dp"
+                        android:layout_below="@+id/text_m_2"/>
+
+
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="60dp"
+                        android:layout_below="@id/text_1"
+                        android:layout_marginTop="90dp"
+                        android:background="@drawable/button_shape"
+                        android:layout_centerHorizontal="true"
+                        android:text="NEXT"
+                        android:fontFamily="@font/montserrat"
+                        android:textSize="20dp"
+                        android:id="@+id/goal_9"
+                        android:onClick="btn_goal_9_next"
+
+                        android:textColor="#84c2c8"/>
+
+
+
+
+
+
+                </RelativeLayout>
+
+            </ScrollView>
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
     <com.google.android.material.navigation.NavigationView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"

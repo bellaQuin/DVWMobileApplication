@@ -23,10 +23,13 @@
 
             <include
                 android:id="@+id/toolbar"
-                layout="@layout/nav_toolbar" />
+                layout="@layout/nav_toolbar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="413dp"
+                android:layout_width="0dp"
                 android:layout_height="593dp"
                 android:layout_marginTop="4dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -35,9 +38,10 @@
 
 
                 <ScrollView
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="0dp">
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
@@ -46,15 +50,15 @@
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/constraintLayout5"
-                            android:layout_width="371dp"
-                            android:layout_height="0dp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent">
 
                             <TextView
                                 android:id="@+id/title"
-                                android:layout_width="wrap_content"
+                                android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_centerHorizontal="true"
                                 android:layout_marginStart="20dp"
@@ -70,13 +74,11 @@
                                 app:layout_constraintTop_toTopOf="parent" />
 
 
-
-
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/constraintLayout7"
-                            android:layout_width="404dp"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -97,13 +99,12 @@
                                 app:layout_constraintTop_toTopOf="parent" />
 
 
-
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/constraintLayout8"
-                            android:layout_width="411dp"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
 
                             android:layout_marginTop="4dp"
@@ -114,11 +115,11 @@
 
                             <TextView
                                 android:id="@+id/pg_1"
-                                android:layout_width="350dp"
-                                android:layout_height="200dp"
-                                android:layout_marginStart="20dp"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="3dp"
                                 android:layout_marginTop="30dp"
-                                android:layout_marginEnd="20dp"
+                                android:layout_marginEnd="3dp"
                                 android:fontFamily="@font/montserrat"
                                 android:text="@string/Rd_map_plan"
                                 android:textColor="#ffff"
@@ -128,21 +129,20 @@
                                 app:layout_constraintTop_toTopOf="parent" />
 
 
-
-<!--                            <TextView-->
-<!--                                android:id="@+id/pg_1"-->
-<!--                                android:layout_width="384dp"-->
-<!--                                android:layout_height="173dp"-->
-<!--                                android:layout_marginStart="20dp"-->
-<!--                                android:layout_marginTop="30dp"-->
-<!--                                android:layout_marginEnd="20dp"-->
-<!--                                android:fontFamily="@font/montserrat"-->
-<!--                                android:text="@string/Rd_map_plan"-->
-<!--                                android:textColor="#ffff"-->
-<!--                                android:textSize="18sp"-->
-<!--                                app:layout_constraintEnd_toEndOf="parent"-->
-<!--                                app:layout_constraintStart_toStartOf="parent"-->
-<!--                                app:layout_constraintTop_toTopOf="parent" />-->
+                            <!--                            <TextView-->
+                            <!--                                android:id="@+id/pg_1"-->
+                            <!--                                android:layout_width="384dp"-->
+                            <!--                                android:layout_height="173dp"-->
+                            <!--                                android:layout_marginStart="20dp"-->
+                            <!--                                android:layout_marginTop="30dp"-->
+                            <!--                                android:layout_marginEnd="20dp"-->
+                            <!--                                android:fontFamily="@font/montserrat"-->
+                            <!--                                android:text="@string/Rd_map_plan"-->
+                            <!--                                android:textColor="#ffff"-->
+                            <!--                                android:textSize="18sp"-->
+                            <!--                                app:layout_constraintEnd_toEndOf="parent"-->
+                            <!--                                app:layout_constraintStart_toStartOf="parent"-->
+                            <!--                                app:layout_constraintTop_toTopOf="parent" />-->
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -162,11 +162,11 @@
                                 android:layout_marginStart="20dp"
                                 android:layout_marginTop="20dp"
                                 android:layout_marginEnd="20dp"
-                                android:layout_marginBottom="20dp"
+                                android:layout_marginBottom="300dp"
                                 android:background="@drawable/button_shape"
                                 android:fontFamily="@font/montserrat"
-                                android:text="NEXT"
                                 android:onClick="btn_goal_8_next"
+                                android:text="NEXT"
                                 android:textColor="#84c2c8"
                                 android:textSize="20dp"
                                 app:layout_constraintBottom_toBottomOf="parent"
@@ -174,8 +174,6 @@
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent" />
                         </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 
 
                     </androidx.constraintlayout.widget.ConstraintLayout>

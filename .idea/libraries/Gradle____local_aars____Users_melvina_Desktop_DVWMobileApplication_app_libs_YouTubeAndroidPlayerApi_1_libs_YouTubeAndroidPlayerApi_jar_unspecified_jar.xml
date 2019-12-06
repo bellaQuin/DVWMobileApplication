@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="Gradle: __local_aars__:/Users/melvina/Desktop/DVWMobileApplication/app/libs/YouTubeAndroidPlayerApi-1/libs/YouTubeAndroidPlayerApi.jar:unspecified@jar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/libs/YouTubeAndroidPlayerApi-1/libs/YouTubeAndroidPlayerApi.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../DVWMobileApplication/app/libs/YouTubeAndroidPlayerApi-1/libs/YouTubeAndroidPlayerApi.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

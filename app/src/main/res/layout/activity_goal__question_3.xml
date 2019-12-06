@@ -22,10 +22,13 @@
 
             <include
                 android:id="@+id/toolbar"
-                layout="@layout/nav_toolbar" />
+                layout="@layout/nav_toolbar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="413dp"
+                android:layout_width="0dp"
                 android:layout_height="593dp"
                 android:layout_marginTop="4dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -34,9 +37,11 @@
 
 
                 <ScrollView
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="0dp">
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
@@ -45,15 +50,15 @@
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/constraintLayout5"
-                            android:layout_width="371dp"
-                            android:layout_height="0dp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent">
 
                             <TextView
                                 android:id="@+id/goal_1_text"
-                                android:layout_width="match_parent"
+                                android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="20dp"
                                 android:layout_marginTop="10dp"
@@ -68,13 +73,11 @@
                                 app:layout_constraintTop_toTopOf="parent" />
 
 
-
-
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/constraintLayout2"
-                            android:layout_width="match_parent"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -83,7 +86,7 @@
 
                             <TextView
                                 android:id="@+id/goal_question_3_box_1"
-                                android:layout_width="350dp"
+                                android:layout_width="0dp"
                                 android:layout_height="50dp"
                                 android:layout_marginStart="20dp"
                                 android:layout_marginTop="24dp"
@@ -100,7 +103,7 @@
 
                             <TextView
                                 android:id="@+id/goal_question_3_box_3"
-                                android:layout_width="350dp"
+                                android:layout_width="0dp"
                                 android:layout_height="50dp"
                                 android:layout_below="@+id/goal_question_3_box_1"
                                 android:layout_marginStart="20dp"
@@ -117,7 +120,7 @@
 
                             <EditText
                                 android:id="@+id/goal_question_3_box_2"
-                                android:layout_width="350dp"
+                                android:layout_width="0dp"
                                 android:layout_height="50dp"
                                 android:layout_below="@+id/goal_question_3_box_3"
                                 android:layout_marginStart="20dp"
@@ -134,7 +137,7 @@
 
                             <EditText
                                 android:id="@+id/goal_question_3_box_4"
-                                android:layout_width="350dp"
+                                android:layout_width="0dp"
                                 android:layout_height="50dp"
                                 android:layout_below="@+id/goal_question_3_box_2"
                                 android:layout_marginStart="20dp"
@@ -164,11 +167,10 @@
 
                             <TextView
                                 android:id="@+id/text"
-                                android:layout_width="346dp"
-                                android:layout_height="127dp"
-                                android:layout_marginStart="32dp"
-                                android:layout_marginTop="28dp"
-                                android:layout_marginEnd="32dp"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginEnd="10dp"
                                 android:fontFamily="@font/montserrat"
                                 android:gravity="center"
                                 android:text="If you can't identify deeper'why's', you can just click on the 'Next' button.However make sure, you have double checked and you really understand why you want to achieve your goal!"
@@ -183,24 +185,24 @@
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <androidx.constraintlayout.widget.ConstraintLayout
-                            android:layout_width="match_parent"
+                            android:layout_width="0dp"
                             android:layout_height="100dp"
-                            android:layout_marginBottom="20dp"
+                            android:layout_marginBottom="300dp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/constraintLayout3">
 
+
                             <Button
                                 android:id="@+id/my_goals_more_details_btn"
                                 android:layout_width="200dp"
                                 android:layout_height="60dp"
-
                                 android:layout_centerHorizontal="true"
                                 android:layout_marginStart="20dp"
                                 android:layout_marginTop="20dp"
                                 android:layout_marginEnd="20dp"
-                                android:layout_marginBottom="32dp"
+                                android:layout_marginBottom="300dp"
                                 android:background="@drawable/button_shape"
                                 android:fontFamily="@font/montserrat"
                                 android:onClick="btn_next_my_goals_more_details"
@@ -209,21 +211,12 @@
                                 android:textSize="20dp"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintHorizontal_bias="0.497"
+                                app:layout_constraintHorizontal_bias="0.438"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintVertical_bias="1.0" />
-
+                                app:layout_constraintVertical_bias="0.0" />
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
-
-
-
-
-
 
 
                     </androidx.constraintlayout.widget.ConstraintLayout>

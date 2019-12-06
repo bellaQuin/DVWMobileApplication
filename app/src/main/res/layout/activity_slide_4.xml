@@ -60,15 +60,14 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:fontFamily="@font/montserrat"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:textSize="20dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
                         android:gravity="center"
                         android:text="If you are in a leadership\n situation then it can be even\n more important to develop\n resilience. If you want to look\n after others then you need to be\n able to look after yourself. "
-                        android:textColor="#000"/>
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        app:layout_constraintEnd_toEndOf="parent" />
 
                     <ImageView
                         android:layout_width="match_parent"
@@ -80,8 +79,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="10dp"
-                        android:layout_marginRight="20dp"
-                        android:layout_marginLeft="20dp"
+
                         android:textSize="20dp"
                         android:gravity="center"
                         android:textColor="#000"
@@ -90,7 +88,8 @@
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="300dp">
 
                         <Button
 

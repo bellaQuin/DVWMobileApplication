@@ -14,6 +14,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 import com.example.coachingapp.Goals.Goal_DisplaySummary;
+import com.example.coachingapp.Goals.Goal_Question_4;
 import com.example.coachingapp.ResilienceandCopingMechanisms.ResilienceMain;
 import com.example.coachingapp.ResilienceandCopingMechanisms.Slide_12_Behavioural;
 import com.example.coachingapp.ResilienceandCopingMechanisms.Slide_13;
@@ -125,7 +126,7 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
         Intent intent = new Intent(UserDashboard.this, DashboardBlog.class);
         startActivity(intent);
     }
-
+//QuickCoachingOptions
     public void btn_btn_btn(View view) {
         Intent intent = new Intent(UserDashboard.this, QuickCoachingOptions.class);
         startActivity(intent);

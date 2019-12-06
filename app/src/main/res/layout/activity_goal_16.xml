@@ -19,10 +19,13 @@
 
         <include
             android:id="@+id/toolbar"
-            layout="@layout/nav_toolbar" />
+            layout="@layout/nav_toolbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="406dp"
+            android:layout_width="0dp"
             android:layout_height="594dp"
             android:layout_marginEnd="5dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -31,9 +34,11 @@
 
 
             <ScrollView
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_marginTop="0dp">
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -42,8 +47,8 @@
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:id="@+id/constraintLayout5"
-                        android:layout_width="371dp"
-                        android:layout_height="0dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent">
@@ -68,8 +73,8 @@
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:id="@+id/constraintLayout7"
-                        android:layout_width="404dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="301dp"
+                        android:layout_height="139dp"
                         android:layout_marginTop="20dp"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -78,9 +83,8 @@
 
                         <TextView
                             android:id="@+id/pg_1"
-                            android:layout_width="347dp"
+                            android:layout_width="0dp"
                             android:layout_height="120dp"
-                            android:layout_marginStart="20dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginEnd="20dp"
                             android:fontFamily="@font/montserrat"
@@ -97,7 +101,7 @@
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:id="@+id/constraintLayout8"
-                        android:layout_width="411dp"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -122,7 +126,7 @@
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:id="@+id/constraintLayout9"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
 
                         app:layout_constraintEnd_toEndOf="parent"
@@ -132,9 +136,8 @@
 
                         <TextView
                             android:id="@+id/pg_2"
-                            android:layout_width="343dp"
+                            android:layout_width="0dp"
                             android:layout_height="60dp"
-                            android:layout_marginStart="20dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginEnd="20dp"
                             android:fontFamily="@font/montserrat"
@@ -149,6 +152,7 @@
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/constraintLayout9">
 
                         <Button
@@ -159,12 +163,14 @@
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginEnd="20dp"
+                            android:layout_marginBottom="300dp"
                             android:background="@drawable/button_shape"
                             android:fontFamily="@font/montserrat"
                             android:onClick="btn_next_goal_16"
                             android:text="NEXT"
                             android:textColor="#84c2c8"
                             android:textSize="20dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
