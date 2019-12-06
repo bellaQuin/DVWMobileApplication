@@ -26,6 +26,7 @@ public class resilience_Screen22 extends AppCompatActivity implements Navigation
     DrawerLayout drawerLayout;
     ActionBarDrawerToggle toggle;
     NavigationView navigationView;
+    MediaPlayer mediaPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +38,7 @@ public class resilience_Screen22 extends AppCompatActivity implements Navigation
 
     public void btn_play(View view) {
 
-        MediaPlayer mediaPlayer = new MediaPlayer();
+         mediaPlayer = new MediaPlayer();
         try {
             mediaPlayer.setDataSource("https://firebasestorage.googleapis.com/v0/b/coachingapp-a95d5.appspot.com/o/guidance%20for%20image%20relaxation.m4a?alt=media&token=81f8aac5-a291-4fde-864f-48b78800d7bf");
             mediaPlayer.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
@@ -54,6 +55,8 @@ public class resilience_Screen22 extends AppCompatActivity implements Navigation
     }
 
     public void btn_next(View view) {
+        mediaPlayer.stop();
+
         Intent intent = new Intent(resilience_Screen22.this, resilience_Screen23.class );
         startActivity(intent);
     }
