@@ -141,7 +141,7 @@ public class Blog extends AppCompatActivity {
         descriptionEt = findViewById(R.id.pDescriptionEt);
         imageIv = findViewById(R.id.pImageIv);
         uploadBtn = findViewById(R.id.pUploadBtn);
-        uUserNameEt = findViewById(R.id.pUsernameEt);
+//        uUserNameEt = findViewById(R.id.pUsernameEt);
 
 
 
@@ -481,8 +481,8 @@ public class Blog extends AppCompatActivity {
                     titleEt.setText(editTitle);
                     descriptionEt.setText(editDesc);
                    // uUserNameEt.setVisibility(View.GONE);
-                    uUserNameEt.setText(editUsername);
-                    uUserNameEt.setEnabled(false);
+//                    uUserNameEt.setText(editUsername);
+//                    uUserNameEt.setEnabled(false);
 
                     if (!editImage.equals("noImage")){
                         try {
